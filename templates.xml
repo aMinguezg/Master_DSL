@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template id="1" autoinsert="true" context="org.xtext.dsl.restaurante.Restaurante.Ingrediente" deleted="false" description="Ayuda a insertar un nuevo ingrediente" enabled="true" name="Ingrediente">Ingredientes: CODI${numero} '${nombre}' infoURL: http://${urlInfo} foto '${nombreFoto}'</template></templates>

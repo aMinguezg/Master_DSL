@@ -1,0 +1,29 @@
+grammar org.xtext.dsl.restaurante.Restaurante with org.eclipse.xtext.common.Terminals
+
+generate restaurante "http://www.xtext.org/dsl/restaurante/Restaurante"
+
+Restaurante:
+	'Restaurantes' nombre=STRING
+	'fecha' fecha = FECHA
+	'Ingredientes' '{'
+		ingredientes += Ingrediente*
+	'}'
+;
+
+Ingrediente:
+	'Ingrediente:' name=ID 
+	nombre=STRING 
+	('infoURL:' infoURL = URL)?
+	('foto:' foto=STRING)?
+	(alergenico?='alergenico')? 
+;
+
+terminal FECHA:
+	'0'..'9' '0'..'9' '-'
+	'0'..'9' '0'..'9' '-'
+	'0'..'9' '0'..'9' '0'..'9' '0'..'9'
+;
+
+terminal URL:
+	('http' | 'https') '://' ('a'..'z' | 'A'..'Z' | '_' | '-' | '(' | ')' | '\\' | '/' | '.' | '0'..'9')+
+;
