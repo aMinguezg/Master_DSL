@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated modelotienda -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="modelotienda.modelotienda.presentation.ModelotiendaModelWizardID"
+            name="%_UI_ModelotiendaModelWizard_label"
+            class="modelotienda.modelotienda.presentation.ModelotiendaModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ModelotiendaModelFile.gif">
+         <description>%_UI_ModelotiendaModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated modelotienda -->
+      <editor
+            id="modelotienda.modelotienda.presentation.ModelotiendaEditorID"
+            name="%_UI_ModelotiendaEditor_label"
+            icon="icons/full/obj16/ModelotiendaModelFile.gif"
+            extensions="modelotienda"
+            class="modelotienda.modelotienda.presentation.ModelotiendaEditor"
+            contributorClass="modelotienda.modelotienda.presentation.ModelotiendaActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

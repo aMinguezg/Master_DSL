@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tienda="http://modelotienda" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_dvnREBLcEeqM6tu8juSa2g" selectedViews="_RkCSkBUtEeqxEeZ7i1MwYg" version="14.1.0.201810161215">
+    <semanticResources>tienda1.modelotienda</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_RkCSkBUtEeqxEeZ7i1MwYg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FzFiIBUvEeqxEeZ7i1MwYg" name="new Tienda diagrama" repPath="#_Fx_9ABUvEeqxEeZ7i1MwYg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']"/>
+        <target xmi:type="tienda:Tienda" href="tienda1.modelotienda#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Fx_9ABUvEeqxEeZ7i1MwYg" name="new Tienda diagrama">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_FzApoBUvEeqxEeZ7i1MwYg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_FzBQsBUvEeqxEeZ7i1MwYg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_FznGkBUvEeqxEeZ7i1MwYg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_FznGkRUvEeqxEeZ7i1MwYg" type="Sirius" element="_Fx_9ABUvEeqxEeZ7i1MwYg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_F0ID8BUvEeqxEeZ7i1MwYg" type="2001" element="_FypdQBUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F0ScABUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F0ScARUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F1LM0BUvEeqxEeZ7i1MwYg" type="3003" element="_Fy4t0BUvEeqxEeZ7i1MwYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_F1LM0RUvEeqxEeZ7i1MwYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1LM0hUvEeqxEeZ7i1MwYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F0ID8RUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F0ID8hUvEeqxEeZ7i1MwYg" width="166" height="72"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1IJgBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy9mUBUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1IwkBUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1IwkRUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F1Lz4BUvEeqxEeZ7i1MwYg" type="3003" element="_Fy-NYBUvEeqxEeZ7i1MwYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_F1Lz4RUvEeqxEeZ7i1MwYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1Lz4hUvEeqxEeZ7i1MwYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1IJgRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1IJghUvEeqxEeZ7i1MwYg" x="195" width="151" height="71"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1JXoBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy-NYhUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1JXoxUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1JXpBUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F1Ma8BUvEeqxEeZ7i1MwYg" type="3003" element="_Fy-NYxUvEeqxEeZ7i1MwYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_F1Ma8RUvEeqxEeZ7i1MwYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1Ma8hUvEeqxEeZ7i1MwYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1JXoRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1JXohUvEeqxEeZ7i1MwYg" x="380" width="171" height="71"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1J-sBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy-NZRUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1J-sxUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1J-tBUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F1Ma8xUvEeqxEeZ7i1MwYg" type="3003" element="_Fy-NZhUvEeqxEeZ7i1MwYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_F1Ma9BUvEeqxEeZ7i1MwYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1Ma9RUvEeqxEeZ7i1MwYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1J-sRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1J-shUvEeqxEeZ7i1MwYg" x="580" width="121" height="81"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_FznGkhUvEeqxEeZ7i1MwYg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FypdQBUvEeqxEeZ7i1MwYg" name="Invalid feature as name" tooltipText="" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.0"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_Fy4t0BUvEeqxEeZ7i1MwYg" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy9mUBUvEeqxEeZ7i1MwYg" name="Invalid feature as name" tooltipText="" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.1"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Fy-NYBUvEeqxEeZ7i1MwYg" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy-NYhUvEeqxEeZ7i1MwYg" name="Invalid feature as name" tooltipText="" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.2"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Fy-NYxUvEeqxEeZ7i1MwYg" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy-NZRUvEeqxEeZ7i1MwYg" name="Invalid feature as name" tooltipText="" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.3"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Fy-NZhUvEeqxEeZ7i1MwYg" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_FyKVEBUvEeqxEeZ7i1MwYg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer"/>
+    <target xmi:type="tienda:Tienda" href="tienda1.modelotienda#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

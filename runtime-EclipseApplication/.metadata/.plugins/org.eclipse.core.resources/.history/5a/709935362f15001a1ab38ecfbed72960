@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_dvnREBLcEeqM6tu8juSa2g" selectedViews="_RkCSkBUtEeqxEeZ7i1MwYg" version="14.1.0.201810161215">
+  <semanticResources>tienda1.modelotienda</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_RkCSkBUtEeqxEeZ7i1MwYg">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

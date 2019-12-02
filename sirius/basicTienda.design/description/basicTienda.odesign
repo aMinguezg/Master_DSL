@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicTienda" version="12.0.0.2017041100">
+  <ownedViewpoints name="tienda" label="tienda" modelFileExtension="modelotienda" icon="/basicTienda.design/icons/icono_tienda.png">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Tienda diagrama" domainClass="modelotienda::Tienda" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="NProducto" domainClass="modelotienda::Producto">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:nombre" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/basicTienda.design/icons/icono_producto.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NMarca" domainClass="modelotienda::Marca">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:nombre" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/basicTienda.design/icons/icono_marca.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NPedido" domainClass="modelotienda::Pedido">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:ID" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/basicTienda.design/icons/icono_pedido.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NProveedor" domainClass="modelotienda::Proveedor">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:nombre" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/basicTienda.design/icons/icono_proveedor.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NCliente" domainClass="modelotienda::Cliente">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:nombre" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/basicTienda.design/icons/icono_cliente.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="RProductoMarca" sourceMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']" targetMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NMarca']" targetFinderExpression="feature:producto_tiene_marca">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="NPedidoProductos" sourceMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NPedido']" targetMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']" targetFinderExpression="feature:pedido_tiene_productos">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_yellow']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RProductoProveedor" sourceMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']" targetMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProveedor']" targetFinderExpression="feature:proveedor_tiene_productos">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RPedidoCliente" sourceMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NPedido']" targetMapping="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']" targetFinderExpression="feature:pedido_tiene_clientes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNProducto" nodeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']" iconPath="/basicTienda.design/icons/icono_producto.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modelotienda::Producto" referenceName="tienda_tiene_productos"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNMarca" nodeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NMarca']" iconPath="/basicTienda.design/icons/icono_marca.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modelotienda::Marca" referenceName="tienda_tiene_marcas"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNPedido" nodeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NPedido']" iconPath="/basicTienda.design/icons/icono_pedido.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modelotienda::Pedido" referenceName="tienda_tiene_pedidos"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CRProductoMarca" edgeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@edgeMappings[name='RProductoMarca']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="producto_tiene_marca" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CRPedidoProducto" edgeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@edgeMappings[name='NPedidoProductos']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="pedido_tiene_productos" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNProveedor" nodeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProveedor']" iconPath="/basicTienda.design/icons/icono_proveedor.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modelotienda::Proveedor" referenceName="tienda_tiene_proveedores"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNCliente" nodeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']" iconPath="/basicTienda.design/icons/icono_cliente.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modelotienda::Cliente" referenceName="tiena_tiene_clientes"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CRProductoProveedor" edgeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@edgeMappings[name='RProductoProveedor']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="proveedor_tiene_productos" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CRPedidoCliente" edgeMappings="//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@edgeMappings[name='RPedidoCliente']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="pedido_tiene_clientes" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="basicTienda.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tienda="http://modelotienda" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_dvnREBLcEeqM6tu8juSa2g" selectedViews="_RkCSkBUtEeqxEeZ7i1MwYg" version="14.1.0.201810161215">
+    <semanticResources>tienda1.modelotienda</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_RkCSkBUtEeqxEeZ7i1MwYg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FzFiIBUvEeqxEeZ7i1MwYg" name="new Tienda diagrama" repPath="#_Fx_9ABUvEeqxEeZ7i1MwYg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']"/>
+        <target xmi:type="tienda:Tienda" href="tienda1.modelotienda#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Fx_9ABUvEeqxEeZ7i1MwYg" name="new Tienda diagrama">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_FzApoBUvEeqxEeZ7i1MwYg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_FzBQsBUvEeqxEeZ7i1MwYg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_FznGkBUvEeqxEeZ7i1MwYg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_FznGkRUvEeqxEeZ7i1MwYg" type="Sirius" element="_Fx_9ABUvEeqxEeZ7i1MwYg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_F0ID8BUvEeqxEeZ7i1MwYg" type="2001" element="_FypdQBUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F0ScABUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F0ScARUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_25bw0BUvEeqsiaaOKnGvkA" type="3005" element="_25TN8BUvEeqsiaaOKnGvkA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_25bw0RUvEeqsiaaOKnGvkA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25bw0hUvEeqsiaaOKnGvkA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F0ID8RUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F0ID8hUvEeqxEeZ7i1MwYg" width="141" height="116"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1IJgBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy9mUBUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1IwkBUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1IwkRUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_25gCQBUvEeqsiaaOKnGvkA" type="3005" element="_25VDIRUvEeqsiaaOKnGvkA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_25gCQRUvEeqsiaaOKnGvkA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25gCQhUvEeqsiaaOKnGvkA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1IJgRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1IJghUvEeqxEeZ7i1MwYg" x="195" width="96" height="121"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1JXoBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy-NYhUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1JXoxUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1JXpBUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_25gpUBUvEeqsiaaOKnGvkA" type="3005" element="_25VDJBUvEeqsiaaOKnGvkA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_25gpURUvEeqsiaaOKnGvkA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25gpUhUvEeqsiaaOKnGvkA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1JXoRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1JXohUvEeqxEeZ7i1MwYg" x="380" width="136" height="136"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F1J-sBUvEeqxEeZ7i1MwYg" type="2001" element="_Fy-NZRUvEeqxEeZ7i1MwYg">
+          <children xmi:type="notation:Node" xmi:id="_F1J-sxUvEeqxEeZ7i1MwYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_F1J-tBUvEeqxEeZ7i1MwYg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_25hQYBUvEeqsiaaOKnGvkA" type="3005" element="_25VqMhUvEeqsiaaOKnGvkA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_25hQYRUvEeqsiaaOKnGvkA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25hQYhUvEeqsiaaOKnGvkA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F1J-sRUvEeqxEeZ7i1MwYg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F1J-shUvEeqxEeZ7i1MwYg" x="580" width="121" height="136"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_FznGkhUvEeqxEeZ7i1MwYg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FypdQBUvEeqxEeZ7i1MwYg" name="Moto G5S" tooltipText="Moto G5S" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.0"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_25TN8BUvEeqsiaaOKnGvkA" labelSize="12" labelPosition="node" workspacePath="/basicTienda.design/icons/icono_producto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy9mUBUvEeqxEeZ7i1MwYg" name="Moto G5S Plus" tooltipText="Moto G5S Plus" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.1"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_25VDIRUvEeqsiaaOKnGvkA" labelSize="12" labelPosition="node" workspacePath="/basicTienda.design/icons/icono_producto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy-NYhUvEeqxEeZ7i1MwYg" name="Moto G6S Plus" tooltipText="Moto G6S Plus" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.2"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_25VDJBUvEeqsiaaOKnGvkA" labelSize="12" labelPosition="node" workspacePath="/basicTienda.design/icons/icono_producto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Fy-NZRUvEeqxEeZ7i1MwYg" name="iPhone (8)" tooltipText="iPhone (8)" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.3"/>
+      <semanticElements xmi:type="tienda:Producto" href="tienda1.modelotienda#//@tienda_tiene_productos.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_25VqMhUvEeqsiaaOKnGvkA" labelSize="12" labelPosition="node" workspacePath="/basicTienda.design/icons/icono_producto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer/@nodeMappings[name='NProducto']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_FyKVEBUvEeqxEeZ7i1MwYg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/basicTienda.design/description/basicTienda.odesign#//@ownedViewpoints[name='tienda']/@ownedRepresentations[name='Tienda%20diagrama']/@defaultLayer"/>
+    <target xmi:type="tienda:Tienda" href="tienda1.modelotienda#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
