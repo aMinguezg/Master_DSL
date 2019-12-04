@@ -1,0 +1,9 @@
+grammar org.xtext.dsl.mavenmultimodule.MavenMultiModule with org.eclipse.xtext.common.Terminals
+
+generate mavenMultiModule "http://www.xtext.org/dsl/mavenmultimodule/MavenMultiModule"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
