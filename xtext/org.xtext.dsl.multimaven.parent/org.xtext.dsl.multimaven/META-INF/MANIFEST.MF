@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.dsl.multimaven
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.dsl.multimaven
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.dsl.multimaven; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.eclipse.xtend.lib;bundle-version="2.14.0",
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.xtext.dsl.multimaven.validation,
+ org.xtext.dsl.multimaven.parser.antlr,
+ org.xtext.dsl.multimaven.multiMaven.util,
+ org.xtext.dsl.multimaven,
+ org.xtext.dsl.multimaven.multiMaven,
+ org.xtext.dsl.multimaven.scoping,
+ org.xtext.dsl.multimaven.services,
+ org.xtext.dsl.multimaven.multiMaven.impl,
+ org.xtext.dsl.multimaven.parser.antlr.internal,
+ org.xtext.dsl.multimaven.serializer,
+ org.xtext.dsl.multimaven.generator
+Import-Package: org.apache.log4j

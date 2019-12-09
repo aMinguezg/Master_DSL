@@ -1,0 +1,96 @@
+grammar org.xtext.dsl.multimaven.MultiMaven with org.eclipse.xtext.common.Terminals
+
+generate multiMaven "http://www.xtext.org/dsl/multimaven/MultiMaven"
+
+Proyecto:
+	'Proyecto' 'Xlmn:' version=VERSION
+	padre = DirectorioPadre
+	;
+	
+	
+DirectorioPadre:
+	 	 
+	'Root' '{'
+	
+	'Path' path = PATH
+	 'Group' group = GROUP
+	 'Artifact' artifcat = ARTIFACT
+	 'Version' version = VERSION
+	 ('Packaging' packaging = Packaging)?
+	
+	('Dependencias' '{'
+		dependencias += Dependencia*
+	'}')?
+	
+	('Plugins' '{'
+		plugins += Plugin*
+	'}')?
+	
+	'Hijos' '{'
+		directorios += Directorio*
+	'}'
+	'}'
+	;
+
+Directorio:
+	name=IdDirectorio 
+	'{'
+	'Group' group = GROUP
+	 'Artifact' artifcat = ARTIFACT
+	 'Version' version = VERSION
+	 ('Packaging' packaging = Packaging)?
+	
+	('Dependencias' '{'
+		dependencias += Dependencia*
+	'}')?
+	
+	('Plugins' '{'
+		plugins += Plugin*
+	'}')?
+	'}'
+;
+
+Dependencia:
+	'{'
+	 'Group' group = GROUP
+	 'Artifact' artifcat = ARTIFACT
+	 'Version' version = VERSION
+	  ('Scope' scope = Scope)?
+	'}'
+;
+
+Plugin:
+	'{'
+	'Group' group = GROUP
+	 'Artifact' artifcat = ARTIFACT
+	 'Version' version = VERSION
+	'}'
+;
+
+IdDirectorio:
+	'Hijo' INT
+;
+
+terminal PATH:
+	('a' | 'b')
+;
+
+terminal GROUP:
+	('c' | 'd')
+;
+
+terminal ARTIFACT:
+	('e' | 'f')
+;
+
+terminal VERSION:
+	'0'..'9' '.' '0'..'9' '.' '0'..'9'
+;
+
+enum Packaging:
+	POM | JAR | EAR | WAR | RAR | MAVENPLUGIN | EJB
+;
+
+enum Scope:
+	COMPILE | TEST | PACKAGE | INSTALL | DEPLOY
+;
