@@ -22,7 +22,7 @@ import org.xtext.dsl.multimaven.multiMaven.Plugin;
  * </p>
  * <ul>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.PluginImpl#getGroup <em>Group</em>}</li>
- *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.PluginImpl#getArtifcat <em>Artifcat</em>}</li>
+ *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.PluginImpl#getArtifact <em>Artifact</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.PluginImpl#getVersion <em>Version</em>}</li>
  * </ul>
  *
@@ -51,24 +51,24 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
   protected String group = GROUP_EDEFAULT;
 
   /**
-   * The default value of the '{@link #getArtifcat() <em>Artifcat</em>}' attribute.
+   * The default value of the '{@link #getArtifact() <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #getArtifcat()
+   * @see #getArtifact()
    * @generated
    * @ordered
    */
-  protected static final String ARTIFCAT_EDEFAULT = null;
+  protected static final String ARTIFACT_EDEFAULT = null;
 
   /**
-   * The cached value of the '{@link #getArtifcat() <em>Artifcat</em>}' attribute.
+   * The cached value of the '{@link #getArtifact() <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #getArtifcat()
+   * @see #getArtifact()
    * @generated
    * @ordered
    */
-  protected String artifcat = ARTIFCAT_EDEFAULT;
+  protected String artifact = ARTIFACT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVersion() <em>Version</em>}' attribute.
@@ -142,9 +142,9 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
    * @generated
    */
   @Override
-  public String getArtifcat()
+  public String getArtifact()
   {
-    return artifcat;
+    return artifact;
   }
 
   /**
@@ -153,12 +153,12 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
    * @generated
    */
   @Override
-  public void setArtifcat(String newArtifcat)
+  public void setArtifact(String newArtifact)
   {
-    String oldArtifcat = artifcat;
-    artifcat = newArtifcat;
+    String oldArtifact = artifact;
+    artifact = newArtifact;
     if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, MultiMavenPackage.PLUGIN__ARTIFCAT, oldArtifcat, artifcat));
+      eNotify(new ENotificationImpl(this, Notification.SET, MultiMavenPackage.PLUGIN__ARTIFACT, oldArtifact, artifact));
   }
 
   /**
@@ -198,8 +198,8 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
     {
       case MultiMavenPackage.PLUGIN__GROUP:
         return getGroup();
-      case MultiMavenPackage.PLUGIN__ARTIFCAT:
-        return getArtifcat();
+      case MultiMavenPackage.PLUGIN__ARTIFACT:
+        return getArtifact();
       case MultiMavenPackage.PLUGIN__VERSION:
         return getVersion();
     }
@@ -219,8 +219,8 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
       case MultiMavenPackage.PLUGIN__GROUP:
         setGroup((String)newValue);
         return;
-      case MultiMavenPackage.PLUGIN__ARTIFCAT:
-        setArtifcat((String)newValue);
+      case MultiMavenPackage.PLUGIN__ARTIFACT:
+        setArtifact((String)newValue);
         return;
       case MultiMavenPackage.PLUGIN__VERSION:
         setVersion((String)newValue);
@@ -242,8 +242,8 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
       case MultiMavenPackage.PLUGIN__GROUP:
         setGroup(GROUP_EDEFAULT);
         return;
-      case MultiMavenPackage.PLUGIN__ARTIFCAT:
-        setArtifcat(ARTIFCAT_EDEFAULT);
+      case MultiMavenPackage.PLUGIN__ARTIFACT:
+        setArtifact(ARTIFACT_EDEFAULT);
         return;
       case MultiMavenPackage.PLUGIN__VERSION:
         setVersion(VERSION_EDEFAULT);
@@ -264,8 +264,8 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
     {
       case MultiMavenPackage.PLUGIN__GROUP:
         return GROUP_EDEFAULT == null ? group != null : !GROUP_EDEFAULT.equals(group);
-      case MultiMavenPackage.PLUGIN__ARTIFCAT:
-        return ARTIFCAT_EDEFAULT == null ? artifcat != null : !ARTIFCAT_EDEFAULT.equals(artifcat);
+      case MultiMavenPackage.PLUGIN__ARTIFACT:
+        return ARTIFACT_EDEFAULT == null ? artifact != null : !ARTIFACT_EDEFAULT.equals(artifact);
       case MultiMavenPackage.PLUGIN__VERSION:
         return VERSION_EDEFAULT == null ? version != null : !VERSION_EDEFAULT.equals(version);
     }
@@ -285,8 +285,8 @@ public class PluginImpl extends MinimalEObjectImpl.Container implements Plugin
     StringBuilder result = new StringBuilder(super.toString());
     result.append(" (group: ");
     result.append(group);
-    result.append(", artifcat: ");
-    result.append(artifcat);
+    result.append(", artifact: ");
+    result.append(artifact);
     result.append(", version: ");
     result.append(version);
     result.append(')');

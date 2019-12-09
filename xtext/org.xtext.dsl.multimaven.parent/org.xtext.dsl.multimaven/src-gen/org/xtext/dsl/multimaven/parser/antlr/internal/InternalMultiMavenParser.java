@@ -284,7 +284,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDirectorioPadre"
-    // InternalMultiMaven.g:136:1: ruleDirectorioPadre returns [EObject current=null] : (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifcat_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) ;
+    // InternalMultiMaven.g:136:1: ruleDirectorioPadre returns [EObject current=null] : (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) ;
     public final EObject ruleDirectorioPadre() throws RecognitionException {
         EObject current = null;
 
@@ -295,7 +295,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         Token otherlv_4=null;
         Token lv_group_5_0=null;
         Token otherlv_6=null;
-        Token lv_artifcat_7_0=null;
+        Token lv_artifact_7_0=null;
         Token otherlv_8=null;
         Token lv_version_9_0=null;
         Token otherlv_10=null;
@@ -322,11 +322,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:142:2: ( (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifcat_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) )
-            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifcat_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
+            // InternalMultiMaven.g:142:2: ( (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) )
+            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
             {
-            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifcat_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
-            // InternalMultiMaven.g:144:3: otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifcat_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}'
+            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
+            // InternalMultiMaven.g:144:3: otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}'
             {
             otherlv_0=(Token)match(input,17,FOLLOW_6); 
 
@@ -400,15 +400,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_6, grammarAccess.getDirectorioPadreAccess().getArtifactKeyword_6());
             		
-            // InternalMultiMaven.g:200:3: ( (lv_artifcat_7_0= RULE_ARTIFACT ) )
-            // InternalMultiMaven.g:201:4: (lv_artifcat_7_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:200:3: ( (lv_artifact_7_0= RULE_ARTIFACT ) )
+            // InternalMultiMaven.g:201:4: (lv_artifact_7_0= RULE_ARTIFACT )
             {
-            // InternalMultiMaven.g:201:4: (lv_artifcat_7_0= RULE_ARTIFACT )
-            // InternalMultiMaven.g:202:5: lv_artifcat_7_0= RULE_ARTIFACT
+            // InternalMultiMaven.g:201:4: (lv_artifact_7_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:202:5: lv_artifact_7_0= RULE_ARTIFACT
             {
-            lv_artifcat_7_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
+            lv_artifact_7_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
 
-            					newLeafNode(lv_artifcat_7_0, grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0());
+            					newLeafNode(lv_artifact_7_0, grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0());
             				
 
             					if (current==null) {
@@ -416,8 +416,8 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             					}
             					setWithLastConsumed(
             						current,
-            						"artifcat",
-            						lv_artifcat_7_0,
+            						"artifact",
+            						lv_artifact_7_0,
             						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
             				
 
@@ -788,7 +788,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDirectorio"
-    // InternalMultiMaven.g:377:1: ruleDirectorio returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifcat_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) ;
+    // InternalMultiMaven.g:377:1: ruleDirectorio returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) ;
     public final EObject ruleDirectorio() throws RecognitionException {
         EObject current = null;
 
@@ -796,7 +796,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         Token otherlv_2=null;
         Token lv_group_3_0=null;
         Token otherlv_4=null;
-        Token lv_artifcat_5_0=null;
+        Token lv_artifact_5_0=null;
         Token otherlv_6=null;
         Token lv_version_7_0=null;
         Token otherlv_8=null;
@@ -820,11 +820,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:383:2: ( ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifcat_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) )
-            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifcat_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
+            // InternalMultiMaven.g:383:2: ( ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) )
+            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
             {
-            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifcat_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
-            // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifcat_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}'
+            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
+            // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}'
             {
             // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) )
             // InternalMultiMaven.g:386:4: (lv_name_0_0= ruleIdDirectorio )
@@ -895,15 +895,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getDirectorioAccess().getArtifactKeyword_4());
             		
-            // InternalMultiMaven.g:434:3: ( (lv_artifcat_5_0= RULE_ARTIFACT ) )
-            // InternalMultiMaven.g:435:4: (lv_artifcat_5_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:434:3: ( (lv_artifact_5_0= RULE_ARTIFACT ) )
+            // InternalMultiMaven.g:435:4: (lv_artifact_5_0= RULE_ARTIFACT )
             {
-            // InternalMultiMaven.g:435:4: (lv_artifcat_5_0= RULE_ARTIFACT )
-            // InternalMultiMaven.g:436:5: lv_artifcat_5_0= RULE_ARTIFACT
+            // InternalMultiMaven.g:435:4: (lv_artifact_5_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:436:5: lv_artifact_5_0= RULE_ARTIFACT
             {
-            lv_artifcat_5_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
+            lv_artifact_5_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
 
-            					newLeafNode(lv_artifcat_5_0, grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0());
+            					newLeafNode(lv_artifact_5_0, grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0());
             				
 
             					if (current==null) {
@@ -911,8 +911,8 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             					}
             					setWithLastConsumed(
             						current,
-            						"artifcat",
-            						lv_artifcat_5_0,
+            						"artifact",
+            						lv_artifact_5_0,
             						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
             				
 
@@ -1222,7 +1222,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDependencia"
-    // InternalMultiMaven.g:580:1: ruleDependencia returns [EObject current=null] : (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' ) ;
+    // InternalMultiMaven.g:580:1: ruleDependencia returns [EObject current=null] : (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' ) ;
     public final EObject ruleDependencia() throws RecognitionException {
         EObject current = null;
 
@@ -1230,7 +1230,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         Token otherlv_1=null;
         Token lv_group_2_0=null;
         Token otherlv_3=null;
-        Token lv_artifcat_4_0=null;
+        Token lv_artifact_4_0=null;
         Token otherlv_5=null;
         Token lv_version_6_0=null;
         Token otherlv_7=null;
@@ -1242,11 +1242,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:586:2: ( (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' ) )
-            // InternalMultiMaven.g:587:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' )
+            // InternalMultiMaven.g:586:2: ( (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' ) )
+            // InternalMultiMaven.g:587:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' )
             {
-            // InternalMultiMaven.g:587:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' )
-            // InternalMultiMaven.g:588:3: otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}'
+            // InternalMultiMaven.g:587:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}' )
+            // InternalMultiMaven.g:588:3: otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) (otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) ) )? otherlv_9= '}'
             {
             otherlv_0=(Token)match(input,18,FOLLOW_9); 
 
@@ -1286,15 +1286,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getDependenciaAccess().getArtifactKeyword_3());
             		
-            // InternalMultiMaven.g:618:3: ( (lv_artifcat_4_0= RULE_ARTIFACT ) )
-            // InternalMultiMaven.g:619:4: (lv_artifcat_4_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:618:3: ( (lv_artifact_4_0= RULE_ARTIFACT ) )
+            // InternalMultiMaven.g:619:4: (lv_artifact_4_0= RULE_ARTIFACT )
             {
-            // InternalMultiMaven.g:619:4: (lv_artifcat_4_0= RULE_ARTIFACT )
-            // InternalMultiMaven.g:620:5: lv_artifcat_4_0= RULE_ARTIFACT
+            // InternalMultiMaven.g:619:4: (lv_artifact_4_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:620:5: lv_artifact_4_0= RULE_ARTIFACT
             {
-            lv_artifcat_4_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
+            lv_artifact_4_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
 
-            					newLeafNode(lv_artifcat_4_0, grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0());
+            					newLeafNode(lv_artifact_4_0, grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0());
             				
 
             					if (current==null) {
@@ -1302,8 +1302,8 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             					}
             					setWithLastConsumed(
             						current,
-            						"artifcat",
-            						lv_artifcat_4_0,
+            						"artifact",
+            						lv_artifact_4_0,
             						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
             				
 
@@ -1457,7 +1457,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "rulePlugin"
-    // InternalMultiMaven.g:698:1: rulePlugin returns [EObject current=null] : (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' ) ;
+    // InternalMultiMaven.g:698:1: rulePlugin returns [EObject current=null] : (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' ) ;
     public final EObject rulePlugin() throws RecognitionException {
         EObject current = null;
 
@@ -1465,7 +1465,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         Token otherlv_1=null;
         Token lv_group_2_0=null;
         Token otherlv_3=null;
-        Token lv_artifcat_4_0=null;
+        Token lv_artifact_4_0=null;
         Token otherlv_5=null;
         Token lv_version_6_0=null;
         Token otherlv_7=null;
@@ -1474,11 +1474,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:704:2: ( (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' ) )
-            // InternalMultiMaven.g:705:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' )
+            // InternalMultiMaven.g:704:2: ( (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' ) )
+            // InternalMultiMaven.g:705:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' )
             {
-            // InternalMultiMaven.g:705:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' )
-            // InternalMultiMaven.g:706:3: otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifcat_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}'
+            // InternalMultiMaven.g:705:2: (otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}' )
+            // InternalMultiMaven.g:706:3: otherlv_0= '{' otherlv_1= 'Group' ( (lv_group_2_0= RULE_GROUP ) ) otherlv_3= 'Artifact' ( (lv_artifact_4_0= RULE_ARTIFACT ) ) otherlv_5= 'Version' ( (lv_version_6_0= RULE_VERSION ) ) otherlv_7= '}'
             {
             otherlv_0=(Token)match(input,18,FOLLOW_9); 
 
@@ -1518,15 +1518,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getPluginAccess().getArtifactKeyword_3());
             		
-            // InternalMultiMaven.g:736:3: ( (lv_artifcat_4_0= RULE_ARTIFACT ) )
-            // InternalMultiMaven.g:737:4: (lv_artifcat_4_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:736:3: ( (lv_artifact_4_0= RULE_ARTIFACT ) )
+            // InternalMultiMaven.g:737:4: (lv_artifact_4_0= RULE_ARTIFACT )
             {
-            // InternalMultiMaven.g:737:4: (lv_artifcat_4_0= RULE_ARTIFACT )
-            // InternalMultiMaven.g:738:5: lv_artifcat_4_0= RULE_ARTIFACT
+            // InternalMultiMaven.g:737:4: (lv_artifact_4_0= RULE_ARTIFACT )
+            // InternalMultiMaven.g:738:5: lv_artifact_4_0= RULE_ARTIFACT
             {
-            lv_artifcat_4_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
+            lv_artifact_4_0=(Token)match(input,RULE_ARTIFACT,FOLLOW_13); 
 
-            					newLeafNode(lv_artifcat_4_0, grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0());
+            					newLeafNode(lv_artifact_4_0, grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0());
             				
 
             					if (current==null) {
@@ -1534,8 +1534,8 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             					}
             					setWithLastConsumed(
             						current,
-            						"artifcat",
-            						lv_artifcat_4_0,
+            						"artifact",
+            						lv_artifact_4_0,
             						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
             				
 

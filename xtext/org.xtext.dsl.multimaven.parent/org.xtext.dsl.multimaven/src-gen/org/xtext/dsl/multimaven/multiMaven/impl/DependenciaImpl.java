@@ -23,7 +23,7 @@ import org.xtext.dsl.multimaven.multiMaven.Scope;
  * </p>
  * <ul>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.DependenciaImpl#getGroup <em>Group</em>}</li>
- *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.DependenciaImpl#getArtifcat <em>Artifcat</em>}</li>
+ *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.DependenciaImpl#getArtifact <em>Artifact</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.DependenciaImpl#getVersion <em>Version</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.impl.DependenciaImpl#getScope <em>Scope</em>}</li>
  * </ul>
@@ -53,24 +53,24 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
   protected String group = GROUP_EDEFAULT;
 
   /**
-   * The default value of the '{@link #getArtifcat() <em>Artifcat</em>}' attribute.
+   * The default value of the '{@link #getArtifact() <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #getArtifcat()
+   * @see #getArtifact()
    * @generated
    * @ordered
    */
-  protected static final String ARTIFCAT_EDEFAULT = null;
+  protected static final String ARTIFACT_EDEFAULT = null;
 
   /**
-   * The cached value of the '{@link #getArtifcat() <em>Artifcat</em>}' attribute.
+   * The cached value of the '{@link #getArtifact() <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see #getArtifcat()
+   * @see #getArtifact()
    * @generated
    * @ordered
    */
-  protected String artifcat = ARTIFCAT_EDEFAULT;
+  protected String artifact = ARTIFACT_EDEFAULT;
 
   /**
    * The default value of the '{@link #getVersion() <em>Version</em>}' attribute.
@@ -164,9 +164,9 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
    * @generated
    */
   @Override
-  public String getArtifcat()
+  public String getArtifact()
   {
-    return artifcat;
+    return artifact;
   }
 
   /**
@@ -175,12 +175,12 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
    * @generated
    */
   @Override
-  public void setArtifcat(String newArtifcat)
+  public void setArtifact(String newArtifact)
   {
-    String oldArtifcat = artifcat;
-    artifcat = newArtifcat;
+    String oldArtifact = artifact;
+    artifact = newArtifact;
     if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, MultiMavenPackage.DEPENDENCIA__ARTIFCAT, oldArtifcat, artifcat));
+      eNotify(new ENotificationImpl(this, Notification.SET, MultiMavenPackage.DEPENDENCIA__ARTIFACT, oldArtifact, artifact));
   }
 
   /**
@@ -245,8 +245,8 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
     {
       case MultiMavenPackage.DEPENDENCIA__GROUP:
         return getGroup();
-      case MultiMavenPackage.DEPENDENCIA__ARTIFCAT:
-        return getArtifcat();
+      case MultiMavenPackage.DEPENDENCIA__ARTIFACT:
+        return getArtifact();
       case MultiMavenPackage.DEPENDENCIA__VERSION:
         return getVersion();
       case MultiMavenPackage.DEPENDENCIA__SCOPE:
@@ -268,8 +268,8 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
       case MultiMavenPackage.DEPENDENCIA__GROUP:
         setGroup((String)newValue);
         return;
-      case MultiMavenPackage.DEPENDENCIA__ARTIFCAT:
-        setArtifcat((String)newValue);
+      case MultiMavenPackage.DEPENDENCIA__ARTIFACT:
+        setArtifact((String)newValue);
         return;
       case MultiMavenPackage.DEPENDENCIA__VERSION:
         setVersion((String)newValue);
@@ -294,8 +294,8 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
       case MultiMavenPackage.DEPENDENCIA__GROUP:
         setGroup(GROUP_EDEFAULT);
         return;
-      case MultiMavenPackage.DEPENDENCIA__ARTIFCAT:
-        setArtifcat(ARTIFCAT_EDEFAULT);
+      case MultiMavenPackage.DEPENDENCIA__ARTIFACT:
+        setArtifact(ARTIFACT_EDEFAULT);
         return;
       case MultiMavenPackage.DEPENDENCIA__VERSION:
         setVersion(VERSION_EDEFAULT);
@@ -319,8 +319,8 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
     {
       case MultiMavenPackage.DEPENDENCIA__GROUP:
         return GROUP_EDEFAULT == null ? group != null : !GROUP_EDEFAULT.equals(group);
-      case MultiMavenPackage.DEPENDENCIA__ARTIFCAT:
-        return ARTIFCAT_EDEFAULT == null ? artifcat != null : !ARTIFCAT_EDEFAULT.equals(artifcat);
+      case MultiMavenPackage.DEPENDENCIA__ARTIFACT:
+        return ARTIFACT_EDEFAULT == null ? artifact != null : !ARTIFACT_EDEFAULT.equals(artifact);
       case MultiMavenPackage.DEPENDENCIA__VERSION:
         return VERSION_EDEFAULT == null ? version != null : !VERSION_EDEFAULT.equals(version);
       case MultiMavenPackage.DEPENDENCIA__SCOPE:
@@ -342,8 +342,8 @@ public class DependenciaImpl extends MinimalEObjectImpl.Container implements Dep
     StringBuilder result = new StringBuilder(super.toString());
     result.append(" (group: ");
     result.append(group);
-    result.append(", artifcat: ");
-    result.append(artifcat);
+    result.append(", artifact: ");
+    result.append(artifact);
     result.append(", version: ");
     result.append(version);
     result.append(", scope: ");

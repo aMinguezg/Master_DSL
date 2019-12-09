@@ -50,7 +50,7 @@ public class MultiMavenParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getProyectoAccess().getPadreAssignment_3(), "rule__Proyecto__PadreAssignment_3");
 			builder.put(grammarAccess.getDirectorioPadreAccess().getPathAssignment_3(), "rule__DirectorioPadre__PathAssignment_3");
 			builder.put(grammarAccess.getDirectorioPadreAccess().getGroupAssignment_5(), "rule__DirectorioPadre__GroupAssignment_5");
-			builder.put(grammarAccess.getDirectorioPadreAccess().getArtifcatAssignment_7(), "rule__DirectorioPadre__ArtifcatAssignment_7");
+			builder.put(grammarAccess.getDirectorioPadreAccess().getArtifactAssignment_7(), "rule__DirectorioPadre__ArtifactAssignment_7");
 			builder.put(grammarAccess.getDirectorioPadreAccess().getVersionAssignment_9(), "rule__DirectorioPadre__VersionAssignment_9");
 			builder.put(grammarAccess.getDirectorioPadreAccess().getPackagingAssignment_10_1(), "rule__DirectorioPadre__PackagingAssignment_10_1");
 			builder.put(grammarAccess.getDirectorioPadreAccess().getDependenciasAssignment_11_2(), "rule__DirectorioPadre__DependenciasAssignment_11_2");
@@ -58,17 +58,17 @@ public class MultiMavenParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getDirectorioPadreAccess().getDirectoriosAssignment_15(), "rule__DirectorioPadre__DirectoriosAssignment_15");
 			builder.put(grammarAccess.getDirectorioAccess().getNameAssignment_0(), "rule__Directorio__NameAssignment_0");
 			builder.put(grammarAccess.getDirectorioAccess().getGroupAssignment_3(), "rule__Directorio__GroupAssignment_3");
-			builder.put(grammarAccess.getDirectorioAccess().getArtifcatAssignment_5(), "rule__Directorio__ArtifcatAssignment_5");
+			builder.put(grammarAccess.getDirectorioAccess().getArtifactAssignment_5(), "rule__Directorio__ArtifactAssignment_5");
 			builder.put(grammarAccess.getDirectorioAccess().getVersionAssignment_7(), "rule__Directorio__VersionAssignment_7");
 			builder.put(grammarAccess.getDirectorioAccess().getPackagingAssignment_8_1(), "rule__Directorio__PackagingAssignment_8_1");
 			builder.put(grammarAccess.getDirectorioAccess().getDependenciasAssignment_9_2(), "rule__Directorio__DependenciasAssignment_9_2");
 			builder.put(grammarAccess.getDirectorioAccess().getPluginsAssignment_10_2(), "rule__Directorio__PluginsAssignment_10_2");
 			builder.put(grammarAccess.getDependenciaAccess().getGroupAssignment_2(), "rule__Dependencia__GroupAssignment_2");
-			builder.put(grammarAccess.getDependenciaAccess().getArtifcatAssignment_4(), "rule__Dependencia__ArtifcatAssignment_4");
+			builder.put(grammarAccess.getDependenciaAccess().getArtifactAssignment_4(), "rule__Dependencia__ArtifactAssignment_4");
 			builder.put(grammarAccess.getDependenciaAccess().getVersionAssignment_6(), "rule__Dependencia__VersionAssignment_6");
 			builder.put(grammarAccess.getDependenciaAccess().getScopeAssignment_7_1(), "rule__Dependencia__ScopeAssignment_7_1");
 			builder.put(grammarAccess.getPluginAccess().getGroupAssignment_2(), "rule__Plugin__GroupAssignment_2");
-			builder.put(grammarAccess.getPluginAccess().getArtifcatAssignment_4(), "rule__Plugin__ArtifcatAssignment_4");
+			builder.put(grammarAccess.getPluginAccess().getArtifactAssignment_4(), "rule__Plugin__ArtifactAssignment_4");
 			builder.put(grammarAccess.getPluginAccess().getVersionAssignment_6(), "rule__Plugin__VersionAssignment_6");
 		}
 	}

@@ -29,7 +29,7 @@
     <genClasses ecoreClass="MultiMaven.ecore#//DirectorioPadre">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/path"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/group"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/artifcat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/artifact"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/version"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//DirectorioPadre/packaging"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MultiMaven.ecore#//DirectorioPadre/dependencias"/>
@@ -39,7 +39,7 @@
     <genClasses ecoreClass="MultiMaven.ecore#//Directorio">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/name"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/group"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/artifcat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/artifact"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/version"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Directorio/packaging"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MultiMaven.ecore#//Directorio/dependencias"/>
@@ -47,13 +47,13 @@
     </genClasses>
     <genClasses ecoreClass="MultiMaven.ecore#//Dependencia">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Dependencia/group"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Dependencia/artifcat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Dependencia/artifact"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Dependencia/version"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Dependencia/scope"/>
     </genClasses>
     <genClasses ecoreClass="MultiMaven.ecore#//Plugin">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Plugin/group"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Plugin/artifcat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Plugin/artifact"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MultiMaven.ecore#//Plugin/version"/>
     </genClasses>
   </genPackages>

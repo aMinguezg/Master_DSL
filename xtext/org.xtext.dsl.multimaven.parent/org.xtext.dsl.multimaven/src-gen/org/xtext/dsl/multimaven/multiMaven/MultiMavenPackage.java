@@ -124,13 +124,13 @@ public interface MultiMavenPackage extends EPackage
   int DIRECTORIO_PADRE__GROUP = 1;
 
   /**
-   * The feature id for the '<em><b>Artifcat</b></em>' attribute.
+   * The feature id for the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int DIRECTORIO_PADRE__ARTIFCAT = 2;
+  int DIRECTORIO_PADRE__ARTIFACT = 2;
 
   /**
    * The feature id for the '<em><b>Version</b></em>' attribute.
@@ -215,13 +215,13 @@ public interface MultiMavenPackage extends EPackage
   int DIRECTORIO__GROUP = 1;
 
   /**
-   * The feature id for the '<em><b>Artifcat</b></em>' attribute.
+   * The feature id for the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int DIRECTORIO__ARTIFCAT = 2;
+  int DIRECTORIO__ARTIFACT = 2;
 
   /**
    * The feature id for the '<em><b>Version</b></em>' attribute.
@@ -288,13 +288,13 @@ public interface MultiMavenPackage extends EPackage
   int DEPENDENCIA__GROUP = 0;
 
   /**
-   * The feature id for the '<em><b>Artifcat</b></em>' attribute.
+   * The feature id for the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int DEPENDENCIA__ARTIFCAT = 1;
+  int DEPENDENCIA__ARTIFACT = 1;
 
   /**
    * The feature id for the '<em><b>Version</b></em>' attribute.
@@ -343,13 +343,13 @@ public interface MultiMavenPackage extends EPackage
   int PLUGIN__GROUP = 0;
 
   /**
-   * The feature id for the '<em><b>Artifcat</b></em>' attribute.
+   * The feature id for the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int PLUGIN__ARTIFCAT = 1;
+  int PLUGIN__ARTIFACT = 1;
 
   /**
    * The feature id for the '<em><b>Version</b></em>' attribute.
@@ -455,15 +455,15 @@ public interface MultiMavenPackage extends EPackage
   EAttribute getDirectorioPadre_Group();
 
   /**
-   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifcat <em>Artifcat</em>}'.
+   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifact <em>Artifact</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Artifcat</em>'.
-   * @see org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifcat()
+   * @return the meta object for the attribute '<em>Artifact</em>'.
+   * @see org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifact()
    * @see #getDirectorioPadre()
    * @generated
    */
-  EAttribute getDirectorioPadre_Artifcat();
+  EAttribute getDirectorioPadre_Artifact();
 
   /**
    * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getVersion <em>Version</em>}'.
@@ -553,15 +553,15 @@ public interface MultiMavenPackage extends EPackage
   EAttribute getDirectorio_Group();
 
   /**
-   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Directorio#getArtifcat <em>Artifcat</em>}'.
+   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Directorio#getArtifact <em>Artifact</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Artifcat</em>'.
-   * @see org.xtext.dsl.multimaven.multiMaven.Directorio#getArtifcat()
+   * @return the meta object for the attribute '<em>Artifact</em>'.
+   * @see org.xtext.dsl.multimaven.multiMaven.Directorio#getArtifact()
    * @see #getDirectorio()
    * @generated
    */
-  EAttribute getDirectorio_Artifcat();
+  EAttribute getDirectorio_Artifact();
 
   /**
    * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Directorio#getVersion <em>Version</em>}'.
@@ -629,15 +629,15 @@ public interface MultiMavenPackage extends EPackage
   EAttribute getDependencia_Group();
 
   /**
-   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifcat <em>Artifcat</em>}'.
+   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifact <em>Artifact</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Artifcat</em>'.
-   * @see org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifcat()
+   * @return the meta object for the attribute '<em>Artifact</em>'.
+   * @see org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifact()
    * @see #getDependencia()
    * @generated
    */
-  EAttribute getDependencia_Artifcat();
+  EAttribute getDependencia_Artifact();
 
   /**
    * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getVersion <em>Version</em>}'.
@@ -683,15 +683,15 @@ public interface MultiMavenPackage extends EPackage
   EAttribute getPlugin_Group();
 
   /**
-   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Plugin#getArtifcat <em>Artifcat</em>}'.
+   * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Plugin#getArtifact <em>Artifact</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Artifcat</em>'.
-   * @see org.xtext.dsl.multimaven.multiMaven.Plugin#getArtifcat()
+   * @return the meta object for the attribute '<em>Artifact</em>'.
+   * @see org.xtext.dsl.multimaven.multiMaven.Plugin#getArtifact()
    * @see #getPlugin()
    * @generated
    */
-  EAttribute getPlugin_Artifcat();
+  EAttribute getPlugin_Artifact();
 
   /**
    * Returns the meta object for the attribute '{@link org.xtext.dsl.multimaven.multiMaven.Plugin#getVersion <em>Version</em>}'.
@@ -800,12 +800,12 @@ public interface MultiMavenPackage extends EPackage
     EAttribute DIRECTORIO_PADRE__GROUP = eINSTANCE.getDirectorioPadre_Group();
 
     /**
-     * The meta object literal for the '<em><b>Artifcat</b></em>' attribute feature.
+     * The meta object literal for the '<em><b>Artifact</b></em>' attribute feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    EAttribute DIRECTORIO_PADRE__ARTIFCAT = eINSTANCE.getDirectorioPadre_Artifcat();
+    EAttribute DIRECTORIO_PADRE__ARTIFACT = eINSTANCE.getDirectorioPadre_Artifact();
 
     /**
      * The meta object literal for the '<em><b>Version</b></em>' attribute feature.
@@ -874,12 +874,12 @@ public interface MultiMavenPackage extends EPackage
     EAttribute DIRECTORIO__GROUP = eINSTANCE.getDirectorio_Group();
 
     /**
-     * The meta object literal for the '<em><b>Artifcat</b></em>' attribute feature.
+     * The meta object literal for the '<em><b>Artifact</b></em>' attribute feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    EAttribute DIRECTORIO__ARTIFCAT = eINSTANCE.getDirectorio_Artifcat();
+    EAttribute DIRECTORIO__ARTIFACT = eINSTANCE.getDirectorio_Artifact();
 
     /**
      * The meta object literal for the '<em><b>Version</b></em>' attribute feature.
@@ -932,12 +932,12 @@ public interface MultiMavenPackage extends EPackage
     EAttribute DEPENDENCIA__GROUP = eINSTANCE.getDependencia_Group();
 
     /**
-     * The meta object literal for the '<em><b>Artifcat</b></em>' attribute feature.
+     * The meta object literal for the '<em><b>Artifact</b></em>' attribute feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    EAttribute DEPENDENCIA__ARTIFCAT = eINSTANCE.getDependencia_Artifcat();
+    EAttribute DEPENDENCIA__ARTIFACT = eINSTANCE.getDependencia_Artifact();
 
     /**
      * The meta object literal for the '<em><b>Version</b></em>' attribute feature.
@@ -974,12 +974,12 @@ public interface MultiMavenPackage extends EPackage
     EAttribute PLUGIN__GROUP = eINSTANCE.getPlugin_Group();
 
     /**
-     * The meta object literal for the '<em><b>Artifcat</b></em>' attribute feature.
+     * The meta object literal for the '<em><b>Artifact</b></em>' attribute feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    EAttribute PLUGIN__ARTIFCAT = eINSTANCE.getPlugin_Artifcat();
+    EAttribute PLUGIN__ARTIFACT = eINSTANCE.getPlugin_Artifact();
 
     /**
      * The meta object literal for the '<em><b>Version</b></em>' attribute feature.

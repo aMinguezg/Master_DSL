@@ -7,6 +7,7 @@ import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.xtext.generator.AbstractGenerator;
 import org.eclipse.xtext.generator.IFileSystemAccess2;
 import org.eclipse.xtext.generator.IGeneratorContext;
+import org.xtext.dsl.multimaven.generator.GeneradorXml;
 
 /**
  * Generates code from your model files on save.
@@ -17,5 +18,7 @@ import org.eclipse.xtext.generator.IGeneratorContext;
 public class MultiMavenGenerator extends AbstractGenerator {
   @Override
   public void doGenerate(final Resource resource, final IFileSystemAccess2 fsa, final IGeneratorContext context) {
+    GeneradorXml generadorXml = new GeneradorXml(resource, fsa);
+    generadorXml.compilar();
   }
 }

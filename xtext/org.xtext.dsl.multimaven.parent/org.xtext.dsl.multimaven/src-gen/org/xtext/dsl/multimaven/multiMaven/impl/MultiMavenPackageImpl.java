@@ -213,7 +213,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
    * @generated
    */
   @Override
-  public EAttribute getDirectorioPadre_Artifcat()
+  public EAttribute getDirectorioPadre_Artifact()
   {
     return (EAttribute)directorioPadreEClass.getEStructuralFeatures().get(2);
   }
@@ -312,7 +312,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
    * @generated
    */
   @Override
-  public EAttribute getDirectorio_Artifcat()
+  public EAttribute getDirectorio_Artifact()
   {
     return (EAttribute)directorioEClass.getEStructuralFeatures().get(2);
   }
@@ -389,7 +389,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
    * @generated
    */
   @Override
-  public EAttribute getDependencia_Artifcat()
+  public EAttribute getDependencia_Artifact()
   {
     return (EAttribute)dependenciaEClass.getEStructuralFeatures().get(1);
   }
@@ -444,7 +444,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
    * @generated
    */
   @Override
-  public EAttribute getPlugin_Artifcat()
+  public EAttribute getPlugin_Artifact()
   {
     return (EAttribute)pluginEClass.getEStructuralFeatures().get(1);
   }
@@ -520,7 +520,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
     directorioPadreEClass = createEClass(DIRECTORIO_PADRE);
     createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__PATH);
     createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__GROUP);
-    createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__ARTIFCAT);
+    createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__ARTIFACT);
     createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__VERSION);
     createEAttribute(directorioPadreEClass, DIRECTORIO_PADRE__PACKAGING);
     createEReference(directorioPadreEClass, DIRECTORIO_PADRE__DEPENDENCIAS);
@@ -530,7 +530,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
     directorioEClass = createEClass(DIRECTORIO);
     createEAttribute(directorioEClass, DIRECTORIO__NAME);
     createEAttribute(directorioEClass, DIRECTORIO__GROUP);
-    createEAttribute(directorioEClass, DIRECTORIO__ARTIFCAT);
+    createEAttribute(directorioEClass, DIRECTORIO__ARTIFACT);
     createEAttribute(directorioEClass, DIRECTORIO__VERSION);
     createEAttribute(directorioEClass, DIRECTORIO__PACKAGING);
     createEReference(directorioEClass, DIRECTORIO__DEPENDENCIAS);
@@ -538,13 +538,13 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
 
     dependenciaEClass = createEClass(DEPENDENCIA);
     createEAttribute(dependenciaEClass, DEPENDENCIA__GROUP);
-    createEAttribute(dependenciaEClass, DEPENDENCIA__ARTIFCAT);
+    createEAttribute(dependenciaEClass, DEPENDENCIA__ARTIFACT);
     createEAttribute(dependenciaEClass, DEPENDENCIA__VERSION);
     createEAttribute(dependenciaEClass, DEPENDENCIA__SCOPE);
 
     pluginEClass = createEClass(PLUGIN);
     createEAttribute(pluginEClass, PLUGIN__GROUP);
-    createEAttribute(pluginEClass, PLUGIN__ARTIFCAT);
+    createEAttribute(pluginEClass, PLUGIN__ARTIFACT);
     createEAttribute(pluginEClass, PLUGIN__VERSION);
 
     // Create enums
@@ -590,7 +590,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
     initEClass(directorioPadreEClass, DirectorioPadre.class, "DirectorioPadre", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getDirectorioPadre_Path(), ecorePackage.getEString(), "path", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorioPadre_Group(), ecorePackage.getEString(), "group", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getDirectorioPadre_Artifcat(), ecorePackage.getEString(), "artifcat", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getDirectorioPadre_Artifact(), ecorePackage.getEString(), "artifact", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorioPadre_Version(), ecorePackage.getEString(), "version", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorioPadre_Packaging(), this.getPackaging(), "packaging", null, 0, 1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getDirectorioPadre_Dependencias(), this.getDependencia(), null, "dependencias", null, 0, -1, DirectorioPadre.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -600,7 +600,7 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
     initEClass(directorioEClass, Directorio.class, "Directorio", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getDirectorio_Name(), ecorePackage.getEString(), "name", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorio_Group(), ecorePackage.getEString(), "group", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getDirectorio_Artifcat(), ecorePackage.getEString(), "artifcat", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getDirectorio_Artifact(), ecorePackage.getEString(), "artifact", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorio_Version(), ecorePackage.getEString(), "version", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDirectorio_Packaging(), this.getPackaging(), "packaging", null, 0, 1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getDirectorio_Dependencias(), this.getDependencia(), null, "dependencias", null, 0, -1, Directorio.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -608,13 +608,13 @@ public class MultiMavenPackageImpl extends EPackageImpl implements MultiMavenPac
 
     initEClass(dependenciaEClass, Dependencia.class, "Dependencia", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getDependencia_Group(), ecorePackage.getEString(), "group", null, 0, 1, Dependencia.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getDependencia_Artifcat(), ecorePackage.getEString(), "artifcat", null, 0, 1, Dependencia.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getDependencia_Artifact(), ecorePackage.getEString(), "artifact", null, 0, 1, Dependencia.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDependencia_Version(), ecorePackage.getEString(), "version", null, 0, 1, Dependencia.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getDependencia_Scope(), this.getScope(), "scope", null, 0, 1, Dependencia.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(pluginEClass, Plugin.class, "Plugin", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getPlugin_Group(), ecorePackage.getEString(), "group", null, 0, 1, Plugin.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getPlugin_Artifcat(), ecorePackage.getEString(), "artifcat", null, 0, 1, Plugin.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getPlugin_Artifact(), ecorePackage.getEString(), "artifact", null, 0, 1, Plugin.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getPlugin_Version(), ecorePackage.getEString(), "version", null, 0, 1, Plugin.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     // Initialize enums and add enum literals

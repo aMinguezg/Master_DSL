@@ -61,7 +61,7 @@ public class MultiMavenSemanticSequencer extends AbstractDelegatingSemanticSeque
 	 *     Dependencia returns Dependencia
 	 *
 	 * Constraint:
-	 *     (group=GROUP artifcat=ARTIFACT version=VERSION scope=Scope?)
+	 *     (group=GROUP artifact=ARTIFACT version=VERSION scope=Scope?)
 	 */
 	protected void sequence_Dependencia(ISerializationContext context, Dependencia semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -76,7 +76,7 @@ public class MultiMavenSemanticSequencer extends AbstractDelegatingSemanticSeque
 	 *     (
 	 *         path=PATH 
 	 *         group=GROUP 
-	 *         artifcat=ARTIFACT 
+	 *         artifact=ARTIFACT 
 	 *         version=VERSION 
 	 *         packaging=Packaging? 
 	 *         dependencias+=Dependencia* 
@@ -97,7 +97,7 @@ public class MultiMavenSemanticSequencer extends AbstractDelegatingSemanticSeque
 	 *     (
 	 *         name=IdDirectorio 
 	 *         group=GROUP 
-	 *         artifcat=ARTIFACT 
+	 *         artifact=ARTIFACT 
 	 *         version=VERSION 
 	 *         packaging=Packaging? 
 	 *         dependencias+=Dependencia* 
@@ -114,20 +114,20 @@ public class MultiMavenSemanticSequencer extends AbstractDelegatingSemanticSeque
 	 *     Plugin returns Plugin
 	 *
 	 * Constraint:
-	 *     (group=GROUP artifcat=ARTIFACT version=VERSION)
+	 *     (group=GROUP artifact=ARTIFACT version=VERSION)
 	 */
 	protected void sequence_Plugin(ISerializationContext context, Plugin semanticObject) {
 		if (errorAcceptor != null) {
 			if (transientValues.isValueTransient(semanticObject, MultiMavenPackage.Literals.PLUGIN__GROUP) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, MultiMavenPackage.Literals.PLUGIN__GROUP));
-			if (transientValues.isValueTransient(semanticObject, MultiMavenPackage.Literals.PLUGIN__ARTIFCAT) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, MultiMavenPackage.Literals.PLUGIN__ARTIFCAT));
+			if (transientValues.isValueTransient(semanticObject, MultiMavenPackage.Literals.PLUGIN__ARTIFACT) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, MultiMavenPackage.Literals.PLUGIN__ARTIFACT));
 			if (transientValues.isValueTransient(semanticObject, MultiMavenPackage.Literals.PLUGIN__VERSION) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, MultiMavenPackage.Literals.PLUGIN__VERSION));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
 		feeder.accept(grammarAccess.getPluginAccess().getGroupGROUPTerminalRuleCall_2_0(), semanticObject.getGroup());
-		feeder.accept(grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0(), semanticObject.getArtifcat());
+		feeder.accept(grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0(), semanticObject.getArtifact());
 		feeder.accept(grammarAccess.getPluginAccess().getVersionVERSIONTerminalRuleCall_6_0(), semanticObject.getVersion());
 		feeder.finish();
 	}

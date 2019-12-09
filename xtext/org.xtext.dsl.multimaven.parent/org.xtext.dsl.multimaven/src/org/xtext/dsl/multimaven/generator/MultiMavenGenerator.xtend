@@ -21,5 +21,7 @@ class MultiMavenGenerator extends AbstractGenerator {
 //				.filter(Greeting)
 //				.map[name]
 //				.join(', '))
+		var generadorXml = new GeneradorXml(resource, fsa);
+		generadorXml.compilar;
 	}
 }

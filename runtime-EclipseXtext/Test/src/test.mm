@@ -7,7 +7,7 @@ Root {
 	Version 5.5.5
 	Packaging RAR
 	Dependencias{
-		
+
 	}
 	Plugins{
 		
@@ -18,7 +18,7 @@ Root {
 			Artifact e
 			Version 5.5.5
 			Packaging RAR
-			Dependencias{
+			Dependencias{ 
 		
 			}
 			Plugins{

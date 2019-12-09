@@ -1936,31 +1936,31 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group__7__Impl"
-    // InternalMultiMaven.g:633:1: rule__DirectorioPadre__Group__7__Impl : ( ( rule__DirectorioPadre__ArtifcatAssignment_7 ) ) ;
+    // InternalMultiMaven.g:633:1: rule__DirectorioPadre__Group__7__Impl : ( ( rule__DirectorioPadre__ArtifactAssignment_7 ) ) ;
     public final void rule__DirectorioPadre__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:637:1: ( ( ( rule__DirectorioPadre__ArtifcatAssignment_7 ) ) )
-            // InternalMultiMaven.g:638:1: ( ( rule__DirectorioPadre__ArtifcatAssignment_7 ) )
+            // InternalMultiMaven.g:637:1: ( ( ( rule__DirectorioPadre__ArtifactAssignment_7 ) ) )
+            // InternalMultiMaven.g:638:1: ( ( rule__DirectorioPadre__ArtifactAssignment_7 ) )
             {
-            // InternalMultiMaven.g:638:1: ( ( rule__DirectorioPadre__ArtifcatAssignment_7 ) )
-            // InternalMultiMaven.g:639:2: ( rule__DirectorioPadre__ArtifcatAssignment_7 )
+            // InternalMultiMaven.g:638:1: ( ( rule__DirectorioPadre__ArtifactAssignment_7 ) )
+            // InternalMultiMaven.g:639:2: ( rule__DirectorioPadre__ArtifactAssignment_7 )
             {
-             before(grammarAccess.getDirectorioPadreAccess().getArtifcatAssignment_7()); 
-            // InternalMultiMaven.g:640:2: ( rule__DirectorioPadre__ArtifcatAssignment_7 )
-            // InternalMultiMaven.g:640:3: rule__DirectorioPadre__ArtifcatAssignment_7
+             before(grammarAccess.getDirectorioPadreAccess().getArtifactAssignment_7()); 
+            // InternalMultiMaven.g:640:2: ( rule__DirectorioPadre__ArtifactAssignment_7 )
+            // InternalMultiMaven.g:640:3: rule__DirectorioPadre__ArtifactAssignment_7
             {
             pushFollow(FOLLOW_2);
-            rule__DirectorioPadre__ArtifcatAssignment_7();
+            rule__DirectorioPadre__ArtifactAssignment_7();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getDirectorioPadreAccess().getArtifcatAssignment_7()); 
+             after(grammarAccess.getDirectorioPadreAccess().getArtifactAssignment_7()); 
 
             }
 
@@ -4063,31 +4063,31 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Directorio__Group__5__Impl"
-    // InternalMultiMaven.g:1335:1: rule__Directorio__Group__5__Impl : ( ( rule__Directorio__ArtifcatAssignment_5 ) ) ;
+    // InternalMultiMaven.g:1335:1: rule__Directorio__Group__5__Impl : ( ( rule__Directorio__ArtifactAssignment_5 ) ) ;
     public final void rule__Directorio__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1339:1: ( ( ( rule__Directorio__ArtifcatAssignment_5 ) ) )
-            // InternalMultiMaven.g:1340:1: ( ( rule__Directorio__ArtifcatAssignment_5 ) )
+            // InternalMultiMaven.g:1339:1: ( ( ( rule__Directorio__ArtifactAssignment_5 ) ) )
+            // InternalMultiMaven.g:1340:1: ( ( rule__Directorio__ArtifactAssignment_5 ) )
             {
-            // InternalMultiMaven.g:1340:1: ( ( rule__Directorio__ArtifcatAssignment_5 ) )
-            // InternalMultiMaven.g:1341:2: ( rule__Directorio__ArtifcatAssignment_5 )
+            // InternalMultiMaven.g:1340:1: ( ( rule__Directorio__ArtifactAssignment_5 ) )
+            // InternalMultiMaven.g:1341:2: ( rule__Directorio__ArtifactAssignment_5 )
             {
-             before(grammarAccess.getDirectorioAccess().getArtifcatAssignment_5()); 
-            // InternalMultiMaven.g:1342:2: ( rule__Directorio__ArtifcatAssignment_5 )
-            // InternalMultiMaven.g:1342:3: rule__Directorio__ArtifcatAssignment_5
+             before(grammarAccess.getDirectorioAccess().getArtifactAssignment_5()); 
+            // InternalMultiMaven.g:1342:2: ( rule__Directorio__ArtifactAssignment_5 )
+            // InternalMultiMaven.g:1342:3: rule__Directorio__ArtifactAssignment_5
             {
             pushFollow(FOLLOW_2);
-            rule__Directorio__ArtifcatAssignment_5();
+            rule__Directorio__ArtifactAssignment_5();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getDirectorioAccess().getArtifcatAssignment_5()); 
+             after(grammarAccess.getDirectorioAccess().getArtifactAssignment_5()); 
 
             }
 
@@ -5777,31 +5777,31 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Dependencia__Group__4__Impl"
-    // InternalMultiMaven.g:1902:1: rule__Dependencia__Group__4__Impl : ( ( rule__Dependencia__ArtifcatAssignment_4 ) ) ;
+    // InternalMultiMaven.g:1902:1: rule__Dependencia__Group__4__Impl : ( ( rule__Dependencia__ArtifactAssignment_4 ) ) ;
     public final void rule__Dependencia__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1906:1: ( ( ( rule__Dependencia__ArtifcatAssignment_4 ) ) )
-            // InternalMultiMaven.g:1907:1: ( ( rule__Dependencia__ArtifcatAssignment_4 ) )
+            // InternalMultiMaven.g:1906:1: ( ( ( rule__Dependencia__ArtifactAssignment_4 ) ) )
+            // InternalMultiMaven.g:1907:1: ( ( rule__Dependencia__ArtifactAssignment_4 ) )
             {
-            // InternalMultiMaven.g:1907:1: ( ( rule__Dependencia__ArtifcatAssignment_4 ) )
-            // InternalMultiMaven.g:1908:2: ( rule__Dependencia__ArtifcatAssignment_4 )
+            // InternalMultiMaven.g:1907:1: ( ( rule__Dependencia__ArtifactAssignment_4 ) )
+            // InternalMultiMaven.g:1908:2: ( rule__Dependencia__ArtifactAssignment_4 )
             {
-             before(grammarAccess.getDependenciaAccess().getArtifcatAssignment_4()); 
-            // InternalMultiMaven.g:1909:2: ( rule__Dependencia__ArtifcatAssignment_4 )
-            // InternalMultiMaven.g:1909:3: rule__Dependencia__ArtifcatAssignment_4
+             before(grammarAccess.getDependenciaAccess().getArtifactAssignment_4()); 
+            // InternalMultiMaven.g:1909:2: ( rule__Dependencia__ArtifactAssignment_4 )
+            // InternalMultiMaven.g:1909:3: rule__Dependencia__ArtifactAssignment_4
             {
             pushFollow(FOLLOW_2);
-            rule__Dependencia__ArtifcatAssignment_4();
+            rule__Dependencia__ArtifactAssignment_4();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getDependenciaAccess().getArtifcatAssignment_4()); 
+             after(grammarAccess.getDependenciaAccess().getArtifactAssignment_4()); 
 
             }
 
@@ -6653,31 +6653,31 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Plugin__Group__4__Impl"
-    // InternalMultiMaven.g:2199:1: rule__Plugin__Group__4__Impl : ( ( rule__Plugin__ArtifcatAssignment_4 ) ) ;
+    // InternalMultiMaven.g:2199:1: rule__Plugin__Group__4__Impl : ( ( rule__Plugin__ArtifactAssignment_4 ) ) ;
     public final void rule__Plugin__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:2203:1: ( ( ( rule__Plugin__ArtifcatAssignment_4 ) ) )
-            // InternalMultiMaven.g:2204:1: ( ( rule__Plugin__ArtifcatAssignment_4 ) )
+            // InternalMultiMaven.g:2203:1: ( ( ( rule__Plugin__ArtifactAssignment_4 ) ) )
+            // InternalMultiMaven.g:2204:1: ( ( rule__Plugin__ArtifactAssignment_4 ) )
             {
-            // InternalMultiMaven.g:2204:1: ( ( rule__Plugin__ArtifcatAssignment_4 ) )
-            // InternalMultiMaven.g:2205:2: ( rule__Plugin__ArtifcatAssignment_4 )
+            // InternalMultiMaven.g:2204:1: ( ( rule__Plugin__ArtifactAssignment_4 ) )
+            // InternalMultiMaven.g:2205:2: ( rule__Plugin__ArtifactAssignment_4 )
             {
-             before(grammarAccess.getPluginAccess().getArtifcatAssignment_4()); 
-            // InternalMultiMaven.g:2206:2: ( rule__Plugin__ArtifcatAssignment_4 )
-            // InternalMultiMaven.g:2206:3: rule__Plugin__ArtifcatAssignment_4
+             before(grammarAccess.getPluginAccess().getArtifactAssignment_4()); 
+            // InternalMultiMaven.g:2206:2: ( rule__Plugin__ArtifactAssignment_4 )
+            // InternalMultiMaven.g:2206:3: rule__Plugin__ArtifactAssignment_4
             {
             pushFollow(FOLLOW_2);
-            rule__Plugin__ArtifcatAssignment_4();
+            rule__Plugin__ArtifactAssignment_4();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getPluginAccess().getArtifcatAssignment_4()); 
+             after(grammarAccess.getPluginAccess().getArtifactAssignment_4()); 
 
             }
 
@@ -7226,9 +7226,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     // $ANTLR end "rule__DirectorioPadre__GroupAssignment_5"
 
 
-    // $ANTLR start "rule__DirectorioPadre__ArtifcatAssignment_7"
-    // InternalMultiMaven.g:2409:1: rule__DirectorioPadre__ArtifcatAssignment_7 : ( RULE_ARTIFACT ) ;
-    public final void rule__DirectorioPadre__ArtifcatAssignment_7() throws RecognitionException {
+    // $ANTLR start "rule__DirectorioPadre__ArtifactAssignment_7"
+    // InternalMultiMaven.g:2409:1: rule__DirectorioPadre__ArtifactAssignment_7 : ( RULE_ARTIFACT ) ;
+    public final void rule__DirectorioPadre__ArtifactAssignment_7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
@@ -7239,9 +7239,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2414:2: ( RULE_ARTIFACT )
             // InternalMultiMaven.g:2415:3: RULE_ARTIFACT
             {
-             before(grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0()); 
+             before(grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0()); 
             match(input,RULE_ARTIFACT,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0()); 
+             after(grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0()); 
 
             }
 
@@ -7260,7 +7260,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
         }
         return ;
     }
-    // $ANTLR end "rule__DirectorioPadre__ArtifcatAssignment_7"
+    // $ANTLR end "rule__DirectorioPadre__ArtifactAssignment_7"
 
 
     // $ANTLR start "rule__DirectorioPadre__VersionAssignment_9"
@@ -7542,9 +7542,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     // $ANTLR end "rule__Directorio__GroupAssignment_3"
 
 
-    // $ANTLR start "rule__Directorio__ArtifcatAssignment_5"
-    // InternalMultiMaven.g:2529:1: rule__Directorio__ArtifcatAssignment_5 : ( RULE_ARTIFACT ) ;
-    public final void rule__Directorio__ArtifcatAssignment_5() throws RecognitionException {
+    // $ANTLR start "rule__Directorio__ArtifactAssignment_5"
+    // InternalMultiMaven.g:2529:1: rule__Directorio__ArtifactAssignment_5 : ( RULE_ARTIFACT ) ;
+    public final void rule__Directorio__ArtifactAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
@@ -7555,9 +7555,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2534:2: ( RULE_ARTIFACT )
             // InternalMultiMaven.g:2535:3: RULE_ARTIFACT
             {
-             before(grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0()); 
+             before(grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0()); 
             match(input,RULE_ARTIFACT,FOLLOW_2); 
-             after(grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0()); 
+             after(grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0()); 
 
             }
 
@@ -7576,7 +7576,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
         }
         return ;
     }
-    // $ANTLR end "rule__Directorio__ArtifcatAssignment_5"
+    // $ANTLR end "rule__Directorio__ArtifactAssignment_5"
 
 
     // $ANTLR start "rule__Directorio__VersionAssignment_7"
@@ -7776,9 +7776,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     // $ANTLR end "rule__Dependencia__GroupAssignment_2"
 
 
-    // $ANTLR start "rule__Dependencia__ArtifcatAssignment_4"
-    // InternalMultiMaven.g:2619:1: rule__Dependencia__ArtifcatAssignment_4 : ( RULE_ARTIFACT ) ;
-    public final void rule__Dependencia__ArtifcatAssignment_4() throws RecognitionException {
+    // $ANTLR start "rule__Dependencia__ArtifactAssignment_4"
+    // InternalMultiMaven.g:2619:1: rule__Dependencia__ArtifactAssignment_4 : ( RULE_ARTIFACT ) ;
+    public final void rule__Dependencia__ArtifactAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
@@ -7789,9 +7789,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2624:2: ( RULE_ARTIFACT )
             // InternalMultiMaven.g:2625:3: RULE_ARTIFACT
             {
-             before(grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); 
+             before(grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); 
             match(input,RULE_ARTIFACT,FOLLOW_2); 
-             after(grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); 
+             after(grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); 
 
             }
 
@@ -7810,7 +7810,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
         }
         return ;
     }
-    // $ANTLR end "rule__Dependencia__ArtifcatAssignment_4"
+    // $ANTLR end "rule__Dependencia__ArtifactAssignment_4"
 
 
     // $ANTLR start "rule__Dependencia__VersionAssignment_6"
@@ -7928,9 +7928,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     // $ANTLR end "rule__Plugin__GroupAssignment_2"
 
 
-    // $ANTLR start "rule__Plugin__ArtifcatAssignment_4"
-    // InternalMultiMaven.g:2679:1: rule__Plugin__ArtifcatAssignment_4 : ( RULE_ARTIFACT ) ;
-    public final void rule__Plugin__ArtifcatAssignment_4() throws RecognitionException {
+    // $ANTLR start "rule__Plugin__ArtifactAssignment_4"
+    // InternalMultiMaven.g:2679:1: rule__Plugin__ArtifactAssignment_4 : ( RULE_ARTIFACT ) ;
+    public final void rule__Plugin__ArtifactAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
@@ -7941,9 +7941,9 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2684:2: ( RULE_ARTIFACT )
             // InternalMultiMaven.g:2685:3: RULE_ARTIFACT
             {
-             before(grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); 
+             before(grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); 
             match(input,RULE_ARTIFACT,FOLLOW_2); 
-             after(grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); 
+             after(grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); 
 
             }
 
@@ -7962,7 +7962,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
         }
         return ;
     }
-    // $ANTLR end "rule__Plugin__ArtifcatAssignment_4"
+    // $ANTLR end "rule__Plugin__ArtifactAssignment_4"
 
 
     // $ANTLR start "rule__Plugin__VersionAssignment_6"

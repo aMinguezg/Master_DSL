@@ -12,58 +12,58 @@ DirectorioPadre:
 	 	 
 	'Root' '{'
 	
-	'Path' path = PATH
-	 'Group' group = GROUP
-	 'Artifact' artifcat = ARTIFACT
-	 'Version' version = VERSION
-	 ('Packaging' packaging = Packaging)?
+		'Path' path = PATH
+	 	'Group' group = GROUP
+	 	'Artifact' artifact = ARTIFACT
+	 	'Version' version = VERSION
+	 	('Packaging' packaging = Packaging)?
 	
-	('Dependencias' '{'
-		dependencias += Dependencia*
-	'}')?
+		('Dependencias' '{'
+			dependencias += Dependencia*
+		'}')?
 	
-	('Plugins' '{'
-		plugins += Plugin*
-	'}')?
+		('Plugins' '{'
+			plugins += Plugin*
+		'}')?
 	
-	'Hijos' '{'
-		directorios += Directorio*
-	'}'
+		'Hijos' '{'
+			directorios += Directorio*
+		'}'
 	'}'
 	;
 
 Directorio:
 	name=IdDirectorio 
 	'{'
-	'Group' group = GROUP
-	 'Artifact' artifcat = ARTIFACT
-	 'Version' version = VERSION
-	 ('Packaging' packaging = Packaging)?
+		'Group' group = GROUP
+	 	'Artifact' artifact = ARTIFACT
+	 	'Version' version = VERSION
+	 	('Packaging' packaging = Packaging)?
 	
-	('Dependencias' '{'
-		dependencias += Dependencia*
-	'}')?
+		('Dependencias' '{'
+			dependencias += Dependencia*
+		'}')?
 	
-	('Plugins' '{'
-		plugins += Plugin*
-	'}')?
+		('Plugins' '{'
+			plugins += Plugin*
+		'}')?
 	'}'
 ;
 
 Dependencia:
 	'{'
-	 'Group' group = GROUP
-	 'Artifact' artifcat = ARTIFACT
-	 'Version' version = VERSION
-	  ('Scope' scope = Scope)?
+	 	'Group' group = GROUP
+	 	'Artifact' artifact = ARTIFACT
+	 	'Version' version = VERSION
+	  	('Scope' scope = Scope)?
 	'}'
 ;
 
 Plugin:
 	'{'
-	'Group' group = GROUP
-	 'Artifact' artifcat = ARTIFACT
-	 'Version' version = VERSION
+		'Group' group = GROUP
+	 	'Artifact' artifact = ARTIFACT
+	 	'Version' version = VERSION
 	'}'
 ;
 

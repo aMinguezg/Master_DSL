@@ -73,8 +73,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cGroupAssignment_5 = (Assignment)cGroup.eContents().get(5);
 		private final RuleCall cGroupGROUPTerminalRuleCall_5_0 = (RuleCall)cGroupAssignment_5.eContents().get(0);
 		private final Keyword cArtifactKeyword_6 = (Keyword)cGroup.eContents().get(6);
-		private final Assignment cArtifcatAssignment_7 = (Assignment)cGroup.eContents().get(7);
-		private final RuleCall cArtifcatARTIFACTTerminalRuleCall_7_0 = (RuleCall)cArtifcatAssignment_7.eContents().get(0);
+		private final Assignment cArtifactAssignment_7 = (Assignment)cGroup.eContents().get(7);
+		private final RuleCall cArtifactARTIFACTTerminalRuleCall_7_0 = (RuleCall)cArtifactAssignment_7.eContents().get(0);
 		private final Keyword cVersionKeyword_8 = (Keyword)cGroup.eContents().get(8);
 		private final Assignment cVersionAssignment_9 = (Assignment)cGroup.eContents().get(9);
 		private final RuleCall cVersionVERSIONTerminalRuleCall_9_0 = (RuleCall)cVersionAssignment_9.eContents().get(0);
@@ -105,7 +105,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	'Root' '{'
 		//	'Path' path=PATH
 		//	'Group' group=GROUP
-		//	'Artifact' artifcat=ARTIFACT
+		//	'Artifact' artifact=ARTIFACT
 		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
 		//	dependencias+=Dependencia*
 		//	'}')? ('Plugins' '{'
@@ -117,7 +117,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'Root' '{' 'Path' path=PATH 'Group' group=GROUP 'Artifact' artifcat=ARTIFACT 'Version' version=VERSION ('Packaging'
+		//'Root' '{' 'Path' path=PATH 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION ('Packaging'
 		//packaging=Packaging)? ('Dependencias' '{' dependencias+=Dependencia* '}')? ('Plugins' '{' plugins+=Plugin* '}')?
 		//'Hijos' '{' directorios+=Directorio* '}' '}'
 		public Group getGroup() { return cGroup; }
@@ -149,11 +149,11 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//'Artifact'
 		public Keyword getArtifactKeyword_6() { return cArtifactKeyword_6; }
 		
-		//artifcat=ARTIFACT
-		public Assignment getArtifcatAssignment_7() { return cArtifcatAssignment_7; }
+		//artifact=ARTIFACT
+		public Assignment getArtifactAssignment_7() { return cArtifactAssignment_7; }
 		
 		//ARTIFACT
-		public RuleCall getArtifcatARTIFACTTerminalRuleCall_7_0() { return cArtifcatARTIFACTTerminalRuleCall_7_0; }
+		public RuleCall getArtifactARTIFACTTerminalRuleCall_7_0() { return cArtifactARTIFACTTerminalRuleCall_7_0; }
 		
 		//'Version'
 		public Keyword getVersionKeyword_8() { return cVersionKeyword_8; }
@@ -240,8 +240,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cGroupAssignment_3 = (Assignment)cGroup.eContents().get(3);
 		private final RuleCall cGroupGROUPTerminalRuleCall_3_0 = (RuleCall)cGroupAssignment_3.eContents().get(0);
 		private final Keyword cArtifactKeyword_4 = (Keyword)cGroup.eContents().get(4);
-		private final Assignment cArtifcatAssignment_5 = (Assignment)cGroup.eContents().get(5);
-		private final RuleCall cArtifcatARTIFACTTerminalRuleCall_5_0 = (RuleCall)cArtifcatAssignment_5.eContents().get(0);
+		private final Assignment cArtifactAssignment_5 = (Assignment)cGroup.eContents().get(5);
+		private final RuleCall cArtifactARTIFACTTerminalRuleCall_5_0 = (RuleCall)cArtifactAssignment_5.eContents().get(0);
 		private final Keyword cVersionKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		private final Assignment cVersionAssignment_7 = (Assignment)cGroup.eContents().get(7);
 		private final RuleCall cVersionVERSIONTerminalRuleCall_7_0 = (RuleCall)cVersionAssignment_7.eContents().get(0);
@@ -267,7 +267,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	name=IdDirectorio
 		//	'{'
 		//	'Group' group=GROUP
-		//	'Artifact' artifcat=ARTIFACT
+		//	'Artifact' artifact=ARTIFACT
 		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
 		//	dependencias+=Dependencia*
 		//	'}')? ('Plugins' '{'
@@ -276,7 +276,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//name=IdDirectorio '{' 'Group' group=GROUP 'Artifact' artifcat=ARTIFACT 'Version' version=VERSION ('Packaging'
+		//name=IdDirectorio '{' 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION ('Packaging'
 		//packaging=Packaging)? ('Dependencias' '{' dependencias+=Dependencia* '}')? ('Plugins' '{' plugins+=Plugin* '}')? '}'
 		public Group getGroup() { return cGroup; }
 		
@@ -301,11 +301,11 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//'Artifact'
 		public Keyword getArtifactKeyword_4() { return cArtifactKeyword_4; }
 		
-		//artifcat=ARTIFACT
-		public Assignment getArtifcatAssignment_5() { return cArtifcatAssignment_5; }
+		//artifact=ARTIFACT
+		public Assignment getArtifactAssignment_5() { return cArtifactAssignment_5; }
 		
 		//ARTIFACT
-		public RuleCall getArtifcatARTIFACTTerminalRuleCall_5_0() { return cArtifcatARTIFACTTerminalRuleCall_5_0; }
+		public RuleCall getArtifactARTIFACTTerminalRuleCall_5_0() { return cArtifactARTIFACTTerminalRuleCall_5_0; }
 		
 		//'Version'
 		public Keyword getVersionKeyword_6() { return cVersionKeyword_6; }
@@ -375,8 +375,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cGroupAssignment_2 = (Assignment)cGroup.eContents().get(2);
 		private final RuleCall cGroupGROUPTerminalRuleCall_2_0 = (RuleCall)cGroupAssignment_2.eContents().get(0);
 		private final Keyword cArtifactKeyword_3 = (Keyword)cGroup.eContents().get(3);
-		private final Assignment cArtifcatAssignment_4 = (Assignment)cGroup.eContents().get(4);
-		private final RuleCall cArtifcatARTIFACTTerminalRuleCall_4_0 = (RuleCall)cArtifcatAssignment_4.eContents().get(0);
+		private final Assignment cArtifactAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cArtifactARTIFACTTerminalRuleCall_4_0 = (RuleCall)cArtifactAssignment_4.eContents().get(0);
 		private final Keyword cVersionKeyword_5 = (Keyword)cGroup.eContents().get(5);
 		private final Assignment cVersionAssignment_6 = (Assignment)cGroup.eContents().get(6);
 		private final RuleCall cVersionVERSIONTerminalRuleCall_6_0 = (RuleCall)cVersionAssignment_6.eContents().get(0);
@@ -389,12 +389,12 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Dependencia:
 		//	'{'
 		//	'Group' group=GROUP
-		//	'Artifact' artifcat=ARTIFACT
+		//	'Artifact' artifact=ARTIFACT
 		//	'Version' version=VERSION ('Scope' scope=Scope)?
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'{' 'Group' group=GROUP 'Artifact' artifcat=ARTIFACT 'Version' version=VERSION ('Scope' scope=Scope)? '}'
+		//'{' 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION ('Scope' scope=Scope)? '}'
 		public Group getGroup() { return cGroup; }
 		
 		//'{'
@@ -412,11 +412,11 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//'Artifact'
 		public Keyword getArtifactKeyword_3() { return cArtifactKeyword_3; }
 		
-		//artifcat=ARTIFACT
-		public Assignment getArtifcatAssignment_4() { return cArtifcatAssignment_4; }
+		//artifact=ARTIFACT
+		public Assignment getArtifactAssignment_4() { return cArtifactAssignment_4; }
 		
 		//ARTIFACT
-		public RuleCall getArtifcatARTIFACTTerminalRuleCall_4_0() { return cArtifcatARTIFACTTerminalRuleCall_4_0; }
+		public RuleCall getArtifactARTIFACTTerminalRuleCall_4_0() { return cArtifactARTIFACTTerminalRuleCall_4_0; }
 		
 		//'Version'
 		public Keyword getVersionKeyword_5() { return cVersionKeyword_5; }
@@ -450,8 +450,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cGroupAssignment_2 = (Assignment)cGroup.eContents().get(2);
 		private final RuleCall cGroupGROUPTerminalRuleCall_2_0 = (RuleCall)cGroupAssignment_2.eContents().get(0);
 		private final Keyword cArtifactKeyword_3 = (Keyword)cGroup.eContents().get(3);
-		private final Assignment cArtifcatAssignment_4 = (Assignment)cGroup.eContents().get(4);
-		private final RuleCall cArtifcatARTIFACTTerminalRuleCall_4_0 = (RuleCall)cArtifcatAssignment_4.eContents().get(0);
+		private final Assignment cArtifactAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cArtifactARTIFACTTerminalRuleCall_4_0 = (RuleCall)cArtifactAssignment_4.eContents().get(0);
 		private final Keyword cVersionKeyword_5 = (Keyword)cGroup.eContents().get(5);
 		private final Assignment cVersionAssignment_6 = (Assignment)cGroup.eContents().get(6);
 		private final RuleCall cVersionVERSIONTerminalRuleCall_6_0 = (RuleCall)cVersionAssignment_6.eContents().get(0);
@@ -460,12 +460,12 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Plugin:
 		//	'{'
 		//	'Group' group=GROUP
-		//	'Artifact' artifcat=ARTIFACT
+		//	'Artifact' artifact=ARTIFACT
 		//	'Version' version=VERSION
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'{' 'Group' group=GROUP 'Artifact' artifcat=ARTIFACT 'Version' version=VERSION '}'
+		//'{' 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION '}'
 		public Group getGroup() { return cGroup; }
 		
 		//'{'
@@ -483,11 +483,11 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//'Artifact'
 		public Keyword getArtifactKeyword_3() { return cArtifactKeyword_3; }
 		
-		//artifcat=ARTIFACT
-		public Assignment getArtifcatAssignment_4() { return cArtifcatAssignment_4; }
+		//artifact=ARTIFACT
+		public Assignment getArtifactAssignment_4() { return cArtifactAssignment_4; }
 		
 		//ARTIFACT
-		public RuleCall getArtifcatARTIFACTTerminalRuleCall_4_0() { return cArtifcatARTIFACTTerminalRuleCall_4_0; }
+		public RuleCall getArtifactARTIFACTTerminalRuleCall_4_0() { return cArtifactARTIFACTTerminalRuleCall_4_0; }
 		
 		//'Version'
 		public Keyword getVersionKeyword_5() { return cVersionKeyword_5; }
@@ -718,7 +718,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//	'Root' '{'
 	//	'Path' path=PATH
 	//	'Group' group=GROUP
-	//	'Artifact' artifcat=ARTIFACT
+	//	'Artifact' artifact=ARTIFACT
 	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
 	//	dependencias+=Dependencia*
 	//	'}')? ('Plugins' '{'
@@ -740,7 +740,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//	name=IdDirectorio
 	//	'{'
 	//	'Group' group=GROUP
-	//	'Artifact' artifcat=ARTIFACT
+	//	'Artifact' artifact=ARTIFACT
 	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
 	//	dependencias+=Dependencia*
 	//	'}')? ('Plugins' '{'
@@ -758,7 +758,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//Dependencia:
 	//	'{'
 	//	'Group' group=GROUP
-	//	'Artifact' artifcat=ARTIFACT
+	//	'Artifact' artifact=ARTIFACT
 	//	'Version' version=VERSION ('Scope' scope=Scope)?
 	//	'}';
 	public DependenciaElements getDependenciaAccess() {
@@ -772,7 +772,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//Plugin:
 	//	'{'
 	//	'Group' group=GROUP
-	//	'Artifact' artifcat=ARTIFACT
+	//	'Artifact' artifact=ARTIFACT
 	//	'Version' version=VERSION
 	//	'}';
 	public PluginElements getPluginAccess() {

@@ -199,9 +199,9 @@ ruleDirectorioPadre returns [EObject current=null]
 		}
 		(
 			(
-				lv_artifcat_7_0=RULE_ARTIFACT
+				lv_artifact_7_0=RULE_ARTIFACT
 				{
-					newLeafNode(lv_artifcat_7_0, grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0());
+					newLeafNode(lv_artifact_7_0, grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0());
 				}
 				{
 					if ($current==null) {
@@ -209,8 +209,8 @@ ruleDirectorioPadre returns [EObject current=null]
 					}
 					setWithLastConsumed(
 						$current,
-						"artifcat",
-						lv_artifcat_7_0,
+						"artifact",
+						lv_artifact_7_0,
 						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
 				}
 			)
@@ -433,9 +433,9 @@ ruleDirectorio returns [EObject current=null]
 		}
 		(
 			(
-				lv_artifcat_5_0=RULE_ARTIFACT
+				lv_artifact_5_0=RULE_ARTIFACT
 				{
-					newLeafNode(lv_artifcat_5_0, grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0());
+					newLeafNode(lv_artifact_5_0, grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0());
 				}
 				{
 					if ($current==null) {
@@ -443,8 +443,8 @@ ruleDirectorio returns [EObject current=null]
 					}
 					setWithLastConsumed(
 						$current,
-						"artifcat",
-						lv_artifcat_5_0,
+						"artifact",
+						lv_artifact_5_0,
 						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
 				}
 			)
@@ -617,9 +617,9 @@ ruleDependencia returns [EObject current=null]
 		}
 		(
 			(
-				lv_artifcat_4_0=RULE_ARTIFACT
+				lv_artifact_4_0=RULE_ARTIFACT
 				{
-					newLeafNode(lv_artifcat_4_0, grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0());
+					newLeafNode(lv_artifact_4_0, grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0());
 				}
 				{
 					if ($current==null) {
@@ -627,8 +627,8 @@ ruleDependencia returns [EObject current=null]
 					}
 					setWithLastConsumed(
 						$current,
-						"artifcat",
-						lv_artifcat_4_0,
+						"artifact",
+						lv_artifact_4_0,
 						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
 				}
 			)
@@ -735,9 +735,9 @@ rulePlugin returns [EObject current=null]
 		}
 		(
 			(
-				lv_artifcat_4_0=RULE_ARTIFACT
+				lv_artifact_4_0=RULE_ARTIFACT
 				{
-					newLeafNode(lv_artifcat_4_0, grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0());
+					newLeafNode(lv_artifact_4_0, grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0());
 				}
 				{
 					if ($current==null) {
@@ -745,8 +745,8 @@ rulePlugin returns [EObject current=null]
 					}
 					setWithLastConsumed(
 						$current,
-						"artifcat",
-						lv_artifcat_4_0,
+						"artifact",
+						lv_artifact_4_0,
 						"org.xtext.dsl.multimaven.MultiMaven.ARTIFACT");
 				}
 			)

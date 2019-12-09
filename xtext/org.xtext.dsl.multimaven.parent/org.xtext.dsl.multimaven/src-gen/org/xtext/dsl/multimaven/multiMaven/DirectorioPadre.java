@@ -18,7 +18,7 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getPath <em>Path</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getGroup <em>Group</em>}</li>
- *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifcat <em>Artifcat</em>}</li>
+ *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifact <em>Artifact</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getVersion <em>Version</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getPackaging <em>Packaging</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getDependencias <em>Dependencias</em>}</li>
@@ -77,26 +77,26 @@ public interface DirectorioPadre extends EObject
   void setGroup(String value);
 
   /**
-   * Returns the value of the '<em><b>Artifcat</b></em>' attribute.
+   * Returns the value of the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the value of the '<em>Artifcat</em>' attribute.
-   * @see #setArtifcat(String)
-   * @see org.xtext.dsl.multimaven.multiMaven.MultiMavenPackage#getDirectorioPadre_Artifcat()
+   * @return the value of the '<em>Artifact</em>' attribute.
+   * @see #setArtifact(String)
+   * @see org.xtext.dsl.multimaven.multiMaven.MultiMavenPackage#getDirectorioPadre_Artifact()
    * @model
    * @generated
    */
-  String getArtifcat();
+  String getArtifact();
 
   /**
-   * Sets the value of the '{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifcat <em>Artifcat</em>}' attribute.
+   * Sets the value of the '{@link org.xtext.dsl.multimaven.multiMaven.DirectorioPadre#getArtifact <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @param value the new value of the '<em>Artifcat</em>' attribute.
-   * @see #getArtifcat()
+   * @param value the new value of the '<em>Artifact</em>' attribute.
+   * @see #getArtifact()
    * @generated
    */
-  void setArtifcat(String value);
+  void setArtifact(String value);
 
   /**
    * Returns the value of the '<em><b>Version</b></em>' attribute.

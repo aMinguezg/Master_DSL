@@ -15,7 +15,7 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  * <ul>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getGroup <em>Group</em>}</li>
- *   <li>{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifcat <em>Artifcat</em>}</li>
+ *   <li>{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifact <em>Artifact</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getVersion <em>Version</em>}</li>
  *   <li>{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getScope <em>Scope</em>}</li>
  * </ul>
@@ -49,26 +49,26 @@ public interface Dependencia extends EObject
   void setGroup(String value);
 
   /**
-   * Returns the value of the '<em><b>Artifcat</b></em>' attribute.
+   * Returns the value of the '<em><b>Artifact</b></em>' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the value of the '<em>Artifcat</em>' attribute.
-   * @see #setArtifcat(String)
-   * @see org.xtext.dsl.multimaven.multiMaven.MultiMavenPackage#getDependencia_Artifcat()
+   * @return the value of the '<em>Artifact</em>' attribute.
+   * @see #setArtifact(String)
+   * @see org.xtext.dsl.multimaven.multiMaven.MultiMavenPackage#getDependencia_Artifact()
    * @model
    * @generated
    */
-  String getArtifcat();
+  String getArtifact();
 
   /**
-   * Sets the value of the '{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifcat <em>Artifcat</em>}' attribute.
+   * Sets the value of the '{@link org.xtext.dsl.multimaven.multiMaven.Dependencia#getArtifact <em>Artifact</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @param value the new value of the '<em>Artifcat</em>' attribute.
-   * @see #getArtifcat()
+   * @param value the new value of the '<em>Artifact</em>' attribute.
+   * @see #getArtifact()
    * @generated
    */
-  void setArtifcat(String value);
+  void setArtifact(String value);
 
   /**
    * Returns the value of the '<em><b>Version</b></em>' attribute.

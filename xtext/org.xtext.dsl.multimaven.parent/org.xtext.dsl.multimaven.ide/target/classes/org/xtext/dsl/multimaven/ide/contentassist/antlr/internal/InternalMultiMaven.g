@@ -636,9 +636,9 @@ rule__DirectorioPadre__Group__7__Impl
 	}
 :
 (
-	{ before(grammarAccess.getDirectorioPadreAccess().getArtifcatAssignment_7()); }
-	(rule__DirectorioPadre__ArtifcatAssignment_7)
-	{ after(grammarAccess.getDirectorioPadreAccess().getArtifcatAssignment_7()); }
+	{ before(grammarAccess.getDirectorioPadreAccess().getArtifactAssignment_7()); }
+	(rule__DirectorioPadre__ArtifactAssignment_7)
+	{ after(grammarAccess.getDirectorioPadreAccess().getArtifactAssignment_7()); }
 )
 ;
 finally {
@@ -1338,9 +1338,9 @@ rule__Directorio__Group__5__Impl
 	}
 :
 (
-	{ before(grammarAccess.getDirectorioAccess().getArtifcatAssignment_5()); }
-	(rule__Directorio__ArtifcatAssignment_5)
-	{ after(grammarAccess.getDirectorioAccess().getArtifcatAssignment_5()); }
+	{ before(grammarAccess.getDirectorioAccess().getArtifactAssignment_5()); }
+	(rule__Directorio__ArtifactAssignment_5)
+	{ after(grammarAccess.getDirectorioAccess().getArtifactAssignment_5()); }
 )
 ;
 finally {
@@ -1905,9 +1905,9 @@ rule__Dependencia__Group__4__Impl
 	}
 :
 (
-	{ before(grammarAccess.getDependenciaAccess().getArtifcatAssignment_4()); }
-	(rule__Dependencia__ArtifcatAssignment_4)
-	{ after(grammarAccess.getDependenciaAccess().getArtifcatAssignment_4()); }
+	{ before(grammarAccess.getDependenciaAccess().getArtifactAssignment_4()); }
+	(rule__Dependencia__ArtifactAssignment_4)
+	{ after(grammarAccess.getDependenciaAccess().getArtifactAssignment_4()); }
 )
 ;
 finally {
@@ -2202,9 +2202,9 @@ rule__Plugin__Group__4__Impl
 	}
 :
 (
-	{ before(grammarAccess.getPluginAccess().getArtifcatAssignment_4()); }
-	(rule__Plugin__ArtifcatAssignment_4)
-	{ after(grammarAccess.getPluginAccess().getArtifcatAssignment_4()); }
+	{ before(grammarAccess.getPluginAccess().getArtifactAssignment_4()); }
+	(rule__Plugin__ArtifactAssignment_4)
+	{ after(grammarAccess.getPluginAccess().getArtifactAssignment_4()); }
 )
 ;
 finally {
@@ -2406,15 +2406,15 @@ finally {
 	restoreStackSize(stackSize);
 }
 
-rule__DirectorioPadre__ArtifcatAssignment_7
+rule__DirectorioPadre__ArtifactAssignment_7
 	@init {
 		int stackSize = keepStackSize();
 	}
 :
 	(
-		{ before(grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0()); }
+		{ before(grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0()); }
 		RULE_ARTIFACT
-		{ after(grammarAccess.getDirectorioPadreAccess().getArtifcatARTIFACTTerminalRuleCall_7_0()); }
+		{ after(grammarAccess.getDirectorioPadreAccess().getArtifactARTIFACTTerminalRuleCall_7_0()); }
 	)
 ;
 finally {
@@ -2526,15 +2526,15 @@ finally {
 	restoreStackSize(stackSize);
 }
 
-rule__Directorio__ArtifcatAssignment_5
+rule__Directorio__ArtifactAssignment_5
 	@init {
 		int stackSize = keepStackSize();
 	}
 :
 	(
-		{ before(grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0()); }
+		{ before(grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0()); }
 		RULE_ARTIFACT
-		{ after(grammarAccess.getDirectorioAccess().getArtifcatARTIFACTTerminalRuleCall_5_0()); }
+		{ after(grammarAccess.getDirectorioAccess().getArtifactARTIFACTTerminalRuleCall_5_0()); }
 	)
 ;
 finally {
@@ -2616,15 +2616,15 @@ finally {
 	restoreStackSize(stackSize);
 }
 
-rule__Dependencia__ArtifcatAssignment_4
+rule__Dependencia__ArtifactAssignment_4
 	@init {
 		int stackSize = keepStackSize();
 	}
 :
 	(
-		{ before(grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); }
+		{ before(grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); }
 		RULE_ARTIFACT
-		{ after(grammarAccess.getDependenciaAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); }
+		{ after(grammarAccess.getDependenciaAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); }
 	)
 ;
 finally {
@@ -2676,15 +2676,15 @@ finally {
 	restoreStackSize(stackSize);
 }
 
-rule__Plugin__ArtifcatAssignment_4
+rule__Plugin__ArtifactAssignment_4
 	@init {
 		int stackSize = keepStackSize();
 	}
 :
 	(
-		{ before(grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); }
+		{ before(grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); }
 		RULE_ARTIFACT
-		{ after(grammarAccess.getPluginAccess().getArtifcatARTIFACTTerminalRuleCall_4_0()); }
+		{ after(grammarAccess.getPluginAccess().getArtifactARTIFACTTerminalRuleCall_4_0()); }
 	)
 ;
 finally {
