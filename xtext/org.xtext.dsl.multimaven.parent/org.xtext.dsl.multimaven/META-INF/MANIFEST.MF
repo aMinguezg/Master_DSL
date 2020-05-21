@@ -26,5 +26,6 @@ Export-Package: org.xtext.dsl.multimaven.validation,
  org.xtext.dsl.multimaven.multiMaven.impl,
  org.xtext.dsl.multimaven.parser.antlr.internal,
  org.xtext.dsl.multimaven.serializer,
- org.xtext.dsl.multimaven.generator
+ org.xtext.dsl.multimaven.generator,
+ org.xtext.dsl.multimaven.formatting2
 Import-Package: org.apache.log4j

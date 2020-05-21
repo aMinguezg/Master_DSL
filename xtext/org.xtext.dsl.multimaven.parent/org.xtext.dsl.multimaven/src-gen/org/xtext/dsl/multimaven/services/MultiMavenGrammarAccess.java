@@ -84,21 +84,21 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cPackagingPackagingEnumRuleCall_10_1_0 = (RuleCall)cPackagingAssignment_10_1.eContents().get(0);
 		private final Group cGroup_11 = (Group)cGroup.eContents().get(11);
 		private final Keyword cDependenciasKeyword_11_0 = (Keyword)cGroup_11.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_11_1 = (Keyword)cGroup_11.eContents().get(1);
+		private final Keyword cLeftSquareBracketKeyword_11_1 = (Keyword)cGroup_11.eContents().get(1);
 		private final Assignment cDependenciasAssignment_11_2 = (Assignment)cGroup_11.eContents().get(2);
 		private final RuleCall cDependenciasDependenciaParserRuleCall_11_2_0 = (RuleCall)cDependenciasAssignment_11_2.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_11_3 = (Keyword)cGroup_11.eContents().get(3);
+		private final Keyword cRightSquareBracketKeyword_11_3 = (Keyword)cGroup_11.eContents().get(3);
 		private final Group cGroup_12 = (Group)cGroup.eContents().get(12);
 		private final Keyword cPluginsKeyword_12_0 = (Keyword)cGroup_12.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_12_1 = (Keyword)cGroup_12.eContents().get(1);
+		private final Keyword cLeftSquareBracketKeyword_12_1 = (Keyword)cGroup_12.eContents().get(1);
 		private final Assignment cPluginsAssignment_12_2 = (Assignment)cGroup_12.eContents().get(2);
 		private final RuleCall cPluginsPluginParserRuleCall_12_2_0 = (RuleCall)cPluginsAssignment_12_2.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_12_3 = (Keyword)cGroup_12.eContents().get(3);
+		private final Keyword cRightSquareBracketKeyword_12_3 = (Keyword)cGroup_12.eContents().get(3);
 		private final Keyword cHijosKeyword_13 = (Keyword)cGroup.eContents().get(13);
-		private final Keyword cLeftCurlyBracketKeyword_14 = (Keyword)cGroup.eContents().get(14);
+		private final Keyword cLeftSquareBracketKeyword_14 = (Keyword)cGroup.eContents().get(14);
 		private final Assignment cDirectoriosAssignment_15 = (Assignment)cGroup.eContents().get(15);
 		private final RuleCall cDirectoriosDirectorioParserRuleCall_15_0 = (RuleCall)cDirectoriosAssignment_15.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_16 = (Keyword)cGroup.eContents().get(16);
+		private final Keyword cRightSquareBracketKeyword_16 = (Keyword)cGroup.eContents().get(16);
 		private final Keyword cRightCurlyBracketKeyword_17 = (Keyword)cGroup.eContents().get(17);
 		
 		//DirectorioPadre:
@@ -106,20 +106,20 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	'Path' path=PATH
 		//	'Group' group=GROUP
 		//	'Artifact' artifact=ARTIFACT
-		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
+		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '['
 		//	dependencias+=Dependencia*
-		//	'}')? ('Plugins' '{'
+		//	']')? ('Plugins' '['
 		//	plugins+=Plugin*
-		//	'}')?
-		//	'Hijos' '{'
+		//	']')?
+		//	'Hijos' '['
 		//	directorios+=Directorio*
-		//	'}'
+		//	']'
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//'Root' '{' 'Path' path=PATH 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION ('Packaging'
-		//packaging=Packaging)? ('Dependencias' '{' dependencias+=Dependencia* '}')? ('Plugins' '{' plugins+=Plugin* '}')?
-		//'Hijos' '{' directorios+=Directorio* '}' '}'
+		//packaging=Packaging)? ('Dependencias' '[' dependencias+=Dependencia* ']')? ('Plugins' '[' plugins+=Plugin* ']')?
+		//'Hijos' '[' directorios+=Directorio* ']' '}'
 		public Group getGroup() { return cGroup; }
 		
 		//'Root'
@@ -176,14 +176,14 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Packaging
 		public RuleCall getPackagingPackagingEnumRuleCall_10_1_0() { return cPackagingPackagingEnumRuleCall_10_1_0; }
 		
-		//('Dependencias' '{' dependencias+=Dependencia* '}')?
+		//('Dependencias' '[' dependencias+=Dependencia* ']')?
 		public Group getGroup_11() { return cGroup_11; }
 		
 		//'Dependencias'
 		public Keyword getDependenciasKeyword_11_0() { return cDependenciasKeyword_11_0; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_11_1() { return cLeftCurlyBracketKeyword_11_1; }
+		//'['
+		public Keyword getLeftSquareBracketKeyword_11_1() { return cLeftSquareBracketKeyword_11_1; }
 		
 		//dependencias+=Dependencia*
 		public Assignment getDependenciasAssignment_11_2() { return cDependenciasAssignment_11_2; }
@@ -191,17 +191,17 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Dependencia
 		public RuleCall getDependenciasDependenciaParserRuleCall_11_2_0() { return cDependenciasDependenciaParserRuleCall_11_2_0; }
 		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_11_3() { return cRightCurlyBracketKeyword_11_3; }
+		//']'
+		public Keyword getRightSquareBracketKeyword_11_3() { return cRightSquareBracketKeyword_11_3; }
 		
-		//('Plugins' '{' plugins+=Plugin* '}')?
+		//('Plugins' '[' plugins+=Plugin* ']')?
 		public Group getGroup_12() { return cGroup_12; }
 		
 		//'Plugins'
 		public Keyword getPluginsKeyword_12_0() { return cPluginsKeyword_12_0; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_12_1() { return cLeftCurlyBracketKeyword_12_1; }
+		//'['
+		public Keyword getLeftSquareBracketKeyword_12_1() { return cLeftSquareBracketKeyword_12_1; }
 		
 		//plugins+=Plugin*
 		public Assignment getPluginsAssignment_12_2() { return cPluginsAssignment_12_2; }
@@ -209,14 +209,14 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Plugin
 		public RuleCall getPluginsPluginParserRuleCall_12_2_0() { return cPluginsPluginParserRuleCall_12_2_0; }
 		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_12_3() { return cRightCurlyBracketKeyword_12_3; }
+		//']'
+		public Keyword getRightSquareBracketKeyword_12_3() { return cRightSquareBracketKeyword_12_3; }
 		
 		//'Hijos'
 		public Keyword getHijosKeyword_13() { return cHijosKeyword_13; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_14() { return cLeftCurlyBracketKeyword_14; }
+		//'['
+		public Keyword getLeftSquareBracketKeyword_14() { return cLeftSquareBracketKeyword_14; }
 		
 		//directorios+=Directorio*
 		public Assignment getDirectoriosAssignment_15() { return cDirectoriosAssignment_15; }
@@ -224,8 +224,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Directorio
 		public RuleCall getDirectoriosDirectorioParserRuleCall_15_0() { return cDirectoriosDirectorioParserRuleCall_15_0; }
 		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_16() { return cRightCurlyBracketKeyword_16; }
+		//']'
+		public Keyword getRightSquareBracketKeyword_16() { return cRightSquareBracketKeyword_16; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_17() { return cRightCurlyBracketKeyword_17; }
@@ -251,16 +251,16 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cPackagingPackagingEnumRuleCall_8_1_0 = (RuleCall)cPackagingAssignment_8_1.eContents().get(0);
 		private final Group cGroup_9 = (Group)cGroup.eContents().get(9);
 		private final Keyword cDependenciasKeyword_9_0 = (Keyword)cGroup_9.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_9_1 = (Keyword)cGroup_9.eContents().get(1);
+		private final Keyword cLeftSquareBracketKeyword_9_1 = (Keyword)cGroup_9.eContents().get(1);
 		private final Assignment cDependenciasAssignment_9_2 = (Assignment)cGroup_9.eContents().get(2);
 		private final RuleCall cDependenciasDependenciaParserRuleCall_9_2_0 = (RuleCall)cDependenciasAssignment_9_2.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_9_3 = (Keyword)cGroup_9.eContents().get(3);
+		private final Keyword cRightSquareBracketKeyword_9_3 = (Keyword)cGroup_9.eContents().get(3);
 		private final Group cGroup_10 = (Group)cGroup.eContents().get(10);
 		private final Keyword cPluginsKeyword_10_0 = (Keyword)cGroup_10.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_10_1 = (Keyword)cGroup_10.eContents().get(1);
+		private final Keyword cLeftSquareBracketKeyword_10_1 = (Keyword)cGroup_10.eContents().get(1);
 		private final Assignment cPluginsAssignment_10_2 = (Assignment)cGroup_10.eContents().get(2);
 		private final RuleCall cPluginsPluginParserRuleCall_10_2_0 = (RuleCall)cPluginsAssignment_10_2.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_10_3 = (Keyword)cGroup_10.eContents().get(3);
+		private final Keyword cRightSquareBracketKeyword_10_3 = (Keyword)cGroup_10.eContents().get(3);
 		private final Keyword cRightCurlyBracketKeyword_11 = (Keyword)cGroup.eContents().get(11);
 		
 		//Directorio:
@@ -268,16 +268,16 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//	'{'
 		//	'Group' group=GROUP
 		//	'Artifact' artifact=ARTIFACT
-		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
+		//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '['
 		//	dependencias+=Dependencia*
-		//	'}')? ('Plugins' '{'
+		//	']')? ('Plugins' '['
 		//	plugins+=Plugin*
-		//	'}')?
+		//	']')?
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//name=IdDirectorio '{' 'Group' group=GROUP 'Artifact' artifact=ARTIFACT 'Version' version=VERSION ('Packaging'
-		//packaging=Packaging)? ('Dependencias' '{' dependencias+=Dependencia* '}')? ('Plugins' '{' plugins+=Plugin* '}')? '}'
+		//packaging=Packaging)? ('Dependencias' '[' dependencias+=Dependencia* ']')? ('Plugins' '[' plugins+=Plugin* ']')? '}'
 		public Group getGroup() { return cGroup; }
 		
 		//name=IdDirectorio
@@ -328,14 +328,14 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Packaging
 		public RuleCall getPackagingPackagingEnumRuleCall_8_1_0() { return cPackagingPackagingEnumRuleCall_8_1_0; }
 		
-		//('Dependencias' '{' dependencias+=Dependencia* '}')?
+		//('Dependencias' '[' dependencias+=Dependencia* ']')?
 		public Group getGroup_9() { return cGroup_9; }
 		
 		//'Dependencias'
 		public Keyword getDependenciasKeyword_9_0() { return cDependenciasKeyword_9_0; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_9_1() { return cLeftCurlyBracketKeyword_9_1; }
+		//'['
+		public Keyword getLeftSquareBracketKeyword_9_1() { return cLeftSquareBracketKeyword_9_1; }
 		
 		//dependencias+=Dependencia*
 		public Assignment getDependenciasAssignment_9_2() { return cDependenciasAssignment_9_2; }
@@ -343,17 +343,17 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Dependencia
 		public RuleCall getDependenciasDependenciaParserRuleCall_9_2_0() { return cDependenciasDependenciaParserRuleCall_9_2_0; }
 		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_9_3() { return cRightCurlyBracketKeyword_9_3; }
+		//']'
+		public Keyword getRightSquareBracketKeyword_9_3() { return cRightSquareBracketKeyword_9_3; }
 		
-		//('Plugins' '{' plugins+=Plugin* '}')?
+		//('Plugins' '[' plugins+=Plugin* ']')?
 		public Group getGroup_10() { return cGroup_10; }
 		
 		//'Plugins'
 		public Keyword getPluginsKeyword_10_0() { return cPluginsKeyword_10_0; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_10_1() { return cLeftCurlyBracketKeyword_10_1; }
+		//'['
+		public Keyword getLeftSquareBracketKeyword_10_1() { return cLeftSquareBracketKeyword_10_1; }
 		
 		//plugins+=Plugin*
 		public Assignment getPluginsAssignment_10_2() { return cPluginsAssignment_10_2; }
@@ -361,8 +361,8 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 		//Plugin
 		public RuleCall getPluginsPluginParserRuleCall_10_2_0() { return cPluginsPluginParserRuleCall_10_2_0; }
 		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_10_3() { return cRightCurlyBracketKeyword_10_3; }
+		//']'
+		public Keyword getRightSquareBracketKeyword_10_3() { return cRightSquareBracketKeyword_10_3; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_11() { return cRightCurlyBracketKeyword_11; }
@@ -719,14 +719,14 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//	'Path' path=PATH
 	//	'Group' group=GROUP
 	//	'Artifact' artifact=ARTIFACT
-	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
+	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '['
 	//	dependencias+=Dependencia*
-	//	'}')? ('Plugins' '{'
+	//	']')? ('Plugins' '['
 	//	plugins+=Plugin*
-	//	'}')?
-	//	'Hijos' '{'
+	//	']')?
+	//	'Hijos' '['
 	//	directorios+=Directorio*
-	//	'}'
+	//	']'
 	//	'}';
 	public DirectorioPadreElements getDirectorioPadreAccess() {
 		return pDirectorioPadre;
@@ -741,11 +741,11 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	//	'{'
 	//	'Group' group=GROUP
 	//	'Artifact' artifact=ARTIFACT
-	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '{'
+	//	'Version' version=VERSION ('Packaging' packaging=Packaging)? ('Dependencias' '['
 	//	dependencias+=Dependencia*
-	//	'}')? ('Plugins' '{'
+	//	']')? ('Plugins' '['
 	//	plugins+=Plugin*
-	//	'}')?
+	//	']')?
 	//	'}';
 	public DirectorioElements getDirectorioAccess() {
 		return pDirectorio;
@@ -794,7 +794,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//terminal PATH:
-	//	'a' | 'b';
+	//	'a' | 'b' | '1111111111111111' | '11111111111111';
 	public TerminalRule getPATHRule() {
 		return tPATH;
 	}
@@ -806,7 +806,7 @@ public class MultiMavenGrammarAccess extends AbstractGrammarElementFinder {
 	}
 	
 	//terminal ARTIFACT:
-	//	'e' | 'f';
+	//	'e' | 'd' | 'f';
 	public TerminalRule getARTIFACTRule() {
 		return tARTIFACT;
 	}

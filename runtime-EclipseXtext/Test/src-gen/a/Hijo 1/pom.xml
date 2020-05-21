@@ -16,15 +16,17 @@
 	    <groupId>c</groupId>
 	    <artifactId>e</artifactId>
 	    <version>5.5.5</version>
-	    <packaging>RAR</packaging>
+	    <packaging>POM</packaging>
 	    
 	    
-	    <!-- Dependencias -->		    		    
-	    <dependencies>
-	    </dependencies>
 	    
 	     <!-- Plugins -->		    		    
 	    <plugins>
+	    <plugin>
+	          <groupId>d</groupId>
+	          <artifactId>f</artifactId>
+	          <version>5.5.5</version>
+	    </plugin>
 	    </plugins>
 	
 </project>

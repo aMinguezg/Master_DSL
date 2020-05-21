@@ -13,8 +13,8 @@
 	    <modelVersion>4.0.0</modelVersion>
 	
 		<!-- hijo info -->
-	    <groupId>c</groupId>
-	    <artifactId>e</artifactId>
+	    <groupId>d</groupId>
+	    <artifactId>f</artifactId>
 	    <version>5.5.5</version>
 	    <packaging>RAR</packaging>
 	    
@@ -29,9 +29,6 @@
 	    </dependency>
 	    </dependencies>
 	    
-	     <!-- Plugins -->		    		    
-	    <plugins>
-	    </plugins>
 	
 </project>
 	

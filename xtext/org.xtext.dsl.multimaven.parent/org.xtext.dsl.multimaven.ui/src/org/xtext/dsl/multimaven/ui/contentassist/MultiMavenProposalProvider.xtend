@@ -3,10 +3,47 @@
  */
 package org.xtext.dsl.multimaven.ui.contentassist
 
+import org.xtext.dsl.multimaven.multiMaven.Directorio
+import org.eclipse.xtext.Assignment
+import org.eclipse.xtext.ui.editor.contentassist.ContentAssistContext
+import org.eclipse.xtext.ui.editor.contentassist.ICompletionProposalAcceptor
+import org.eclipse.emf.ecore.EObject
+import org.eclipse.xtext.RuleCall
+import org.xtext.dsl.multimaven.multiMaven.DirectorioPadre
 
 /**
  * See https://www.eclipse.org/Xtext/documentation/304_ide_concepts.html#content-assist
  * on how to customize the content assistant.
  */
 class MultiMavenProposalProvider extends AbstractMultiMavenProposalProvider {
+	
+	def void completeDirectorio_Name(Directorio d, Assignment assignment,
+		ContentAssistContext context, ICompletionProposalAcceptor acceptor){
+			super.completeDirectorio_Name(d, assignment, context, acceptor)
+			var path = d.eContainer as DirectorioPadre
+			var name = "Hijo " +(path.directorios.filter(typeof(Directorio)).size)
+			var propuesta = createCompletionProposal(name,context)
+			acceptor.accept(propuesta)
+		}
+		
+	override void complete_Dependencia(EObject o, RuleCall ruleCall, 
+		ContentAssistContext context, ICompletionProposalAcceptor acceptor){
+			var propuesta = createCompletionProposal("{
+			Group = 'Grupo'
+	 		Artifact = 'Artifact-id'
+	 		Version = 'Version'
+	  		Scope = 'Scope' (Opcional)
+			}", context)
+			acceptor.accept(propuesta)
+	}
+	
+	override void complete_Plugin(EObject o, RuleCall ruleCall, 
+		ContentAssistContext context, ICompletionProposalAcceptor acceptor){
+			var propuesta = createCompletionProposal("{
+			Group = 'Grupo'
+	 		Artifact = 'Artifact-id'
+	 		Version = 'Version'
+			}", context)
+			acceptor.accept(propuesta)
+	}
 }

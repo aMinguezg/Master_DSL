@@ -40,7 +40,7 @@ class GeneradorXml {
 		<!-- parent pom -->
 	    <groupId>«p.group»</groupId>
 	    <artifactId>«p.artifact»</artifactId>
-	    «IF p.artifact !== null »
+	    «IF p.packaging !== null »
 	    <packaging>«p.packaging»</packaging>
 	    «ENDIF» 
 		<version>«p.version»</version>
@@ -53,7 +53,7 @@ class GeneradorXml {
 	</modules>
 	    
 	    
-	    «IF p.dependencias !== null »
+	    «IF p.dependencias.length > 0 »
 	    	<!-- Dependencias -->		    		    
 	    	<dependencies>
 	    	«FOR dp:p.dependencias»
@@ -69,7 +69,7 @@ class GeneradorXml {
 	    	</dependencies>
 	    	«ENDIF»
 	    	
-	    	«IF p.plugins !== null »
+	    	«IF p.plugins.length > 0 »
 	    	<!-- Plugins -->		    		    
 	    	<plugins>
 	    	«FOR pl:p.plugins»
@@ -105,12 +105,12 @@ class GeneradorXml {
 		    <groupId>«d.group»</groupId>
 		    <artifactId>«d.artifact»</artifactId>
 		    <version>«d.version»</version>
-		    «IF d.artifact !== null »
+		    «IF d.packaging !== null »
 		    	<packaging>«d.packaging»</packaging>
 		    «ENDIF»
 		    
 		    
-		    «IF d.dependencias !== null »
+		    «IF d.dependencias.length > 0 »
 		    <!-- Dependencias -->		    		    
 		    <dependencies>
 		    «FOR dp:d.dependencias»
@@ -126,7 +126,7 @@ class GeneradorXml {
 		    </dependencies>
 		    «ENDIF»
 		    
-		    «IF d.plugins !== null »
+		    «IF d.plugins.length > 0 »
 		     <!-- Plugins -->		    		    
 		    <plugins>
 		    «FOR pl:d.plugins»

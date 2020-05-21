@@ -6,6 +6,11 @@ package org.xtext.dsl.multimaven.ui.labeling;
 import com.google.inject.Inject;
 import org.eclipse.emf.edit.ui.provider.AdapterFactoryLabelProvider;
 import org.eclipse.xtext.ui.label.DefaultEObjectLabelProvider;
+import org.xtext.dsl.multimaven.multiMaven.Dependencia;
+import org.xtext.dsl.multimaven.multiMaven.Directorio;
+import org.xtext.dsl.multimaven.multiMaven.DirectorioPadre;
+import org.xtext.dsl.multimaven.multiMaven.Plugin;
+import org.xtext.dsl.multimaven.multiMaven.Proyecto;
 
 /**
  * Provides labels for EObjects.
@@ -17,5 +22,45 @@ public class MultiMavenLabelProvider extends DefaultEObjectLabelProvider {
   @Inject
   public MultiMavenLabelProvider(final AdapterFactoryLabelProvider delegate) {
     super(delegate);
+  }
+  
+  public String image(final Proyecto p) {
+    return "iconomaven.ico";
+  }
+  
+  public String image(final DirectorioPadre d) {
+    return "path.ico";
+  }
+  
+  public String image(final Dependencia d) {
+    return "dependencia.ico";
+  }
+  
+  public String image(final Plugin p) {
+    return "plugin.ico";
+  }
+  
+  public String image(final Directorio d) {
+    return "directorio.ico";
+  }
+  
+  public String text(final DirectorioPadre d) {
+    String _path = d.getPath();
+    return ("Path: " + _path);
+  }
+  
+  public String text(final Dependencia d) {
+    String _artifact = d.getArtifact();
+    return ("Dependencia: " + _artifact);
+  }
+  
+  public String text(final Plugin p) {
+    String _artifact = p.getArtifact();
+    return ("Plugin: " + _artifact);
+  }
+  
+  public String text(final Directorio d) {
+    String _name = d.getName();
+    return ("Directorio: " + _name);
   }
 }

@@ -6,6 +6,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.xtend2.lib.StringConcatenation;
 import org.eclipse.xtext.generator.IFileSystemAccess;
+import org.eclipse.xtext.xbase.lib.Conversions;
 import org.eclipse.xtext.xbase.lib.IteratorExtensions;
 import org.xtext.dsl.multimaven.multiMaven.Dependencia;
 import org.xtext.dsl.multimaven.multiMaven.Directorio;
@@ -97,13 +98,13 @@ public class GeneradorXml {
     _builder.append("</artifactId>");
     _builder.newLineIfNotEmpty();
     {
-      String _artifact_1 = p.getArtifact();
-      boolean _tripleNotEquals = (_artifact_1 != null);
+      Packaging _packaging = p.getPackaging();
+      boolean _tripleNotEquals = (_packaging != null);
       if (_tripleNotEquals) {
         _builder.append("    ");
         _builder.append("<packaging>");
-        Packaging _packaging = p.getPackaging();
-        _builder.append(_packaging, "    ");
+        Packaging _packaging_1 = p.getPackaging();
+        _builder.append(_packaging_1, "    ");
         _builder.append("</packaging>");
         _builder.newLineIfNotEmpty();
       }
@@ -123,8 +124,8 @@ public class GeneradorXml {
       EList<Directorio> _directorios = p.getDirectorios();
       for(final Directorio dir : _directorios) {
         _builder.append("<module>");
-        String _artifact_2 = dir.getArtifact();
-        _builder.append(_artifact_2);
+        String _artifact_1 = dir.getArtifact();
+        _builder.append(_artifact_1);
         _builder.append("</module>\t\t\t\t\t   ");
         _builder.newLineIfNotEmpty();
       }
@@ -136,9 +137,9 @@ public class GeneradorXml {
     _builder.append("    ");
     _builder.newLine();
     {
-      EList<Dependencia> _dependencias = p.getDependencias();
-      boolean _tripleNotEquals_1 = (_dependencias != null);
-      if (_tripleNotEquals_1) {
+      int _length = ((Object[])Conversions.unwrapArray(p.getDependencias(), Object.class)).length;
+      boolean _greaterThan = (_length > 0);
+      if (_greaterThan) {
         _builder.append("    ");
         _builder.append("<!-- Dependencias -->\t\t    \t\t    ");
         _builder.newLine();
@@ -146,8 +147,8 @@ public class GeneradorXml {
         _builder.append("<dependencies>");
         _builder.newLine();
         {
-          EList<Dependencia> _dependencias_1 = p.getDependencias();
-          for(final Dependencia dp : _dependencias_1) {
+          EList<Dependencia> _dependencias = p.getDependencias();
+          for(final Dependencia dp : _dependencias) {
             _builder.append("    ");
             _builder.append("<dependency>");
             _builder.newLine();
@@ -161,8 +162,8 @@ public class GeneradorXml {
             _builder.append("    ");
             _builder.append("    ");
             _builder.append("<artifactId>");
-            String _artifact_3 = dp.getArtifact();
-            _builder.append(_artifact_3, "        ");
+            String _artifact_2 = dp.getArtifact();
+            _builder.append(_artifact_2, "        ");
             _builder.append("</artifactId>");
             _builder.newLineIfNotEmpty();
             _builder.append("    ");
@@ -174,8 +175,8 @@ public class GeneradorXml {
             _builder.newLineIfNotEmpty();
             {
               Scope _scope = dp.getScope();
-              boolean _tripleNotEquals_2 = (_scope != null);
-              if (_tripleNotEquals_2) {
+              boolean _tripleNotEquals_1 = (_scope != null);
+              if (_tripleNotEquals_1) {
                 _builder.append("    ");
                 _builder.append("    ");
                 _builder.append("<scope>");
@@ -199,9 +200,9 @@ public class GeneradorXml {
     _builder.append("    \t");
     _builder.newLine();
     {
-      EList<Plugin> _plugins = p.getPlugins();
-      boolean _tripleNotEquals_3 = (_plugins != null);
-      if (_tripleNotEquals_3) {
+      int _length_1 = ((Object[])Conversions.unwrapArray(p.getPlugins(), Object.class)).length;
+      boolean _greaterThan_1 = (_length_1 > 0);
+      if (_greaterThan_1) {
         _builder.append("    \t");
         _builder.append("<!-- Plugins -->\t\t    \t\t    ");
         _builder.newLine();
@@ -209,8 +210,8 @@ public class GeneradorXml {
         _builder.append("<plugins>");
         _builder.newLine();
         {
-          EList<Plugin> _plugins_1 = p.getPlugins();
-          for(final Plugin pl : _plugins_1) {
+          EList<Plugin> _plugins = p.getPlugins();
+          for(final Plugin pl : _plugins) {
             _builder.append("    \t");
             _builder.append("<plugin>");
             _builder.newLine();
@@ -224,8 +225,8 @@ public class GeneradorXml {
             _builder.append("    \t");
             _builder.append("\t      ");
             _builder.append("<artifactId>");
-            String _artifact_4 = pl.getArtifact();
-            _builder.append(_artifact_4, "    \t\t      ");
+            String _artifact_3 = pl.getArtifact();
+            _builder.append(_artifact_3, "    \t\t      ");
             _builder.append("</artifactId>");
             _builder.newLineIfNotEmpty();
             _builder.append("    \t");
@@ -333,13 +334,13 @@ public class GeneradorXml {
     _builder.append("</version>");
     _builder.newLineIfNotEmpty();
     {
-      String _artifact_2 = d.getArtifact();
-      boolean _tripleNotEquals = (_artifact_2 != null);
+      Packaging _packaging = d.getPackaging();
+      boolean _tripleNotEquals = (_packaging != null);
       if (_tripleNotEquals) {
         _builder.append("\t    ");
         _builder.append("<packaging>");
-        Packaging _packaging = d.getPackaging();
-        _builder.append(_packaging, "\t    ");
+        Packaging _packaging_1 = d.getPackaging();
+        _builder.append(_packaging_1, "\t    ");
         _builder.append("</packaging>");
         _builder.newLineIfNotEmpty();
       }
@@ -349,9 +350,9 @@ public class GeneradorXml {
     _builder.append("\t    ");
     _builder.newLine();
     {
-      EList<Dependencia> _dependencias = d.getDependencias();
-      boolean _tripleNotEquals_1 = (_dependencias != null);
-      if (_tripleNotEquals_1) {
+      int _length = ((Object[])Conversions.unwrapArray(d.getDependencias(), Object.class)).length;
+      boolean _greaterThan = (_length > 0);
+      if (_greaterThan) {
         _builder.append("\t    ");
         _builder.append("<!-- Dependencias -->\t\t    \t\t    ");
         _builder.newLine();
@@ -359,8 +360,8 @@ public class GeneradorXml {
         _builder.append("<dependencies>");
         _builder.newLine();
         {
-          EList<Dependencia> _dependencias_1 = d.getDependencias();
-          for(final Dependencia dp : _dependencias_1) {
+          EList<Dependencia> _dependencias = d.getDependencias();
+          for(final Dependencia dp : _dependencias) {
             _builder.append("\t    ");
             _builder.append("<dependency>");
             _builder.newLine();
@@ -374,8 +375,8 @@ public class GeneradorXml {
             _builder.append("\t    ");
             _builder.append("    ");
             _builder.append("<artifactId>");
-            String _artifact_3 = dp.getArtifact();
-            _builder.append(_artifact_3, "\t        ");
+            String _artifact_2 = dp.getArtifact();
+            _builder.append(_artifact_2, "\t        ");
             _builder.append("</artifactId>");
             _builder.newLineIfNotEmpty();
             _builder.append("\t    ");
@@ -387,8 +388,8 @@ public class GeneradorXml {
             _builder.newLineIfNotEmpty();
             {
               Scope _scope = dp.getScope();
-              boolean _tripleNotEquals_2 = (_scope != null);
-              if (_tripleNotEquals_2) {
+              boolean _tripleNotEquals_1 = (_scope != null);
+              if (_tripleNotEquals_1) {
                 _builder.append("\t    ");
                 _builder.append("    ");
                 _builder.append("<scope>");
@@ -411,9 +412,9 @@ public class GeneradorXml {
     _builder.append("\t    ");
     _builder.newLine();
     {
-      EList<Plugin> _plugins = d.getPlugins();
-      boolean _tripleNotEquals_3 = (_plugins != null);
-      if (_tripleNotEquals_3) {
+      int _length_1 = ((Object[])Conversions.unwrapArray(d.getPlugins(), Object.class)).length;
+      boolean _greaterThan_1 = (_length_1 > 0);
+      if (_greaterThan_1) {
         _builder.append("\t    ");
         _builder.append(" ");
         _builder.append("<!-- Plugins -->\t\t    \t\t    ");
@@ -422,8 +423,8 @@ public class GeneradorXml {
         _builder.append("<plugins>");
         _builder.newLine();
         {
-          EList<Plugin> _plugins_1 = d.getPlugins();
-          for(final Plugin pl : _plugins_1) {
+          EList<Plugin> _plugins = d.getPlugins();
+          for(final Plugin pl : _plugins) {
             _builder.append("\t    ");
             _builder.append("<plugin>");
             _builder.newLine();
@@ -437,8 +438,8 @@ public class GeneradorXml {
             _builder.append("\t    ");
             _builder.append("      ");
             _builder.append("<artifactId>");
-            String _artifact_4 = pl.getArtifact();
-            _builder.append(_artifact_4, "\t          ");
+            String _artifact_3 = pl.getArtifact();
+            _builder.append(_artifact_3, "\t          ");
             _builder.append("</artifactId>");
             _builder.newLineIfNotEmpty();
             _builder.append("\t    ");

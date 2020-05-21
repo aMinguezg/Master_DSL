@@ -14,17 +14,20 @@
 <!-- submodulos -->
 <modules>
 <module>e</module>					   
-<module>e</module>					   
+<module>f</module>					   
 </modules>
     
     
     <!-- Dependencias -->		    		    
     <dependencies>
+    <dependency>
+        <groupId>d</groupId>
+        <artifactId>e</artifactId>
+        <version>5.5.5</version>
+        <scope>TEST</scope>
+     </dependency>
     </dependencies>
     	
-    	<!-- Plugins -->		    		    
-    	<plugins>
-    	</plugins>
 	
 </project>
 	

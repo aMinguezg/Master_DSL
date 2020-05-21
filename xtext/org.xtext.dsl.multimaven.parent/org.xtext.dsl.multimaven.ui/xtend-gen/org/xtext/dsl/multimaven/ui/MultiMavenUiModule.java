@@ -5,7 +5,11 @@ package org.xtext.dsl.multimaven.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.eclipse.xtend.lib.annotations.FinalFieldsConstructor;
+import org.eclipse.xtext.ide.editor.syntaxcoloring.ISemanticHighlightingCalculator;
+import org.eclipse.xtext.ui.editor.syntaxcoloring.IHighlightingConfiguration;
 import org.xtext.dsl.multimaven.ui.AbstractMultiMavenUiModule;
+import org.xtext.dsl.multimaven.ui.MultiMavenHighlightingCalculator;
+import org.xtext.dsl.multimaven.ui.MultiMavenHighlightingConfiguration;
 
 /**
  * Use this class to register components to be used within the Eclipse IDE.
@@ -13,6 +17,14 @@ import org.xtext.dsl.multimaven.ui.AbstractMultiMavenUiModule;
 @FinalFieldsConstructor
 @SuppressWarnings("all")
 public class MultiMavenUiModule extends AbstractMultiMavenUiModule {
+  public Class<? extends IHighlightingConfiguration> bindIHighlightingConfiguration() {
+    return MultiMavenHighlightingConfiguration.class;
+  }
+  
+  public Class<? extends ISemanticHighlightingCalculator> bindISemanticHighlightingCalculator() {
+    return MultiMavenHighlightingCalculator.class;
+  }
+  
   public MultiMavenUiModule(final AbstractUIPlugin plugin) {
     super(plugin);
   }

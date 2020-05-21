@@ -4,6 +4,10 @@
 package org.xtext.dsl.multimaven.ui.quickfix
 
 import org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider
+import org.xtext.dsl.multimaven.validation.MultiMavenValidator
+import org.eclipse.xtext.ui.editor.quickfix.Fix
+import org.eclipse.xtext.validation.Issue
+import org.eclipse.xtext.ui.editor.quickfix.IssueResolutionAcceptor
 
 /**
  * Custom quickfixes.
@@ -12,13 +16,23 @@ import org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider
  */
 class MultiMavenQuickfixProvider extends DefaultQuickfixProvider {
 
-//	@Fix(MultiMavenValidator.INVALID_NAME)
-//	def capitalizeName(Issue issue, IssueResolutionAcceptor acceptor) {
-//		acceptor.accept(issue, 'Capitalize name', 'Capitalize the name.', 'upcase.png') [
-//			context |
-//			val xtextDocument = context.xtextDocument
-//			val firstLetter = xtextDocument.get(issue.offset, 1)
-//			xtextDocument.replace(issue.offset, 1, firstLetter.toUpperCase)
-//		]
-//	}
+	@Fix(MultiMavenValidator.PATH_MUY_GRANDE)
+	def arreglarPath(Issue issue, IssueResolutionAcceptor acceptor) {
+		acceptor.accept(issue, 'Reducir path', 'Se limitará el tamaño de la ruta al máximo sugerido', 'path.ico') [
+			context |
+			val xtextDocument = context.xtextDocument
+			val nombreActual = xtextDocument.get(issue.offset, issue.length)
+			xtextDocument.replace(issue.offset, issue.length, nombreActual.substring(0,14))
+		]
+	}
+	
+	@Fix(MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES)
+	def arreglarNombre(Issue issue, IssueResolutionAcceptor acceptor) {
+		acceptor.accept(issue, 'Cambiar valor', 'Se pondrá un valor válido', 'iconomaven.ico') [
+			context |
+			val xtextDocument = context.xtextDocument
+			val nombreActual = xtextDocument.get(issue.offset, issue.length)
+			xtextDocument.replace(issue.offset, issue.length, nombreActual + "2")
+		]
+	}
 }

@@ -18,17 +18,17 @@ DirectorioPadre:
 	 	'Version' version = VERSION
 	 	('Packaging' packaging = Packaging)?
 	
-		('Dependencias' '{'
+		('Dependencias' '['
 			dependencias += Dependencia*
-		'}')?
+		']')?
 	
-		('Plugins' '{'
+		('Plugins' '['
 			plugins += Plugin*
-		'}')?
+		']')?
 	
-		'Hijos' '{'
+		'Hijos' '['
 			directorios += Directorio*
-		'}'
+		']'
 	'}'
 	;
 
@@ -40,13 +40,13 @@ Directorio:
 	 	'Version' version = VERSION
 	 	('Packaging' packaging = Packaging)?
 	
-		('Dependencias' '{'
+		('Dependencias' '['
 			dependencias += Dependencia*
-		'}')?
+		']')?
 	
-		('Plugins' '{'
+		('Plugins' '['
 			plugins += Plugin*
-		'}')?
+		']')?
 	'}'
 ;
 
@@ -72,7 +72,7 @@ IdDirectorio:
 ;
 
 terminal PATH:
-	('a' | 'b')
+	('a' | 'b' | '1111111111111111' | '11111111111111')
 ;
 
 terminal GROUP:
@@ -80,7 +80,7 @@ terminal GROUP:
 ;
 
 terminal ARTIFACT:
-	('e' | 'f')
+	('e' | 'd' | 'f')
 ;
 
 terminal VERSION:

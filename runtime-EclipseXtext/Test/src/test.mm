@@ -1,44 +1,47 @@
 Proyecto Xlmn: 4.0.0
 
-Root {
+Root
+{
 	Path a
 	Group c
 	Artifact e
 	Version 5.5.5
 	Packaging RAR
-	Dependencias{
-
-	}
-	Plugins{
-		
-	}
-	Hijos {
+	Dependencias[
+			{
+					Group d 
+					Artifact e 
+					Version 5.5.5
+					Scope TEST
+				}
+			]
+	Hijos [
 		Hijo 1{
-			Group c
+			Group c 			
 			Artifact e
 			Version 5.5.5
-			Packaging RAR
-			Dependencias{ 
-		
-			}
-			Plugins{
-		
-			}
+			Plugins[
+				{ 
+					Group d 
+					Artifact f
+					Version 5.5.5
+				}
+			]
 		}
 		Hijo 2{
-			Group c
-			Artifact e
+			Group d
+			Artifact f
 			Version 5.5.5
 			Packaging RAR
-			Dependencias{
+			Dependencias[
 				{
-					Group c
+					Group c 					
 					Artifact e
 					Version 5.5.5
 					Scope TEST
 				}
-			}
+				
+			]
 		}
-	}
-	
+	]
 }

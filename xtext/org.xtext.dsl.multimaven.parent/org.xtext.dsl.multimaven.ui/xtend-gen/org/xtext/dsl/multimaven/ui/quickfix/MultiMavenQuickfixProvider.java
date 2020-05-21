@@ -3,7 +3,14 @@
  */
 package org.xtext.dsl.multimaven.ui.quickfix;
 
+import org.eclipse.xtext.ui.editor.model.IXtextDocument;
+import org.eclipse.xtext.ui.editor.model.edit.IModification;
+import org.eclipse.xtext.ui.editor.model.edit.IModificationContext;
 import org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider;
+import org.eclipse.xtext.ui.editor.quickfix.Fix;
+import org.eclipse.xtext.ui.editor.quickfix.IssueResolutionAcceptor;
+import org.eclipse.xtext.validation.Issue;
+import org.xtext.dsl.multimaven.validation.MultiMavenValidator;
 
 /**
  * Custom quickfixes.
@@ -12,4 +19,23 @@ import org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider;
  */
 @SuppressWarnings("all")
 public class MultiMavenQuickfixProvider extends DefaultQuickfixProvider {
+  @Fix(MultiMavenValidator.PATH_MUY_GRANDE)
+  public void arreglarPath(final Issue issue, final IssueResolutionAcceptor acceptor) {
+    final IModification _function = (IModificationContext context) -> {
+      final IXtextDocument xtextDocument = context.getXtextDocument();
+      final String nombreActual = xtextDocument.get((issue.getOffset()).intValue(), (issue.getLength()).intValue());
+      xtextDocument.replace((issue.getOffset()).intValue(), (issue.getLength()).intValue(), nombreActual.substring(0, 14));
+    };
+    acceptor.accept(issue, "Reducir path", "Se limitará el tamaño de la ruta al máximo sugerido", "path.ico", _function);
+  }
+  
+  @Fix(MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES)
+  public void arreglarNombre(final Issue issue, final IssueResolutionAcceptor acceptor) {
+    final IModification _function = (IModificationContext context) -> {
+      final IXtextDocument xtextDocument = context.getXtextDocument();
+      final String nombreActual = xtextDocument.get((issue.getOffset()).intValue(), (issue.getLength()).intValue());
+      xtextDocument.replace((issue.getOffset()).intValue(), (issue.getLength()).intValue(), (nombreActual + "2"));
+    };
+    acceptor.accept(issue, "Cambiar valor", "Se pondrá un valor válido", "iconomaven.ico", _function);
+  }
 }

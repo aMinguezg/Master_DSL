@@ -6,6 +6,11 @@ package org.xtext.dsl.multimaven.ui.labeling
 import com.google.inject.Inject
 import org.eclipse.emf.edit.ui.provider.AdapterFactoryLabelProvider
 import org.eclipse.xtext.ui.label.DefaultEObjectLabelProvider
+import org.xtext.dsl.multimaven.multiMaven.Proyecto
+import org.xtext.dsl.multimaven.multiMaven.DirectorioPadre
+import org.xtext.dsl.multimaven.multiMaven.Dependencia
+import org.xtext.dsl.multimaven.multiMaven.Plugin
+import org.xtext.dsl.multimaven.multiMaven.Directorio
 
 /**
  * Provides labels for EObjects.
@@ -19,13 +24,41 @@ class MultiMavenLabelProvider extends DefaultEObjectLabelProvider {
 		super(delegate);
 	}
 
-	// Labels and icons can be computed like this:
+
+	def image(Proyecto p){
+		'iconomaven.ico'
+	}
 	
-//	def text(Greeting ele) {
-//		'A greeting to ' + ele.name
-//	}
-//
-//	def image(Greeting ele) {
-//		'Greeting.gif'
-//	}
+	def image(DirectorioPadre d){
+		'path.ico'
+	}
+	
+	def image(Dependencia d){
+		'dependencia.ico'
+	}
+	
+	def image(Plugin p){
+		'plugin.ico'
+	}
+	
+	def image(Directorio d){
+		'directorio.ico'
+	}
+	
+	def text(DirectorioPadre d){
+		'Path: ' + d.path
+	}
+	
+	def text(Dependencia d){
+		'Dependencia: ' + d.artifact
+	}
+	
+	def text(Plugin p){
+		'Plugin: ' + p.artifact
+	}
+	
+	def text(Directorio d){
+		'Directorio: ' + d.name
+	}
+	
 }

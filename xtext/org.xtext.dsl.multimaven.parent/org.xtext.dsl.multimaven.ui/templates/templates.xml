@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+    <template id="1" autoinsert="true" context="org.xtext.dsl.multimaven.MultiMaven.Directorio" deleted="false" description="Ayuda a insertar un nuevo directorio" enabled="true" name="Directorio">Hijo ${numero}{
+			Group '${nombreGrupo}' 			
+			Artifact '${nombreArtifact}'
+			Version '${numeroVersion}'
+            Dependencias[
+				{ 
+					Group '${nombreGrupo}' 			
+			        Artifact '${nombreArtifact}'
+			        Version '${numeroVersion}'
+                    Scope '${scope}'
+				}
+			]
+			Plugins[
+				{ 
+					Group '${nombreGrupo}' 			
+			        Artifact '${nombreArtifact}'
+			        Version '${numeroVersion}'
+				}
+			]
+		}</template>
+</templates>
+

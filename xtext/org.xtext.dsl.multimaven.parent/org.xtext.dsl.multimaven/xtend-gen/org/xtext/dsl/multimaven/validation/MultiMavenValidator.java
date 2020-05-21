@@ -3,6 +3,13 @@
  */
 package org.xtext.dsl.multimaven.validation;
 
+import com.google.common.base.Objects;
+import org.eclipse.xtext.validation.Check;
+import org.xtext.dsl.multimaven.multiMaven.Dependencia;
+import org.xtext.dsl.multimaven.multiMaven.Directorio;
+import org.xtext.dsl.multimaven.multiMaven.DirectorioPadre;
+import org.xtext.dsl.multimaven.multiMaven.MultiMavenPackage;
+import org.xtext.dsl.multimaven.multiMaven.Plugin;
 import org.xtext.dsl.multimaven.validation.AbstractMultiMavenValidator;
 
 /**
@@ -12,4 +19,66 @@ import org.xtext.dsl.multimaven.validation.AbstractMultiMavenValidator;
  */
 @SuppressWarnings("all")
 public class MultiMavenValidator extends AbstractMultiMavenValidator {
+  public static final String GROUP_ARTIFACT_DIFERENTES = "groupArtifactDiferentes";
+  
+  public static final String PATH_MUY_GRANDE = "pathMuyGrande";
+  
+  public static final String NOMBRES_IGUALES = "nombresIguales";
+  
+  @Check
+  public void checkGroupArtifact(final DirectorioPadre dir, final Dependencia dep, final Directorio d, final Plugin p) {
+    String _group = dir.getGroup();
+    String _artifact = dir.getArtifact();
+    boolean _equals = Objects.equal(_group, _artifact);
+    if (_equals) {
+      this.warning("El nombre del grupo debería ser diferente del artefacto", 
+        MultiMavenPackage.Literals.DIRECTORIO_PADRE__GROUP, MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES);
+    }
+    String _group_1 = dep.getGroup();
+    String _artifact_1 = dep.getArtifact();
+    boolean _equals_1 = Objects.equal(_group_1, _artifact_1);
+    if (_equals_1) {
+      this.warning("El nombre del grupo debería ser diferente del artefacto", 
+        MultiMavenPackage.Literals.DEPENDENCIA__GROUP, MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES);
+    }
+    String _group_2 = d.getGroup();
+    String _artifact_2 = d.getArtifact();
+    boolean _equals_2 = Objects.equal(_group_2, _artifact_2);
+    if (_equals_2) {
+      this.warning("El nombre del grupo debería ser diferente del artefacto", 
+        MultiMavenPackage.Literals.DIRECTORIO__GROUP, MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES);
+    }
+    String _group_3 = p.getGroup();
+    String _artifact_3 = p.getArtifact();
+    boolean _equals_3 = Objects.equal(_group_3, _artifact_3);
+    if (_equals_3) {
+      this.warning("El nombre del grupo debería ser diferente del artefacto", 
+        MultiMavenPackage.Literals.PLUGIN__GROUP, MultiMavenValidator.GROUP_ARTIFACT_DIFERENTES);
+    }
+  }
+  
+  @Check
+  public void checkPath(final DirectorioPadre dir) {
+    int _length = dir.getPath().length();
+    boolean _greaterEqualsThan = (_length >= 15);
+    if (_greaterEqualsThan) {
+      this.warning("El path debería tener menos de 15 caracteres", 
+        MultiMavenPackage.Literals.DIRECTORIO_PADRE__PATH, MultiMavenValidator.PATH_MUY_GRANDE);
+    }
+  }
+  
+  @Check
+  public void checkNombres(final DirectorioPadre dir) {
+    for (int i = 0; (i < dir.getDirectorios().size()); i++) {
+      for (int j = (i + 1); (j < dir.getDirectorios().size()); j++) {
+        String _name = dir.getDirectorios().get(i).getName();
+        String _name_1 = dir.getDirectorios().get(j).getName();
+        boolean _equals = Objects.equal(_name, _name_1);
+        if (_equals) {
+          this.error("No puede haber dos nombres de hijo iguales", 
+            MultiMavenPackage.Literals.DIRECTORIO__NAME, MultiMavenValidator.NOMBRES_IGUALES);
+        }
+      }
+    }
+  }
 }

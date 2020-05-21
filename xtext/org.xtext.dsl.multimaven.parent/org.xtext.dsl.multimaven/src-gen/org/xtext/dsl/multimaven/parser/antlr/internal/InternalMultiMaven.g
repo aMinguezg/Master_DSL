@@ -267,9 +267,9 @@ ruleDirectorioPadre returns [EObject current=null]
 			{
 				newLeafNode(otherlv_12, grammarAccess.getDirectorioPadreAccess().getDependenciasKeyword_11_0());
 			}
-			otherlv_13='{'
+			otherlv_13='['
 			{
-				newLeafNode(otherlv_13, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_11_1());
+				newLeafNode(otherlv_13, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_11_1());
 			}
 			(
 				(
@@ -290,9 +290,9 @@ ruleDirectorioPadre returns [EObject current=null]
 					}
 				)
 			)*
-			otherlv_15='}'
+			otherlv_15=']'
 			{
-				newLeafNode(otherlv_15, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_11_3());
+				newLeafNode(otherlv_15, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_11_3());
 			}
 		)?
 		(
@@ -300,9 +300,9 @@ ruleDirectorioPadre returns [EObject current=null]
 			{
 				newLeafNode(otherlv_16, grammarAccess.getDirectorioPadreAccess().getPluginsKeyword_12_0());
 			}
-			otherlv_17='{'
+			otherlv_17='['
 			{
-				newLeafNode(otherlv_17, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_12_1());
+				newLeafNode(otherlv_17, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_12_1());
 			}
 			(
 				(
@@ -323,18 +323,18 @@ ruleDirectorioPadre returns [EObject current=null]
 					}
 				)
 			)*
-			otherlv_19='}'
+			otherlv_19=']'
 			{
-				newLeafNode(otherlv_19, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_12_3());
+				newLeafNode(otherlv_19, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_12_3());
 			}
 		)?
 		otherlv_20='Hijos'
 		{
 			newLeafNode(otherlv_20, grammarAccess.getDirectorioPadreAccess().getHijosKeyword_13());
 		}
-		otherlv_21='{'
+		otherlv_21='['
 		{
-			newLeafNode(otherlv_21, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_14());
+			newLeafNode(otherlv_21, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_14());
 		}
 		(
 			(
@@ -355,9 +355,9 @@ ruleDirectorioPadre returns [EObject current=null]
 				}
 			)
 		)*
-		otherlv_23='}'
+		otherlv_23=']'
 		{
-			newLeafNode(otherlv_23, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_16());
+			newLeafNode(otherlv_23, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_16());
 		}
 		otherlv_24='}'
 		{
@@ -501,9 +501,9 @@ ruleDirectorio returns [EObject current=null]
 			{
 				newLeafNode(otherlv_10, grammarAccess.getDirectorioAccess().getDependenciasKeyword_9_0());
 			}
-			otherlv_11='{'
+			otherlv_11='['
 			{
-				newLeafNode(otherlv_11, grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_9_1());
+				newLeafNode(otherlv_11, grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_9_1());
 			}
 			(
 				(
@@ -524,9 +524,9 @@ ruleDirectorio returns [EObject current=null]
 					}
 				)
 			)*
-			otherlv_13='}'
+			otherlv_13=']'
 			{
-				newLeafNode(otherlv_13, grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_9_3());
+				newLeafNode(otherlv_13, grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_9_3());
 			}
 		)?
 		(
@@ -534,9 +534,9 @@ ruleDirectorio returns [EObject current=null]
 			{
 				newLeafNode(otherlv_14, grammarAccess.getDirectorioAccess().getPluginsKeyword_10_0());
 			}
-			otherlv_15='{'
+			otherlv_15='['
 			{
-				newLeafNode(otherlv_15, grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_10_1());
+				newLeafNode(otherlv_15, grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_10_1());
 			}
 			(
 				(
@@ -557,9 +557,9 @@ ruleDirectorio returns [EObject current=null]
 					}
 				)
 			)*
-			otherlv_17='}'
+			otherlv_17=']'
 			{
-				newLeafNode(otherlv_17, grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_10_3());
+				newLeafNode(otherlv_17, grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_10_3());
 			}
 		)?
 		otherlv_18='}'
@@ -929,11 +929,11 @@ ruleScope returns [Enumerator current=null]
 	)
 ;
 
-RULE_PATH : ('a'|'b');
+RULE_PATH : ('a'|'b'|'1111111111111111'|'11111111111111');
 
 RULE_GROUP : ('c'|'d');
 
-RULE_ARTIFACT : ('e'|'f');
+RULE_ARTIFACT : ('e'|'d'|'f');
 
 RULE_VERSION : '0'..'9' '.' '0'..'9' '.' '0'..'9';
 

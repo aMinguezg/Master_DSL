@@ -22,32 +22,16 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalMultiMavenParser extends AbstractInternalContentAssistParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_INT", "RULE_VERSION", "RULE_PATH", "RULE_GROUP", "RULE_ARTIFACT", "RULE_ID", "RULE_STRING", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'POM'", "'JAR'", "'EAR'", "'WAR'", "'RAR'", "'MAVENPLUGIN'", "'EJB'", "'COMPILE'", "'TEST'", "'PACKAGE'", "'INSTALL'", "'DEPLOY'", "'Proyecto'", "'Xlmn:'", "'Root'", "'{'", "'Path'", "'Group'", "'Artifact'", "'Version'", "'Hijos'", "'}'", "'Packaging'", "'Dependencias'", "'Plugins'", "'Scope'", "'Hijo'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_INT", "RULE_VERSION", "RULE_PATH", "RULE_GROUP", "RULE_ARTIFACT", "RULE_ID", "RULE_STRING", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'POM'", "'JAR'", "'EAR'", "'WAR'", "'RAR'", "'MAVENPLUGIN'", "'EJB'", "'COMPILE'", "'TEST'", "'PACKAGE'", "'INSTALL'", "'DEPLOY'", "'Proyecto'", "'Xlmn:'", "'Root'", "'{'", "'Path'", "'Group'", "'Artifact'", "'Version'", "'Hijos'", "'['", "']'", "'}'", "'Packaging'", "'Dependencias'", "'Plugins'", "'Scope'", "'Hijo'"
     };
-    public static final int RULE_ARTIFACT=8;
-    public static final int RULE_STRING=10;
     public static final int RULE_GROUP=7;
-    public static final int RULE_SL_COMMENT=12;
     public static final int T__19=19;
     public static final int RULE_VERSION=5;
     public static final int T__15=15;
-    public static final int T__37=37;
     public static final int T__16=16;
-    public static final int T__38=38;
     public static final int T__17=17;
-    public static final int T__39=39;
     public static final int T__18=18;
-    public static final int T__33=33;
-    public static final int T__34=34;
-    public static final int T__35=35;
-    public static final int T__36=36;
-    public static final int EOF=-1;
-    public static final int T__30=30;
-    public static final int T__31=31;
-    public static final int T__32=32;
     public static final int RULE_ID=9;
-    public static final int RULE_WS=13;
-    public static final int RULE_ANY_OTHER=14;
     public static final int RULE_PATH=6;
     public static final int T__26=26;
     public static final int T__27=27;
@@ -59,10 +43,28 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     public static final int T__23=23;
     public static final int T__24=24;
     public static final int T__25=25;
-    public static final int T__40=40;
-    public static final int T__41=41;
     public static final int T__20=20;
     public static final int T__21=21;
+    public static final int RULE_ARTIFACT=8;
+    public static final int RULE_STRING=10;
+    public static final int RULE_SL_COMMENT=12;
+    public static final int T__37=37;
+    public static final int T__38=38;
+    public static final int T__39=39;
+    public static final int T__33=33;
+    public static final int T__34=34;
+    public static final int T__35=35;
+    public static final int T__36=36;
+    public static final int EOF=-1;
+    public static final int T__30=30;
+    public static final int T__31=31;
+    public static final int T__32=32;
+    public static final int RULE_WS=13;
+    public static final int RULE_ANY_OTHER=14;
+    public static final int T__40=40;
+    public static final int T__41=41;
+    public static final int T__42=42;
+    public static final int T__43=43;
 
     // delegates
     // delegators
@@ -2198,7 +2200,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt3=2;
             int LA3_0 = input.LA(1);
 
-            if ( (LA3_0==37) ) {
+            if ( (LA3_0==39) ) {
                 alt3=1;
             }
             switch (alt3) {
@@ -2294,7 +2296,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt4=2;
             int LA4_0 = input.LA(1);
 
-            if ( (LA4_0==38) ) {
+            if ( (LA4_0==40) ) {
                 alt4=1;
             }
             switch (alt4) {
@@ -2390,7 +2392,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt5=2;
             int LA5_0 = input.LA(1);
 
-            if ( (LA5_0==39) ) {
+            if ( (LA5_0==41) ) {
                 alt5=1;
             }
             switch (alt5) {
@@ -2440,7 +2442,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:787:1: ( rule__DirectorioPadre__Group__13__Impl rule__DirectorioPadre__Group__14 )
             // InternalMultiMaven.g:788:2: rule__DirectorioPadre__Group__13__Impl rule__DirectorioPadre__Group__14
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_15);
             rule__DirectorioPadre__Group__13__Impl();
 
             state._fsp--;
@@ -2515,7 +2517,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:814:1: ( rule__DirectorioPadre__Group__14__Impl rule__DirectorioPadre__Group__15 )
             // InternalMultiMaven.g:815:2: rule__DirectorioPadre__Group__14__Impl rule__DirectorioPadre__Group__15
             {
-            pushFollow(FOLLOW_15);
+            pushFollow(FOLLOW_16);
             rule__DirectorioPadre__Group__14__Impl();
 
             state._fsp--;
@@ -2544,21 +2546,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group__14__Impl"
-    // InternalMultiMaven.g:822:1: rule__DirectorioPadre__Group__14__Impl : ( '{' ) ;
+    // InternalMultiMaven.g:822:1: rule__DirectorioPadre__Group__14__Impl : ( '[' ) ;
     public final void rule__DirectorioPadre__Group__14__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:826:1: ( ( '{' ) )
-            // InternalMultiMaven.g:827:1: ( '{' )
+            // InternalMultiMaven.g:826:1: ( ( '[' ) )
+            // InternalMultiMaven.g:827:1: ( '[' )
             {
-            // InternalMultiMaven.g:827:1: ( '{' )
-            // InternalMultiMaven.g:828:2: '{'
+            // InternalMultiMaven.g:827:1: ( '[' )
+            // InternalMultiMaven.g:828:2: '['
             {
-             before(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_14()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_14()); 
+             before(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_14()); 
+            match(input,36,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_14()); 
 
             }
 
@@ -2590,7 +2592,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:841:1: ( rule__DirectorioPadre__Group__15__Impl rule__DirectorioPadre__Group__16 )
             // InternalMultiMaven.g:842:2: rule__DirectorioPadre__Group__15__Impl rule__DirectorioPadre__Group__16
             {
-            pushFollow(FOLLOW_15);
+            pushFollow(FOLLOW_16);
             rule__DirectorioPadre__Group__15__Impl();
 
             state._fsp--;
@@ -2638,7 +2640,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
                 int alt6=2;
                 int LA6_0 = input.LA(1);
 
-                if ( (LA6_0==41) ) {
+                if ( (LA6_0==43) ) {
                     alt6=1;
                 }
 
@@ -2647,7 +2649,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // InternalMultiMaven.g:856:3: rule__DirectorioPadre__DirectoriosAssignment_15
             	    {
-            	    pushFollow(FOLLOW_16);
+            	    pushFollow(FOLLOW_17);
             	    rule__DirectorioPadre__DirectoriosAssignment_15();
 
             	    state._fsp--;
@@ -2693,7 +2695,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:868:1: ( rule__DirectorioPadre__Group__16__Impl rule__DirectorioPadre__Group__17 )
             // InternalMultiMaven.g:869:2: rule__DirectorioPadre__Group__16__Impl rule__DirectorioPadre__Group__17
             {
-            pushFollow(FOLLOW_17);
+            pushFollow(FOLLOW_18);
             rule__DirectorioPadre__Group__16__Impl();
 
             state._fsp--;
@@ -2722,21 +2724,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group__16__Impl"
-    // InternalMultiMaven.g:876:1: rule__DirectorioPadre__Group__16__Impl : ( '}' ) ;
+    // InternalMultiMaven.g:876:1: rule__DirectorioPadre__Group__16__Impl : ( ']' ) ;
     public final void rule__DirectorioPadre__Group__16__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:880:1: ( ( '}' ) )
-            // InternalMultiMaven.g:881:1: ( '}' )
+            // InternalMultiMaven.g:880:1: ( ( ']' ) )
+            // InternalMultiMaven.g:881:1: ( ']' )
             {
-            // InternalMultiMaven.g:881:1: ( '}' )
-            // InternalMultiMaven.g:882:2: '}'
+            // InternalMultiMaven.g:881:1: ( ']' )
+            // InternalMultiMaven.g:882:2: ']'
             {
-             before(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_16()); 
-            match(input,36,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_16()); 
+             before(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_16()); 
+            match(input,37,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_16()); 
 
             }
 
@@ -2805,7 +2807,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:908:2: '}'
             {
              before(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_17()); 
-            match(input,36,FOLLOW_2); 
+            match(input,38,FOLLOW_2); 
              after(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_17()); 
 
             }
@@ -2838,7 +2840,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:922:1: ( rule__DirectorioPadre__Group_10__0__Impl rule__DirectorioPadre__Group_10__1 )
             // InternalMultiMaven.g:923:2: rule__DirectorioPadre__Group_10__0__Impl rule__DirectorioPadre__Group_10__1
             {
-            pushFollow(FOLLOW_18);
+            pushFollow(FOLLOW_19);
             rule__DirectorioPadre__Group_10__0__Impl();
 
             state._fsp--;
@@ -2880,7 +2882,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:936:2: 'Packaging'
             {
              before(grammarAccess.getDirectorioPadreAccess().getPackagingKeyword_10_0()); 
-            match(input,37,FOLLOW_2); 
+            match(input,39,FOLLOW_2); 
              after(grammarAccess.getDirectorioPadreAccess().getPackagingKeyword_10_0()); 
 
             }
@@ -2993,7 +2995,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:976:1: ( rule__DirectorioPadre__Group_11__0__Impl rule__DirectorioPadre__Group_11__1 )
             // InternalMultiMaven.g:977:2: rule__DirectorioPadre__Group_11__0__Impl rule__DirectorioPadre__Group_11__1
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_15);
             rule__DirectorioPadre__Group_11__0__Impl();
 
             state._fsp--;
@@ -3035,7 +3037,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:990:2: 'Dependencias'
             {
              before(grammarAccess.getDirectorioPadreAccess().getDependenciasKeyword_11_0()); 
-            match(input,38,FOLLOW_2); 
+            match(input,40,FOLLOW_2); 
              after(grammarAccess.getDirectorioPadreAccess().getDependenciasKeyword_11_0()); 
 
             }
@@ -3068,7 +3070,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1003:1: ( rule__DirectorioPadre__Group_11__1__Impl rule__DirectorioPadre__Group_11__2 )
             // InternalMultiMaven.g:1004:2: rule__DirectorioPadre__Group_11__1__Impl rule__DirectorioPadre__Group_11__2
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__DirectorioPadre__Group_11__1__Impl();
 
             state._fsp--;
@@ -3097,21 +3099,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group_11__1__Impl"
-    // InternalMultiMaven.g:1011:1: rule__DirectorioPadre__Group_11__1__Impl : ( '{' ) ;
+    // InternalMultiMaven.g:1011:1: rule__DirectorioPadre__Group_11__1__Impl : ( '[' ) ;
     public final void rule__DirectorioPadre__Group_11__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1015:1: ( ( '{' ) )
-            // InternalMultiMaven.g:1016:1: ( '{' )
+            // InternalMultiMaven.g:1015:1: ( ( '[' ) )
+            // InternalMultiMaven.g:1016:1: ( '[' )
             {
-            // InternalMultiMaven.g:1016:1: ( '{' )
-            // InternalMultiMaven.g:1017:2: '{'
+            // InternalMultiMaven.g:1016:1: ( '[' )
+            // InternalMultiMaven.g:1017:2: '['
             {
-             before(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_11_1()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_11_1()); 
+             before(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_11_1()); 
+            match(input,36,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_11_1()); 
 
             }
 
@@ -3143,7 +3145,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1030:1: ( rule__DirectorioPadre__Group_11__2__Impl rule__DirectorioPadre__Group_11__3 )
             // InternalMultiMaven.g:1031:2: rule__DirectorioPadre__Group_11__2__Impl rule__DirectorioPadre__Group_11__3
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__DirectorioPadre__Group_11__2__Impl();
 
             state._fsp--;
@@ -3200,7 +3202,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // InternalMultiMaven.g:1045:3: rule__DirectorioPadre__DependenciasAssignment_11_2
             	    {
-            	    pushFollow(FOLLOW_20);
+            	    pushFollow(FOLLOW_21);
             	    rule__DirectorioPadre__DependenciasAssignment_11_2();
 
             	    state._fsp--;
@@ -3270,21 +3272,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group_11__3__Impl"
-    // InternalMultiMaven.g:1064:1: rule__DirectorioPadre__Group_11__3__Impl : ( '}' ) ;
+    // InternalMultiMaven.g:1064:1: rule__DirectorioPadre__Group_11__3__Impl : ( ']' ) ;
     public final void rule__DirectorioPadre__Group_11__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1068:1: ( ( '}' ) )
-            // InternalMultiMaven.g:1069:1: ( '}' )
+            // InternalMultiMaven.g:1068:1: ( ( ']' ) )
+            // InternalMultiMaven.g:1069:1: ( ']' )
             {
-            // InternalMultiMaven.g:1069:1: ( '}' )
-            // InternalMultiMaven.g:1070:2: '}'
+            // InternalMultiMaven.g:1069:1: ( ']' )
+            // InternalMultiMaven.g:1070:2: ']'
             {
-             before(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_11_3()); 
-            match(input,36,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_11_3()); 
+             before(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_11_3()); 
+            match(input,37,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_11_3()); 
 
             }
 
@@ -3316,7 +3318,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1084:1: ( rule__DirectorioPadre__Group_12__0__Impl rule__DirectorioPadre__Group_12__1 )
             // InternalMultiMaven.g:1085:2: rule__DirectorioPadre__Group_12__0__Impl rule__DirectorioPadre__Group_12__1
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_15);
             rule__DirectorioPadre__Group_12__0__Impl();
 
             state._fsp--;
@@ -3358,7 +3360,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1098:2: 'Plugins'
             {
              before(grammarAccess.getDirectorioPadreAccess().getPluginsKeyword_12_0()); 
-            match(input,39,FOLLOW_2); 
+            match(input,41,FOLLOW_2); 
              after(grammarAccess.getDirectorioPadreAccess().getPluginsKeyword_12_0()); 
 
             }
@@ -3391,7 +3393,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1111:1: ( rule__DirectorioPadre__Group_12__1__Impl rule__DirectorioPadre__Group_12__2 )
             // InternalMultiMaven.g:1112:2: rule__DirectorioPadre__Group_12__1__Impl rule__DirectorioPadre__Group_12__2
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__DirectorioPadre__Group_12__1__Impl();
 
             state._fsp--;
@@ -3420,21 +3422,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group_12__1__Impl"
-    // InternalMultiMaven.g:1119:1: rule__DirectorioPadre__Group_12__1__Impl : ( '{' ) ;
+    // InternalMultiMaven.g:1119:1: rule__DirectorioPadre__Group_12__1__Impl : ( '[' ) ;
     public final void rule__DirectorioPadre__Group_12__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1123:1: ( ( '{' ) )
-            // InternalMultiMaven.g:1124:1: ( '{' )
+            // InternalMultiMaven.g:1123:1: ( ( '[' ) )
+            // InternalMultiMaven.g:1124:1: ( '[' )
             {
-            // InternalMultiMaven.g:1124:1: ( '{' )
-            // InternalMultiMaven.g:1125:2: '{'
+            // InternalMultiMaven.g:1124:1: ( '[' )
+            // InternalMultiMaven.g:1125:2: '['
             {
-             before(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_12_1()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_12_1()); 
+             before(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_12_1()); 
+            match(input,36,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_12_1()); 
 
             }
 
@@ -3466,7 +3468,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1138:1: ( rule__DirectorioPadre__Group_12__2__Impl rule__DirectorioPadre__Group_12__3 )
             // InternalMultiMaven.g:1139:2: rule__DirectorioPadre__Group_12__2__Impl rule__DirectorioPadre__Group_12__3
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__DirectorioPadre__Group_12__2__Impl();
 
             state._fsp--;
@@ -3523,7 +3525,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // InternalMultiMaven.g:1153:3: rule__DirectorioPadre__PluginsAssignment_12_2
             	    {
-            	    pushFollow(FOLLOW_20);
+            	    pushFollow(FOLLOW_21);
             	    rule__DirectorioPadre__PluginsAssignment_12_2();
 
             	    state._fsp--;
@@ -3593,21 +3595,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__DirectorioPadre__Group_12__3__Impl"
-    // InternalMultiMaven.g:1172:1: rule__DirectorioPadre__Group_12__3__Impl : ( '}' ) ;
+    // InternalMultiMaven.g:1172:1: rule__DirectorioPadre__Group_12__3__Impl : ( ']' ) ;
     public final void rule__DirectorioPadre__Group_12__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1176:1: ( ( '}' ) )
-            // InternalMultiMaven.g:1177:1: ( '}' )
+            // InternalMultiMaven.g:1176:1: ( ( ']' ) )
+            // InternalMultiMaven.g:1177:1: ( ']' )
             {
-            // InternalMultiMaven.g:1177:1: ( '}' )
-            // InternalMultiMaven.g:1178:2: '}'
+            // InternalMultiMaven.g:1177:1: ( ']' )
+            // InternalMultiMaven.g:1178:2: ']'
             {
-             before(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_12_3()); 
-            match(input,36,FOLLOW_2); 
-             after(grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_12_3()); 
+             before(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_12_3()); 
+            match(input,37,FOLLOW_2); 
+             after(grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_12_3()); 
 
             }
 
@@ -4194,7 +4196,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1381:1: ( rule__Directorio__Group__7__Impl rule__Directorio__Group__8 )
             // InternalMultiMaven.g:1382:2: rule__Directorio__Group__7__Impl rule__Directorio__Group__8
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Directorio__Group__7__Impl();
 
             state._fsp--;
@@ -4279,7 +4281,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1408:1: ( rule__Directorio__Group__8__Impl rule__Directorio__Group__9 )
             // InternalMultiMaven.g:1409:2: rule__Directorio__Group__8__Impl rule__Directorio__Group__9
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Directorio__Group__8__Impl();
 
             state._fsp--;
@@ -4325,7 +4327,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt9=2;
             int LA9_0 = input.LA(1);
 
-            if ( (LA9_0==37) ) {
+            if ( (LA9_0==39) ) {
                 alt9=1;
             }
             switch (alt9) {
@@ -4375,7 +4377,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1435:1: ( rule__Directorio__Group__9__Impl rule__Directorio__Group__10 )
             // InternalMultiMaven.g:1436:2: rule__Directorio__Group__9__Impl rule__Directorio__Group__10
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Directorio__Group__9__Impl();
 
             state._fsp--;
@@ -4421,7 +4423,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt10=2;
             int LA10_0 = input.LA(1);
 
-            if ( (LA10_0==38) ) {
+            if ( (LA10_0==40) ) {
                 alt10=1;
             }
             switch (alt10) {
@@ -4471,7 +4473,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1462:1: ( rule__Directorio__Group__10__Impl rule__Directorio__Group__11 )
             // InternalMultiMaven.g:1463:2: rule__Directorio__Group__10__Impl rule__Directorio__Group__11
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Directorio__Group__10__Impl();
 
             state._fsp--;
@@ -4517,7 +4519,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt11=2;
             int LA11_0 = input.LA(1);
 
-            if ( (LA11_0==39) ) {
+            if ( (LA11_0==41) ) {
                 alt11=1;
             }
             switch (alt11) {
@@ -4604,7 +4606,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1502:2: '}'
             {
              before(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_11()); 
-            match(input,36,FOLLOW_2); 
+            match(input,38,FOLLOW_2); 
              after(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_11()); 
 
             }
@@ -4637,7 +4639,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1516:1: ( rule__Directorio__Group_8__0__Impl rule__Directorio__Group_8__1 )
             // InternalMultiMaven.g:1517:2: rule__Directorio__Group_8__0__Impl rule__Directorio__Group_8__1
             {
-            pushFollow(FOLLOW_18);
+            pushFollow(FOLLOW_19);
             rule__Directorio__Group_8__0__Impl();
 
             state._fsp--;
@@ -4679,7 +4681,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1530:2: 'Packaging'
             {
              before(grammarAccess.getDirectorioAccess().getPackagingKeyword_8_0()); 
-            match(input,37,FOLLOW_2); 
+            match(input,39,FOLLOW_2); 
              after(grammarAccess.getDirectorioAccess().getPackagingKeyword_8_0()); 
 
             }
@@ -4792,7 +4794,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1570:1: ( rule__Directorio__Group_9__0__Impl rule__Directorio__Group_9__1 )
             // InternalMultiMaven.g:1571:2: rule__Directorio__Group_9__0__Impl rule__Directorio__Group_9__1
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_15);
             rule__Directorio__Group_9__0__Impl();
 
             state._fsp--;
@@ -4834,7 +4836,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1584:2: 'Dependencias'
             {
              before(grammarAccess.getDirectorioAccess().getDependenciasKeyword_9_0()); 
-            match(input,38,FOLLOW_2); 
+            match(input,40,FOLLOW_2); 
              after(grammarAccess.getDirectorioAccess().getDependenciasKeyword_9_0()); 
 
             }
@@ -4867,7 +4869,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1597:1: ( rule__Directorio__Group_9__1__Impl rule__Directorio__Group_9__2 )
             // InternalMultiMaven.g:1598:2: rule__Directorio__Group_9__1__Impl rule__Directorio__Group_9__2
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__Directorio__Group_9__1__Impl();
 
             state._fsp--;
@@ -4896,21 +4898,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Directorio__Group_9__1__Impl"
-    // InternalMultiMaven.g:1605:1: rule__Directorio__Group_9__1__Impl : ( '{' ) ;
+    // InternalMultiMaven.g:1605:1: rule__Directorio__Group_9__1__Impl : ( '[' ) ;
     public final void rule__Directorio__Group_9__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1609:1: ( ( '{' ) )
-            // InternalMultiMaven.g:1610:1: ( '{' )
+            // InternalMultiMaven.g:1609:1: ( ( '[' ) )
+            // InternalMultiMaven.g:1610:1: ( '[' )
             {
-            // InternalMultiMaven.g:1610:1: ( '{' )
-            // InternalMultiMaven.g:1611:2: '{'
+            // InternalMultiMaven.g:1610:1: ( '[' )
+            // InternalMultiMaven.g:1611:2: '['
             {
-             before(grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_9_1()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_9_1()); 
+             before(grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_9_1()); 
+            match(input,36,FOLLOW_2); 
+             after(grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_9_1()); 
 
             }
 
@@ -4942,7 +4944,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1624:1: ( rule__Directorio__Group_9__2__Impl rule__Directorio__Group_9__3 )
             // InternalMultiMaven.g:1625:2: rule__Directorio__Group_9__2__Impl rule__Directorio__Group_9__3
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__Directorio__Group_9__2__Impl();
 
             state._fsp--;
@@ -4999,7 +5001,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // InternalMultiMaven.g:1639:3: rule__Directorio__DependenciasAssignment_9_2
             	    {
-            	    pushFollow(FOLLOW_20);
+            	    pushFollow(FOLLOW_21);
             	    rule__Directorio__DependenciasAssignment_9_2();
 
             	    state._fsp--;
@@ -5069,21 +5071,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Directorio__Group_9__3__Impl"
-    // InternalMultiMaven.g:1658:1: rule__Directorio__Group_9__3__Impl : ( '}' ) ;
+    // InternalMultiMaven.g:1658:1: rule__Directorio__Group_9__3__Impl : ( ']' ) ;
     public final void rule__Directorio__Group_9__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1662:1: ( ( '}' ) )
-            // InternalMultiMaven.g:1663:1: ( '}' )
+            // InternalMultiMaven.g:1662:1: ( ( ']' ) )
+            // InternalMultiMaven.g:1663:1: ( ']' )
             {
-            // InternalMultiMaven.g:1663:1: ( '}' )
-            // InternalMultiMaven.g:1664:2: '}'
+            // InternalMultiMaven.g:1663:1: ( ']' )
+            // InternalMultiMaven.g:1664:2: ']'
             {
-             before(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_9_3()); 
-            match(input,36,FOLLOW_2); 
-             after(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_9_3()); 
+             before(grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_9_3()); 
+            match(input,37,FOLLOW_2); 
+             after(grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_9_3()); 
 
             }
 
@@ -5115,7 +5117,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1678:1: ( rule__Directorio__Group_10__0__Impl rule__Directorio__Group_10__1 )
             // InternalMultiMaven.g:1679:2: rule__Directorio__Group_10__0__Impl rule__Directorio__Group_10__1
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_15);
             rule__Directorio__Group_10__0__Impl();
 
             state._fsp--;
@@ -5157,7 +5159,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1692:2: 'Plugins'
             {
              before(grammarAccess.getDirectorioAccess().getPluginsKeyword_10_0()); 
-            match(input,39,FOLLOW_2); 
+            match(input,41,FOLLOW_2); 
              after(grammarAccess.getDirectorioAccess().getPluginsKeyword_10_0()); 
 
             }
@@ -5190,7 +5192,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1705:1: ( rule__Directorio__Group_10__1__Impl rule__Directorio__Group_10__2 )
             // InternalMultiMaven.g:1706:2: rule__Directorio__Group_10__1__Impl rule__Directorio__Group_10__2
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__Directorio__Group_10__1__Impl();
 
             state._fsp--;
@@ -5219,21 +5221,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Directorio__Group_10__1__Impl"
-    // InternalMultiMaven.g:1713:1: rule__Directorio__Group_10__1__Impl : ( '{' ) ;
+    // InternalMultiMaven.g:1713:1: rule__Directorio__Group_10__1__Impl : ( '[' ) ;
     public final void rule__Directorio__Group_10__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1717:1: ( ( '{' ) )
-            // InternalMultiMaven.g:1718:1: ( '{' )
+            // InternalMultiMaven.g:1717:1: ( ( '[' ) )
+            // InternalMultiMaven.g:1718:1: ( '[' )
             {
-            // InternalMultiMaven.g:1718:1: ( '{' )
-            // InternalMultiMaven.g:1719:2: '{'
+            // InternalMultiMaven.g:1718:1: ( '[' )
+            // InternalMultiMaven.g:1719:2: '['
             {
-             before(grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_10_1()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_10_1()); 
+             before(grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_10_1()); 
+            match(input,36,FOLLOW_2); 
+             after(grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_10_1()); 
 
             }
 
@@ -5265,7 +5267,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1732:1: ( rule__Directorio__Group_10__2__Impl rule__Directorio__Group_10__3 )
             // InternalMultiMaven.g:1733:2: rule__Directorio__Group_10__2__Impl rule__Directorio__Group_10__3
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__Directorio__Group_10__2__Impl();
 
             state._fsp--;
@@ -5322,7 +5324,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // InternalMultiMaven.g:1747:3: rule__Directorio__PluginsAssignment_10_2
             	    {
-            	    pushFollow(FOLLOW_20);
+            	    pushFollow(FOLLOW_21);
             	    rule__Directorio__PluginsAssignment_10_2();
 
             	    state._fsp--;
@@ -5392,21 +5394,21 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
 
 
     // $ANTLR start "rule__Directorio__Group_10__3__Impl"
-    // InternalMultiMaven.g:1766:1: rule__Directorio__Group_10__3__Impl : ( '}' ) ;
+    // InternalMultiMaven.g:1766:1: rule__Directorio__Group_10__3__Impl : ( ']' ) ;
     public final void rule__Directorio__Group_10__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalMultiMaven.g:1770:1: ( ( '}' ) )
-            // InternalMultiMaven.g:1771:1: ( '}' )
+            // InternalMultiMaven.g:1770:1: ( ( ']' ) )
+            // InternalMultiMaven.g:1771:1: ( ']' )
             {
-            // InternalMultiMaven.g:1771:1: ( '}' )
-            // InternalMultiMaven.g:1772:2: '}'
+            // InternalMultiMaven.g:1771:1: ( ']' )
+            // InternalMultiMaven.g:1772:2: ']'
             {
-             before(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_10_3()); 
-            match(input,36,FOLLOW_2); 
-             after(grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_10_3()); 
+             before(grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_10_3()); 
+            match(input,37,FOLLOW_2); 
+             after(grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_10_3()); 
 
             }
 
@@ -5908,7 +5910,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1948:1: ( rule__Dependencia__Group__6__Impl rule__Dependencia__Group__7 )
             // InternalMultiMaven.g:1949:2: rule__Dependencia__Group__6__Impl rule__Dependencia__Group__7
             {
-            pushFollow(FOLLOW_22);
+            pushFollow(FOLLOW_23);
             rule__Dependencia__Group__6__Impl();
 
             state._fsp--;
@@ -5993,7 +5995,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:1975:1: ( rule__Dependencia__Group__7__Impl rule__Dependencia__Group__8 )
             // InternalMultiMaven.g:1976:2: rule__Dependencia__Group__7__Impl rule__Dependencia__Group__8
             {
-            pushFollow(FOLLOW_22);
+            pushFollow(FOLLOW_23);
             rule__Dependencia__Group__7__Impl();
 
             state._fsp--;
@@ -6039,7 +6041,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             int alt14=2;
             int LA14_0 = input.LA(1);
 
-            if ( (LA14_0==40) ) {
+            if ( (LA14_0==42) ) {
                 alt14=1;
             }
             switch (alt14) {
@@ -6126,7 +6128,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2015:2: '}'
             {
              before(grammarAccess.getDependenciaAccess().getRightCurlyBracketKeyword_8()); 
-            match(input,36,FOLLOW_2); 
+            match(input,38,FOLLOW_2); 
              after(grammarAccess.getDependenciaAccess().getRightCurlyBracketKeyword_8()); 
 
             }
@@ -6159,7 +6161,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2029:1: ( rule__Dependencia__Group_7__0__Impl rule__Dependencia__Group_7__1 )
             // InternalMultiMaven.g:2030:2: rule__Dependencia__Group_7__0__Impl rule__Dependencia__Group_7__1
             {
-            pushFollow(FOLLOW_23);
+            pushFollow(FOLLOW_24);
             rule__Dependencia__Group_7__0__Impl();
 
             state._fsp--;
@@ -6201,7 +6203,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2043:2: 'Scope'
             {
              before(grammarAccess.getDependenciaAccess().getScopeKeyword_7_0()); 
-            match(input,40,FOLLOW_2); 
+            match(input,42,FOLLOW_2); 
              after(grammarAccess.getDependenciaAccess().getScopeKeyword_7_0()); 
 
             }
@@ -6784,7 +6786,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2245:1: ( rule__Plugin__Group__6__Impl rule__Plugin__Group__7 )
             // InternalMultiMaven.g:2246:2: rule__Plugin__Group__6__Impl rule__Plugin__Group__7
             {
-            pushFollow(FOLLOW_17);
+            pushFollow(FOLLOW_18);
             rule__Plugin__Group__6__Impl();
 
             state._fsp--;
@@ -6906,7 +6908,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2285:2: '}'
             {
              before(grammarAccess.getPluginAccess().getRightCurlyBracketKeyword_7()); 
-            match(input,36,FOLLOW_2); 
+            match(input,38,FOLLOW_2); 
              after(grammarAccess.getPluginAccess().getRightCurlyBracketKeyword_7()); 
 
             }
@@ -6939,7 +6941,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2299:1: ( rule__IdDirectorio__Group__0__Impl rule__IdDirectorio__Group__1 )
             // InternalMultiMaven.g:2300:2: rule__IdDirectorio__Group__0__Impl rule__IdDirectorio__Group__1
             {
-            pushFollow(FOLLOW_24);
+            pushFollow(FOLLOW_25);
             rule__IdDirectorio__Group__0__Impl();
 
             state._fsp--;
@@ -6981,7 +6983,7 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
             // InternalMultiMaven.g:2313:2: 'Hijo'
             {
              before(grammarAccess.getIdDirectorioAccess().getHijoKeyword_0()); 
-            match(input,41,FOLLOW_2); 
+            match(input,43,FOLLOW_2); 
              after(grammarAccess.getIdDirectorioAccess().getHijoKeyword_0()); 
 
             }
@@ -8019,16 +8021,17 @@ public class InternalMultiMavenParser extends AbstractInternalContentAssistParse
     public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000200000000L});
     public static final BitSet FOLLOW_12 = new BitSet(new long[]{0x0000000000000100L});
     public static final BitSet FOLLOW_13 = new BitSet(new long[]{0x0000000400000000L});
-    public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x000000E800000000L});
-    public static final BitSet FOLLOW_15 = new BitSet(new long[]{0x0000021000000000L});
-    public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x0000020000000002L});
-    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x0000001000000000L});
-    public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x00000000003F8000L});
-    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000001040000000L});
-    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000000040000002L});
-    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x000000F000000000L});
-    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x0000011000000000L});
-    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000000007C00000L});
-    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x0000038800000000L});
+    public static final BitSet FOLLOW_15 = new BitSet(new long[]{0x0000001000000000L});
+    public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x0000082000000000L});
+    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x0000080000000002L});
+    public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x0000004000000000L});
+    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x00000000003F8000L});
+    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000002040000000L});
+    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x0000000040000002L});
+    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x000003C000000000L});
+    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000044000000000L});
+    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000000007C00000L});
+    public static final BitSet FOLLOW_25 = new BitSet(new long[]{0x0000000000000010L});
 
 }

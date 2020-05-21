@@ -22,32 +22,16 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_VERSION", "RULE_PATH", "RULE_GROUP", "RULE_ARTIFACT", "RULE_INT", "RULE_ID", "RULE_STRING", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'Proyecto'", "'Xlmn:'", "'Root'", "'{'", "'Path'", "'Group'", "'Artifact'", "'Version'", "'Packaging'", "'Dependencias'", "'}'", "'Plugins'", "'Hijos'", "'Scope'", "'Hijo'", "'POM'", "'JAR'", "'EAR'", "'WAR'", "'RAR'", "'MAVENPLUGIN'", "'EJB'", "'COMPILE'", "'TEST'", "'PACKAGE'", "'INSTALL'", "'DEPLOY'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_VERSION", "RULE_PATH", "RULE_GROUP", "RULE_ARTIFACT", "RULE_INT", "RULE_ID", "RULE_STRING", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'Proyecto'", "'Xlmn:'", "'Root'", "'{'", "'Path'", "'Group'", "'Artifact'", "'Version'", "'Packaging'", "'Dependencias'", "'['", "']'", "'Plugins'", "'Hijos'", "'}'", "'Scope'", "'Hijo'", "'POM'", "'JAR'", "'EAR'", "'WAR'", "'RAR'", "'MAVENPLUGIN'", "'EJB'", "'COMPILE'", "'TEST'", "'PACKAGE'", "'INSTALL'", "'DEPLOY'"
     };
-    public static final int RULE_ARTIFACT=7;
-    public static final int RULE_STRING=10;
     public static final int RULE_GROUP=6;
-    public static final int RULE_SL_COMMENT=12;
     public static final int T__19=19;
     public static final int RULE_VERSION=4;
     public static final int T__15=15;
-    public static final int T__37=37;
     public static final int T__16=16;
-    public static final int T__38=38;
     public static final int T__17=17;
-    public static final int T__39=39;
     public static final int T__18=18;
-    public static final int T__33=33;
-    public static final int T__34=34;
-    public static final int T__35=35;
-    public static final int T__36=36;
-    public static final int EOF=-1;
-    public static final int T__30=30;
-    public static final int T__31=31;
-    public static final int T__32=32;
     public static final int RULE_ID=9;
-    public static final int RULE_WS=13;
-    public static final int RULE_ANY_OTHER=14;
     public static final int RULE_PATH=5;
     public static final int T__26=26;
     public static final int T__27=27;
@@ -59,10 +43,28 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
     public static final int T__23=23;
     public static final int T__24=24;
     public static final int T__25=25;
-    public static final int T__40=40;
-    public static final int T__41=41;
     public static final int T__20=20;
     public static final int T__21=21;
+    public static final int RULE_ARTIFACT=7;
+    public static final int RULE_STRING=10;
+    public static final int RULE_SL_COMMENT=12;
+    public static final int T__37=37;
+    public static final int T__38=38;
+    public static final int T__39=39;
+    public static final int T__33=33;
+    public static final int T__34=34;
+    public static final int T__35=35;
+    public static final int T__36=36;
+    public static final int EOF=-1;
+    public static final int T__30=30;
+    public static final int T__31=31;
+    public static final int T__32=32;
+    public static final int RULE_WS=13;
+    public static final int RULE_ANY_OTHER=14;
+    public static final int T__40=40;
+    public static final int T__41=41;
+    public static final int T__42=42;
+    public static final int T__43=43;
 
     // delegates
     // delegators
@@ -284,7 +286,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDirectorioPadre"
-    // InternalMultiMaven.g:136:1: ruleDirectorioPadre returns [EObject current=null] : (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) ;
+    // InternalMultiMaven.g:136:1: ruleDirectorioPadre returns [EObject current=null] : (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )? (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )? otherlv_20= 'Hijos' otherlv_21= '[' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= ']' otherlv_24= '}' ) ;
     public final EObject ruleDirectorioPadre() throws RecognitionException {
         EObject current = null;
 
@@ -322,11 +324,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:142:2: ( (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' ) )
-            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
+            // InternalMultiMaven.g:142:2: ( (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )? (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )? otherlv_20= 'Hijos' otherlv_21= '[' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= ']' otherlv_24= '}' ) )
+            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )? (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )? otherlv_20= 'Hijos' otherlv_21= '[' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= ']' otherlv_24= '}' )
             {
-            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}' )
-            // InternalMultiMaven.g:144:3: otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )? (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )? otherlv_20= 'Hijos' otherlv_21= '{' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= '}' otherlv_24= '}'
+            // InternalMultiMaven.g:143:2: (otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )? (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )? otherlv_20= 'Hijos' otherlv_21= '[' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= ']' otherlv_24= '}' )
+            // InternalMultiMaven.g:144:3: otherlv_0= 'Root' otherlv_1= '{' otherlv_2= 'Path' ( (lv_path_3_0= RULE_PATH ) ) otherlv_4= 'Group' ( (lv_group_5_0= RULE_GROUP ) ) otherlv_6= 'Artifact' ( (lv_artifact_7_0= RULE_ARTIFACT ) ) otherlv_8= 'Version' ( (lv_version_9_0= RULE_VERSION ) ) (otherlv_10= 'Packaging' ( (lv_packaging_11_0= rulePackaging ) ) )? (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )? (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )? otherlv_20= 'Hijos' otherlv_21= '[' ( (lv_directorios_22_0= ruleDirectorio ) )* otherlv_23= ']' otherlv_24= '}'
             {
             otherlv_0=(Token)match(input,17,FOLLOW_6); 
 
@@ -508,7 +510,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalMultiMaven.g:265:3: (otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}' )?
+            // InternalMultiMaven.g:265:3: (otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']' )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -517,15 +519,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             }
             switch (alt3) {
                 case 1 :
-                    // InternalMultiMaven.g:266:4: otherlv_12= 'Dependencias' otherlv_13= '{' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= '}'
+                    // InternalMultiMaven.g:266:4: otherlv_12= 'Dependencias' otherlv_13= '[' ( (lv_dependencias_14_0= ruleDependencia ) )* otherlv_15= ']'
                     {
-                    otherlv_12=(Token)match(input,24,FOLLOW_6); 
+                    otherlv_12=(Token)match(input,24,FOLLOW_17); 
 
                     				newLeafNode(otherlv_12, grammarAccess.getDirectorioPadreAccess().getDependenciasKeyword_11_0());
                     			
-                    otherlv_13=(Token)match(input,18,FOLLOW_17); 
+                    otherlv_13=(Token)match(input,25,FOLLOW_18); 
 
-                    				newLeafNode(otherlv_13, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_11_1());
+                    				newLeafNode(otherlv_13, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_11_1());
                     			
                     // InternalMultiMaven.g:274:4: ( (lv_dependencias_14_0= ruleDependencia ) )*
                     loop2:
@@ -548,7 +550,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     	    						newCompositeNode(grammarAccess.getDirectorioPadreAccess().getDependenciasDependenciaParserRuleCall_11_2_0());
                     	    					
-                    	    pushFollow(FOLLOW_17);
+                    	    pushFollow(FOLLOW_18);
                     	    lv_dependencias_14_0=ruleDependencia();
 
                     	    state._fsp--;
@@ -576,9 +578,9 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_15=(Token)match(input,25,FOLLOW_18); 
+                    otherlv_15=(Token)match(input,26,FOLLOW_19); 
 
-                    				newLeafNode(otherlv_15, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_11_3());
+                    				newLeafNode(otherlv_15, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_11_3());
                     			
 
                     }
@@ -586,24 +588,24 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalMultiMaven.g:298:3: (otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}' )?
+            // InternalMultiMaven.g:298:3: (otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
-            if ( (LA5_0==26) ) {
+            if ( (LA5_0==27) ) {
                 alt5=1;
             }
             switch (alt5) {
                 case 1 :
-                    // InternalMultiMaven.g:299:4: otherlv_16= 'Plugins' otherlv_17= '{' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= '}'
+                    // InternalMultiMaven.g:299:4: otherlv_16= 'Plugins' otherlv_17= '[' ( (lv_plugins_18_0= rulePlugin ) )* otherlv_19= ']'
                     {
-                    otherlv_16=(Token)match(input,26,FOLLOW_6); 
+                    otherlv_16=(Token)match(input,27,FOLLOW_17); 
 
                     				newLeafNode(otherlv_16, grammarAccess.getDirectorioPadreAccess().getPluginsKeyword_12_0());
                     			
-                    otherlv_17=(Token)match(input,18,FOLLOW_17); 
+                    otherlv_17=(Token)match(input,25,FOLLOW_18); 
 
-                    				newLeafNode(otherlv_17, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_12_1());
+                    				newLeafNode(otherlv_17, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_12_1());
                     			
                     // InternalMultiMaven.g:307:4: ( (lv_plugins_18_0= rulePlugin ) )*
                     loop4:
@@ -626,7 +628,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     	    						newCompositeNode(grammarAccess.getDirectorioPadreAccess().getPluginsPluginParserRuleCall_12_2_0());
                     	    					
-                    	    pushFollow(FOLLOW_17);
+                    	    pushFollow(FOLLOW_18);
                     	    lv_plugins_18_0=rulePlugin();
 
                     	    state._fsp--;
@@ -654,9 +656,9 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_19=(Token)match(input,25,FOLLOW_19); 
+                    otherlv_19=(Token)match(input,26,FOLLOW_20); 
 
-                    				newLeafNode(otherlv_19, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_12_3());
+                    				newLeafNode(otherlv_19, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_12_3());
                     			
 
                     }
@@ -664,13 +666,13 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_20=(Token)match(input,27,FOLLOW_6); 
+            otherlv_20=(Token)match(input,28,FOLLOW_17); 
 
             			newLeafNode(otherlv_20, grammarAccess.getDirectorioPadreAccess().getHijosKeyword_13());
             		
-            otherlv_21=(Token)match(input,18,FOLLOW_20); 
+            otherlv_21=(Token)match(input,25,FOLLOW_21); 
 
-            			newLeafNode(otherlv_21, grammarAccess.getDirectorioPadreAccess().getLeftCurlyBracketKeyword_14());
+            			newLeafNode(otherlv_21, grammarAccess.getDirectorioPadreAccess().getLeftSquareBracketKeyword_14());
             		
             // InternalMultiMaven.g:339:3: ( (lv_directorios_22_0= ruleDirectorio ) )*
             loop6:
@@ -678,7 +680,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                 int alt6=2;
                 int LA6_0 = input.LA(1);
 
-                if ( (LA6_0==29) ) {
+                if ( (LA6_0==31) ) {
                     alt6=1;
                 }
 
@@ -693,7 +695,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             	    					newCompositeNode(grammarAccess.getDirectorioPadreAccess().getDirectoriosDirectorioParserRuleCall_15_0());
             	    				
-            	    pushFollow(FOLLOW_20);
+            	    pushFollow(FOLLOW_21);
             	    lv_directorios_22_0=ruleDirectorio();
 
             	    state._fsp--;
@@ -721,11 +723,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                 }
             } while (true);
 
-            otherlv_23=(Token)match(input,25,FOLLOW_21); 
+            otherlv_23=(Token)match(input,26,FOLLOW_22); 
 
-            			newLeafNode(otherlv_23, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_16());
+            			newLeafNode(otherlv_23, grammarAccess.getDirectorioPadreAccess().getRightSquareBracketKeyword_16());
             		
-            otherlv_24=(Token)match(input,25,FOLLOW_2); 
+            otherlv_24=(Token)match(input,29,FOLLOW_2); 
 
             			newLeafNode(otherlv_24, grammarAccess.getDirectorioPadreAccess().getRightCurlyBracketKeyword_17());
             		
@@ -788,7 +790,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDirectorio"
-    // InternalMultiMaven.g:377:1: ruleDirectorio returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) ;
+    // InternalMultiMaven.g:377:1: ruleDirectorio returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )? (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )? otherlv_18= '}' ) ;
     public final EObject ruleDirectorio() throws RecognitionException {
         EObject current = null;
 
@@ -820,11 +822,11 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalMultiMaven.g:383:2: ( ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' ) )
-            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
+            // InternalMultiMaven.g:383:2: ( ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )? (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )? otherlv_18= '}' ) )
+            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )? (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )? otherlv_18= '}' )
             {
-            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}' )
-            // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )? (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )? otherlv_18= '}'
+            // InternalMultiMaven.g:384:2: ( ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )? (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )? otherlv_18= '}' )
+            // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) ) otherlv_1= '{' otherlv_2= 'Group' ( (lv_group_3_0= RULE_GROUP ) ) otherlv_4= 'Artifact' ( (lv_artifact_5_0= RULE_ARTIFACT ) ) otherlv_6= 'Version' ( (lv_version_7_0= RULE_VERSION ) ) (otherlv_8= 'Packaging' ( (lv_packaging_9_0= rulePackaging ) ) )? (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )? (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )? otherlv_18= '}'
             {
             // InternalMultiMaven.g:385:3: ( (lv_name_0_0= ruleIdDirectorio ) )
             // InternalMultiMaven.g:386:4: (lv_name_0_0= ruleIdDirectorio )
@@ -931,7 +933,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:457:4: (lv_version_7_0= RULE_VERSION )
             // InternalMultiMaven.g:458:5: lv_version_7_0= RULE_VERSION
             {
-            lv_version_7_0=(Token)match(input,RULE_VERSION,FOLLOW_22); 
+            lv_version_7_0=(Token)match(input,RULE_VERSION,FOLLOW_23); 
 
             					newLeafNode(lv_version_7_0, grammarAccess.getDirectorioAccess().getVersionVERSIONTerminalRuleCall_7_0());
             				
@@ -975,7 +977,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     						newCompositeNode(grammarAccess.getDirectorioAccess().getPackagingPackagingEnumRuleCall_8_1_0());
                     					
-                    pushFollow(FOLLOW_23);
+                    pushFollow(FOLLOW_24);
                     lv_packaging_9_0=rulePackaging();
 
                     state._fsp--;
@@ -1003,7 +1005,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalMultiMaven.g:499:3: (otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}' )?
+            // InternalMultiMaven.g:499:3: (otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']' )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -1012,15 +1014,15 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             }
             switch (alt9) {
                 case 1 :
-                    // InternalMultiMaven.g:500:4: otherlv_10= 'Dependencias' otherlv_11= '{' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= '}'
+                    // InternalMultiMaven.g:500:4: otherlv_10= 'Dependencias' otherlv_11= '[' ( (lv_dependencias_12_0= ruleDependencia ) )* otherlv_13= ']'
                     {
-                    otherlv_10=(Token)match(input,24,FOLLOW_6); 
+                    otherlv_10=(Token)match(input,24,FOLLOW_17); 
 
                     				newLeafNode(otherlv_10, grammarAccess.getDirectorioAccess().getDependenciasKeyword_9_0());
                     			
-                    otherlv_11=(Token)match(input,18,FOLLOW_17); 
+                    otherlv_11=(Token)match(input,25,FOLLOW_18); 
 
-                    				newLeafNode(otherlv_11, grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_9_1());
+                    				newLeafNode(otherlv_11, grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_9_1());
                     			
                     // InternalMultiMaven.g:508:4: ( (lv_dependencias_12_0= ruleDependencia ) )*
                     loop8:
@@ -1043,7 +1045,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     	    						newCompositeNode(grammarAccess.getDirectorioAccess().getDependenciasDependenciaParserRuleCall_9_2_0());
                     	    					
-                    	    pushFollow(FOLLOW_17);
+                    	    pushFollow(FOLLOW_18);
                     	    lv_dependencias_12_0=ruleDependencia();
 
                     	    state._fsp--;
@@ -1071,9 +1073,9 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_13=(Token)match(input,25,FOLLOW_24); 
+                    otherlv_13=(Token)match(input,26,FOLLOW_25); 
 
-                    				newLeafNode(otherlv_13, grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_9_3());
+                    				newLeafNode(otherlv_13, grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_9_3());
                     			
 
                     }
@@ -1081,24 +1083,24 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalMultiMaven.g:532:3: (otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}' )?
+            // InternalMultiMaven.g:532:3: (otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']' )?
             int alt11=2;
             int LA11_0 = input.LA(1);
 
-            if ( (LA11_0==26) ) {
+            if ( (LA11_0==27) ) {
                 alt11=1;
             }
             switch (alt11) {
                 case 1 :
-                    // InternalMultiMaven.g:533:4: otherlv_14= 'Plugins' otherlv_15= '{' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= '}'
+                    // InternalMultiMaven.g:533:4: otherlv_14= 'Plugins' otherlv_15= '[' ( (lv_plugins_16_0= rulePlugin ) )* otherlv_17= ']'
                     {
-                    otherlv_14=(Token)match(input,26,FOLLOW_6); 
+                    otherlv_14=(Token)match(input,27,FOLLOW_17); 
 
                     				newLeafNode(otherlv_14, grammarAccess.getDirectorioAccess().getPluginsKeyword_10_0());
                     			
-                    otherlv_15=(Token)match(input,18,FOLLOW_17); 
+                    otherlv_15=(Token)match(input,25,FOLLOW_18); 
 
-                    				newLeafNode(otherlv_15, grammarAccess.getDirectorioAccess().getLeftCurlyBracketKeyword_10_1());
+                    				newLeafNode(otherlv_15, grammarAccess.getDirectorioAccess().getLeftSquareBracketKeyword_10_1());
                     			
                     // InternalMultiMaven.g:541:4: ( (lv_plugins_16_0= rulePlugin ) )*
                     loop10:
@@ -1121,7 +1123,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     	    						newCompositeNode(grammarAccess.getDirectorioAccess().getPluginsPluginParserRuleCall_10_2_0());
                     	    					
-                    	    pushFollow(FOLLOW_17);
+                    	    pushFollow(FOLLOW_18);
                     	    lv_plugins_16_0=rulePlugin();
 
                     	    state._fsp--;
@@ -1149,9 +1151,9 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_17=(Token)match(input,25,FOLLOW_21); 
+                    otherlv_17=(Token)match(input,26,FOLLOW_22); 
 
-                    				newLeafNode(otherlv_17, grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_10_3());
+                    				newLeafNode(otherlv_17, grammarAccess.getDirectorioAccess().getRightSquareBracketKeyword_10_3());
                     			
 
                     }
@@ -1159,7 +1161,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_18=(Token)match(input,25,FOLLOW_2); 
+            otherlv_18=(Token)match(input,29,FOLLOW_2); 
 
             			newLeafNode(otherlv_18, grammarAccess.getDirectorioAccess().getRightCurlyBracketKeyword_11());
             		
@@ -1322,7 +1324,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:641:4: (lv_version_6_0= RULE_VERSION )
             // InternalMultiMaven.g:642:5: lv_version_6_0= RULE_VERSION
             {
-            lv_version_6_0=(Token)match(input,RULE_VERSION,FOLLOW_25); 
+            lv_version_6_0=(Token)match(input,RULE_VERSION,FOLLOW_26); 
 
             					newLeafNode(lv_version_6_0, grammarAccess.getDependenciaAccess().getVersionVERSIONTerminalRuleCall_6_0());
             				
@@ -1346,14 +1348,14 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             int alt12=2;
             int LA12_0 = input.LA(1);
 
-            if ( (LA12_0==28) ) {
+            if ( (LA12_0==30) ) {
                 alt12=1;
             }
             switch (alt12) {
                 case 1 :
                     // InternalMultiMaven.g:659:4: otherlv_7= 'Scope' ( (lv_scope_8_0= ruleScope ) )
                     {
-                    otherlv_7=(Token)match(input,28,FOLLOW_26); 
+                    otherlv_7=(Token)match(input,30,FOLLOW_27); 
 
                     				newLeafNode(otherlv_7, grammarAccess.getDependenciaAccess().getScopeKeyword_7_0());
                     			
@@ -1366,7 +1368,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
                     						newCompositeNode(grammarAccess.getDependenciaAccess().getScopeScopeEnumRuleCall_7_1_0());
                     					
-                    pushFollow(FOLLOW_21);
+                    pushFollow(FOLLOW_22);
                     lv_scope_8_0=ruleScope();
 
                     state._fsp--;
@@ -1394,7 +1396,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_9=(Token)match(input,25,FOLLOW_2); 
+            otherlv_9=(Token)match(input,29,FOLLOW_2); 
 
             			newLeafNode(otherlv_9, grammarAccess.getDependenciaAccess().getRightCurlyBracketKeyword_8());
             		
@@ -1554,7 +1556,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:759:4: (lv_version_6_0= RULE_VERSION )
             // InternalMultiMaven.g:760:5: lv_version_6_0= RULE_VERSION
             {
-            lv_version_6_0=(Token)match(input,RULE_VERSION,FOLLOW_21); 
+            lv_version_6_0=(Token)match(input,RULE_VERSION,FOLLOW_22); 
 
             					newLeafNode(lv_version_6_0, grammarAccess.getPluginAccess().getVersionVERSIONTerminalRuleCall_6_0());
             				
@@ -1574,7 +1576,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_7=(Token)match(input,25,FOLLOW_2); 
+            otherlv_7=(Token)match(input,29,FOLLOW_2); 
 
             			newLeafNode(otherlv_7, grammarAccess.getPluginAccess().getRightCurlyBracketKeyword_7());
             		
@@ -1654,7 +1656,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:798:2: (kw= 'Hijo' this_INT_1= RULE_INT )
             // InternalMultiMaven.g:799:3: kw= 'Hijo' this_INT_1= RULE_INT
             {
-            kw=(Token)match(input,29,FOLLOW_27); 
+            kw=(Token)match(input,31,FOLLOW_28); 
 
             			current.merge(kw);
             			newLeafNode(kw, grammarAccess.getIdDirectorioAccess().getHijoKeyword_0());
@@ -1711,37 +1713,37 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:822:2: ( (enumLiteral_0= 'POM' ) | (enumLiteral_1= 'JAR' ) | (enumLiteral_2= 'EAR' ) | (enumLiteral_3= 'WAR' ) | (enumLiteral_4= 'RAR' ) | (enumLiteral_5= 'MAVENPLUGIN' ) | (enumLiteral_6= 'EJB' ) )
             int alt13=7;
             switch ( input.LA(1) ) {
-            case 30:
+            case 32:
                 {
                 alt13=1;
                 }
                 break;
-            case 31:
+            case 33:
                 {
                 alt13=2;
                 }
                 break;
-            case 32:
+            case 34:
                 {
                 alt13=3;
                 }
                 break;
-            case 33:
+            case 35:
                 {
                 alt13=4;
                 }
                 break;
-            case 34:
+            case 36:
                 {
                 alt13=5;
                 }
                 break;
-            case 35:
+            case 37:
                 {
                 alt13=6;
                 }
                 break;
-            case 36:
+            case 38:
                 {
                 alt13=7;
                 }
@@ -1760,7 +1762,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:823:3: (enumLiteral_0= 'POM' )
                     // InternalMultiMaven.g:824:4: enumLiteral_0= 'POM'
                     {
-                    enumLiteral_0=(Token)match(input,30,FOLLOW_2); 
+                    enumLiteral_0=(Token)match(input,32,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getPOMEnumLiteralDeclaration_0().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_0, grammarAccess.getPackagingAccess().getPOMEnumLiteralDeclaration_0());
@@ -1777,7 +1779,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:831:3: (enumLiteral_1= 'JAR' )
                     // InternalMultiMaven.g:832:4: enumLiteral_1= 'JAR'
                     {
-                    enumLiteral_1=(Token)match(input,31,FOLLOW_2); 
+                    enumLiteral_1=(Token)match(input,33,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getJAREnumLiteralDeclaration_1().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_1, grammarAccess.getPackagingAccess().getJAREnumLiteralDeclaration_1());
@@ -1794,7 +1796,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:839:3: (enumLiteral_2= 'EAR' )
                     // InternalMultiMaven.g:840:4: enumLiteral_2= 'EAR'
                     {
-                    enumLiteral_2=(Token)match(input,32,FOLLOW_2); 
+                    enumLiteral_2=(Token)match(input,34,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getEAREnumLiteralDeclaration_2().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_2, grammarAccess.getPackagingAccess().getEAREnumLiteralDeclaration_2());
@@ -1811,7 +1813,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:847:3: (enumLiteral_3= 'WAR' )
                     // InternalMultiMaven.g:848:4: enumLiteral_3= 'WAR'
                     {
-                    enumLiteral_3=(Token)match(input,33,FOLLOW_2); 
+                    enumLiteral_3=(Token)match(input,35,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getWAREnumLiteralDeclaration_3().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_3, grammarAccess.getPackagingAccess().getWAREnumLiteralDeclaration_3());
@@ -1828,7 +1830,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:855:3: (enumLiteral_4= 'RAR' )
                     // InternalMultiMaven.g:856:4: enumLiteral_4= 'RAR'
                     {
-                    enumLiteral_4=(Token)match(input,34,FOLLOW_2); 
+                    enumLiteral_4=(Token)match(input,36,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getRAREnumLiteralDeclaration_4().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_4, grammarAccess.getPackagingAccess().getRAREnumLiteralDeclaration_4());
@@ -1845,7 +1847,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:863:3: (enumLiteral_5= 'MAVENPLUGIN' )
                     // InternalMultiMaven.g:864:4: enumLiteral_5= 'MAVENPLUGIN'
                     {
-                    enumLiteral_5=(Token)match(input,35,FOLLOW_2); 
+                    enumLiteral_5=(Token)match(input,37,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getMAVENPLUGINEnumLiteralDeclaration_5().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_5, grammarAccess.getPackagingAccess().getMAVENPLUGINEnumLiteralDeclaration_5());
@@ -1862,7 +1864,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:871:3: (enumLiteral_6= 'EJB' )
                     // InternalMultiMaven.g:872:4: enumLiteral_6= 'EJB'
                     {
-                    enumLiteral_6=(Token)match(input,36,FOLLOW_2); 
+                    enumLiteral_6=(Token)match(input,38,FOLLOW_2); 
 
                     				current = grammarAccess.getPackagingAccess().getEJBEnumLiteralDeclaration_6().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_6, grammarAccess.getPackagingAccess().getEJBEnumLiteralDeclaration_6());
@@ -1916,27 +1918,27 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
             // InternalMultiMaven.g:889:2: ( (enumLiteral_0= 'COMPILE' ) | (enumLiteral_1= 'TEST' ) | (enumLiteral_2= 'PACKAGE' ) | (enumLiteral_3= 'INSTALL' ) | (enumLiteral_4= 'DEPLOY' ) )
             int alt14=5;
             switch ( input.LA(1) ) {
-            case 37:
+            case 39:
                 {
                 alt14=1;
                 }
                 break;
-            case 38:
+            case 40:
                 {
                 alt14=2;
                 }
                 break;
-            case 39:
+            case 41:
                 {
                 alt14=3;
                 }
                 break;
-            case 40:
+            case 42:
                 {
                 alt14=4;
                 }
                 break;
-            case 41:
+            case 43:
                 {
                 alt14=5;
                 }
@@ -1955,7 +1957,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:890:3: (enumLiteral_0= 'COMPILE' )
                     // InternalMultiMaven.g:891:4: enumLiteral_0= 'COMPILE'
                     {
-                    enumLiteral_0=(Token)match(input,37,FOLLOW_2); 
+                    enumLiteral_0=(Token)match(input,39,FOLLOW_2); 
 
                     				current = grammarAccess.getScopeAccess().getCOMPILEEnumLiteralDeclaration_0().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_0, grammarAccess.getScopeAccess().getCOMPILEEnumLiteralDeclaration_0());
@@ -1972,7 +1974,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:898:3: (enumLiteral_1= 'TEST' )
                     // InternalMultiMaven.g:899:4: enumLiteral_1= 'TEST'
                     {
-                    enumLiteral_1=(Token)match(input,38,FOLLOW_2); 
+                    enumLiteral_1=(Token)match(input,40,FOLLOW_2); 
 
                     				current = grammarAccess.getScopeAccess().getTESTEnumLiteralDeclaration_1().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_1, grammarAccess.getScopeAccess().getTESTEnumLiteralDeclaration_1());
@@ -1989,7 +1991,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:906:3: (enumLiteral_2= 'PACKAGE' )
                     // InternalMultiMaven.g:907:4: enumLiteral_2= 'PACKAGE'
                     {
-                    enumLiteral_2=(Token)match(input,39,FOLLOW_2); 
+                    enumLiteral_2=(Token)match(input,41,FOLLOW_2); 
 
                     				current = grammarAccess.getScopeAccess().getPACKAGEEnumLiteralDeclaration_2().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_2, grammarAccess.getScopeAccess().getPACKAGEEnumLiteralDeclaration_2());
@@ -2006,7 +2008,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:914:3: (enumLiteral_3= 'INSTALL' )
                     // InternalMultiMaven.g:915:4: enumLiteral_3= 'INSTALL'
                     {
-                    enumLiteral_3=(Token)match(input,40,FOLLOW_2); 
+                    enumLiteral_3=(Token)match(input,42,FOLLOW_2); 
 
                     				current = grammarAccess.getScopeAccess().getINSTALLEnumLiteralDeclaration_3().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_3, grammarAccess.getScopeAccess().getINSTALLEnumLiteralDeclaration_3());
@@ -2023,7 +2025,7 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
                     // InternalMultiMaven.g:922:3: (enumLiteral_4= 'DEPLOY' )
                     // InternalMultiMaven.g:923:4: enumLiteral_4= 'DEPLOY'
                     {
-                    enumLiteral_4=(Token)match(input,41,FOLLOW_2); 
+                    enumLiteral_4=(Token)match(input,43,FOLLOW_2); 
 
                     				current = grammarAccess.getScopeAccess().getDEPLOYEnumLiteralDeclaration_4().getEnumLiteral().getInstance();
                     				newLeafNode(enumLiteral_4, grammarAccess.getScopeAccess().getDEPLOYEnumLiteralDeclaration_4());
@@ -2073,19 +2075,20 @@ public class InternalMultiMavenParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000000200000L});
     public static final BitSet FOLLOW_12 = new BitSet(new long[]{0x0000000000000080L});
     public static final BitSet FOLLOW_13 = new BitSet(new long[]{0x0000000000400000L});
-    public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x000000000D800000L});
-    public static final BitSet FOLLOW_15 = new BitSet(new long[]{0x0000001FC0000000L});
-    public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x000000000D000000L});
-    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x0000000002040000L});
-    public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x000000000C000000L});
-    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000000008000000L});
-    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000000022000000L});
-    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x0000000002000000L});
-    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x0000000007800000L});
-    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000000007000000L});
-    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000000006000000L});
-    public static final BitSet FOLLOW_25 = new BitSet(new long[]{0x0000000012000000L});
-    public static final BitSet FOLLOW_26 = new BitSet(new long[]{0x000003E000000000L});
-    public static final BitSet FOLLOW_27 = new BitSet(new long[]{0x0000000000000100L});
+    public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x0000000019800000L});
+    public static final BitSet FOLLOW_15 = new BitSet(new long[]{0x0000007F00000000L});
+    public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x0000000019000000L});
+    public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x0000000002000000L});
+    public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x0000000004040000L});
+    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000000018000000L});
+    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000000010000000L});
+    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x0000000084000000L});
+    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x0000000020000000L});
+    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000000029800000L});
+    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000000029000000L});
+    public static final BitSet FOLLOW_25 = new BitSet(new long[]{0x0000000028000000L});
+    public static final BitSet FOLLOW_26 = new BitSet(new long[]{0x0000000060000000L});
+    public static final BitSet FOLLOW_27 = new BitSet(new long[]{0x00000F8000000000L});
+    public static final BitSet FOLLOW_28 = new BitSet(new long[]{0x0000000000000100L});
 
 }

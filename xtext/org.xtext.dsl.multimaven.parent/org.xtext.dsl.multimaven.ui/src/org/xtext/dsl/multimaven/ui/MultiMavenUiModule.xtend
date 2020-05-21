@@ -4,10 +4,23 @@
 package org.xtext.dsl.multimaven.ui
 
 import org.eclipse.xtend.lib.annotations.FinalFieldsConstructor
+import org.eclipse.xtext.ui.editor.syntaxcoloring.IHighlightingConfiguration
+import org.eclipse.xtext.ide.editor.syntaxcoloring.ISemanticHighlightingCalculator
 
 /**
  * Use this class to register components to be used within the Eclipse IDE.
  */
 @FinalFieldsConstructor
 class MultiMavenUiModule extends AbstractMultiMavenUiModule {
+	def Class<? extends IHighlightingConfiguration> bindIHighlightingConfiguration() {
+		typeof(MultiMavenHighlightingConfiguration)
+	}
+	
+	def Class<? extends ISemanticHighlightingCalculator> bindISemanticHighlightingCalculator() {
+		typeof(MultiMavenHighlightingCalculator)
+	}
+	
+	/*override bindIOutlineTreeProvider(){
+		typeof(MultiMavenOutlineTransformer)
+	}*/
 }
