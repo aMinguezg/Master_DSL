@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="modeloagencia" nsURI="http://modeloagencia" nsPrefix="agencia">
+  <eClassifiers xsi:type="ecore:EClass" name="Agencia">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_clientes"
+        lowerBound="1" upperBound="-1" eType="#//Cliente" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_desplazamientos"
+        upperBound="-1" eType="#//Desplazamiento" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_excursiones"
+        upperBound="-1" eType="#//Excursion" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_guias" upperBound="-1"
+        eType="#//Guia" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_alojamientos"
+        upperBound="-1" eType="#//Alojamiento" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tienda_tiene_viajes" upperBound="-1"
+        eType="#//Viaje" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Ubicacion" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cliente">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cliente_tiene_viajes" lowerBound="1"
+        upperBound="-1" eType="#//Viaje" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Dni" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Edad" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Telefono" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Viaje">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viaje_tiene_alojamientos"
+        upperBound="-1" eType="#//Alojamiento" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viaje_tiene_desplazamientos"
+        upperBound="-1" eType="#//Desplazamiento" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="viaje_tiene_excursiones"
+        upperBound="-1" eType="#//Excursion" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Factura" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Precio" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Desplazamiento">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Origen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Destino" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Medio" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Precio" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Alojamiento">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Ubicacion" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tiempo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Precio" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Excursion">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="excursion_tiene_guias"
+        upperBound="-1" eType="#//Guia" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Lugar" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Precio" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Guia">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Idioma" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tarifa" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+</ecore:EPackage>

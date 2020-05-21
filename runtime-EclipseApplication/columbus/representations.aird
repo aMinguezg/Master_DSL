@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:agencia="http://modeloagencia" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_n8R4YJufEeq2xM1BfwhgqA" selectedViews="_-KoJ4JufEeq2xM1BfwhgqA" version="14.1.0.201810161215">
+    <semanticResources>agencia1.modeloagencia</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_-KoJ4JufEeq2xM1BfwhgqA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_13s08JugEeq2xM1BfwhgqA" name="new Agencia diagrama" repPath="#_13ARYJugEeq2xM1BfwhgqA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']"/>
+        <target xmi:type="agencia:Agencia" href="agencia1.modeloagencia#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_07dZsJuhEeqnhYSddiBV5g" name="new Agencia diagrama" repPath="#_06w2IJuhEeqnhYSddiBV5g">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']"/>
+        <target xmi:type="agencia:Agencia" href="agencia1.modeloagencia#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_13ARYJugEeq2xM1BfwhgqA" name="new Agencia diagrama">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_13qYsJugEeq2xM1BfwhgqA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_13qYsZugEeq2xM1BfwhgqA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_136QUJugEeq2xM1BfwhgqA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_136QUZugEeq2xM1BfwhgqA" type="Sirius" element="_13ARYJugEeq2xM1BfwhgqA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_14HEoJugEeq2xM1BfwhgqA" type="2001" element="_13Yr4JugEeq2xM1BfwhgqA">
+          <children xmi:type="notation:Node" xmi:id="_14MkMJugEeq2xM1BfwhgqA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_14MkMZugEeq2xM1BfwhgqA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_14UgAJugEeq2xM1BfwhgqA" type="3003" element="_13lgMJugEeq2xM1BfwhgqA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_14UgAZugEeq2xM1BfwhgqA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14UgApugEeq2xM1BfwhgqA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_14HEoZugEeq2xM1BfwhgqA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14HEopugEeq2xM1BfwhgqA" x="40" y="35" width="176" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_14TR4JugEeq2xM1BfwhgqA" type="2001" element="_13ojgJugEeq2xM1BfwhgqA">
+          <children xmi:type="notation:Node" xmi:id="_14TR45ugEeq2xM1BfwhgqA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_14TR5JugEeq2xM1BfwhgqA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_14VHEJugEeq2xM1BfwhgqA" type="3003" element="_13ojgZugEeq2xM1BfwhgqA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_14VHEZugEeq2xM1BfwhgqA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14VHEpugEeq2xM1BfwhgqA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_14TR4ZugEeq2xM1BfwhgqA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14TR4pugEeq2xM1BfwhgqA" x="325" y="38" width="181" height="116"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_14TR5ZugEeq2xM1BfwhgqA" type="2001" element="_13ojg5ugEeq2xM1BfwhgqA">
+          <children xmi:type="notation:Node" xmi:id="_14T48JugEeq2xM1BfwhgqA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_14T48ZugEeq2xM1BfwhgqA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_14VuIJugEeq2xM1BfwhgqA" type="3003" element="_13ojhJugEeq2xM1BfwhgqA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_14VuIZugEeq2xM1BfwhgqA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14VuIpugEeq2xM1BfwhgqA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_14TR5pugEeq2xM1BfwhgqA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_14TR55ugEeq2xM1BfwhgqA" x="650" y="50" width="156" height="111"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_136QUpugEeq2xM1BfwhgqA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_13Yr4JugEeq2xM1BfwhgqA" name="Julian Martin" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_13lgMJugEeq2xM1BfwhgqA" labelSize="12" labelPosition="node">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_13ojgJugEeq2xM1BfwhgqA" name="Bonifacio Martinez" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_13ojgZugEeq2xM1BfwhgqA" labelSize="12" labelPosition="node">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_13ojg5ugEeq2xM1BfwhgqA" name="Laura Garcia" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_13ojhJugEeq2xM1BfwhgqA" labelSize="12" labelPosition="node">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_13INMJugEeq2xM1BfwhgqA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer"/>
+    <target xmi:type="agencia:Agencia" href="agencia1.modeloagencia#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_06w2IJuhEeqnhYSddiBV5g" name="new Agencia diagrama">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_07ZvUJuhEeqnhYSddiBV5g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_07ZvUZuhEeqnhYSddiBV5g"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_07sDMJuhEeqnhYSddiBV5g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_07sDMZuhEeqnhYSddiBV5g" type="Sirius" element="_06w2IJuhEeqnhYSddiBV5g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_071NIJuhEeqnhYSddiBV5g" type="2001" element="_07J3sJuhEeqnhYSddiBV5g">
+          <children xmi:type="notation:Node" xmi:id="_077TwJuhEeqnhYSddiBV5g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_077TwZuhEeqnhYSddiBV5g" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_08R5EJuhEeqnhYSddiBV5g" type="3005" element="_07U20JuhEeqnhYSddiBV5g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_08R5EZuhEeqnhYSddiBV5g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08R5EpuhEeqnhYSddiBV5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_071NIZuhEeqnhYSddiBV5g" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_071NIpuhEeqnhYSddiBV5g" x="65" y="55" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_08Pc0JuhEeqnhYSddiBV5g" type="2001" element="_07YhMJuhEeqnhYSddiBV5g">
+          <children xmi:type="notation:Node" xmi:id="_08QD4JuhEeqnhYSddiBV5g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_08QD4ZuhEeqnhYSddiBV5g" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_08R5E5uhEeqnhYSddiBV5g" type="3005" element="_07YhMZuhEeqnhYSddiBV5g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_08R5FJuhEeqnhYSddiBV5g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08R5FZuhEeqnhYSddiBV5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_08Pc0ZuhEeqnhYSddiBV5g" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08Pc0puhEeqnhYSddiBV5g" x="420" y="59" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_08QD4puhEeqnhYSddiBV5g" type="2001" element="_07YhM5uhEeqnhYSddiBV5g">
+          <children xmi:type="notation:Node" xmi:id="_08Qq8JuhEeqnhYSddiBV5g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_08Qq8ZuhEeqnhYSddiBV5g" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_08SgIJuhEeqnhYSddiBV5g" type="3005" element="_07YhNJuhEeqnhYSddiBV5g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_08SgIZuhEeqnhYSddiBV5g" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08SgIpuhEeqnhYSddiBV5g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_08QD45uhEeqnhYSddiBV5g" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08QD5JuhEeqnhYSddiBV5g" x="724" y="51" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xP8UwJuiEeq15OywXVuAww" type="2001" element="_xPtrQJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQBNQJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQBNQZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQZAsJuiEeq15OywXVuAww" type="3005" element="_xPuSUJuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQZAsZuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQZAspuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xP8UwZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xP8UwpuiEeq15OywXVuAww" x="65" y="171" width="64" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQK-QJuiEeq15OywXVuAww" type="2001" element="_xPu5YZuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQLlUJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQLlUZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQZnwJuiEeq15OywXVuAww" type="3005" element="_xPu5YpuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQZnwZuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQZnwpuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQK-QZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQK-QpuiEeq15OywXVuAww" x="420" y="163" width="64" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQLlUpuiEeq15OywXVuAww" type="2001" element="_xPvgcZuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQMMYJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQMMYZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQZnw5uiEeq15OywXVuAww" type="3005" element="_xPvgcpuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQZnxJuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQZnxZuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQLlU5uiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQLlVJuiEeq15OywXVuAww" x="724" y="155" width="64" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQOBkJuiEeq15OywXVuAww" type="2001" element="_xPwHgJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQOooJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQOooZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QfUEYJuvEeqFwsfh8FjLUA" type="3005" element="_Qe1jQZuvEeqFwsfh8FjLUA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_QfUEYZuvEeqFwsfh8FjLUA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QfUEYpuvEeqFwsfh8FjLUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQOBkZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQOBkpuiEeq15OywXVuAww" x="165" y="300" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQP2wJuiEeq15OywXVuAww" type="2001" element="_xPwHg5uiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQQd0JuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQQd0ZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vAYPcJuuEeqTUNft0UdrMA" type="3005" element="_u_8KkZuuEeqTUNft0UdrMA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vAYPcZuuEeqTUNft0UdrMA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vAYPcpuuEeqTUNft0UdrMA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQP2wZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQP2wpuiEeq15OywXVuAww" x="989" y="187" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQQd0puiEeq15OywXVuAww" type="2001" element="_xPwukZuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQQd1ZuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQQd1puiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QfZj8JuvEeqFwsfh8FjLUA" type="3005" element="_Qe4mkZuvEeqFwsfh8FjLUA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_QfZj8ZuvEeqFwsfh8FjLUA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QfZj8puvEeqFwsfh8FjLUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQQd05uiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQQd1JuiEeq15OywXVuAww" x="989" y="88" width="64" height="68"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQRE4JuiEeq15OywXVuAww" type="2001" element="_xPxVoJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQRE45uiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQRE5JuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQcEAJuiEeq15OywXVuAww" type="3005" element="_xPxVoZuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQcEAZuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQcEApuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQRE4ZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQRE4puiEeq15OywXVuAww" x="40" y="295" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQS6EJuiEeq15OywXVuAww" type="2001" element="_xPxVo5uiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQThIJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQThIZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQcEA5uiEeq15OywXVuAww" type="3005" element="_xPx8sJuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQcEBJuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQcEBZuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQS6EZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQS6EpuiEeq15OywXVuAww" x="679" y="282" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQUIMJuiEeq15OywXVuAww" type="2001" element="_xPyjwJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQUIM5uiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQUINJuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQcrEJuiEeq15OywXVuAww" type="3005" element="_xPyjwZuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQcrEZuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQcrEpuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQUIMZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQUIMpuiEeq15OywXVuAww" x="799" y="287" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQUvQJuiEeq15OywXVuAww" type="2001" element="_xPzK0JuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQUvQ5uiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQUvRJuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQcrE5uiEeq15OywXVuAww" type="3005" element="_xPzK0ZuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQcrFJuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQcrFZuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQUvQZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQUvQpuiEeq15OywXVuAww" x="410" y="265" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQV9YJuiEeq15OywXVuAww" type="2001" element="_xPzx4JuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQWkcJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQWkcZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQdSIJuiEeq15OywXVuAww" type="3005" element="_xPzx4ZuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQdSIZuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQdSIpuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQV9YZuiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQV9YpuiEeq15OywXVuAww" x="989" y="292" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xQWkcpuiEeq15OywXVuAww" type="2001" element="_xP0Y8JuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_xQXLgJuiEeq15OywXVuAww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xQXLgZuiEeq15OywXVuAww" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xQdSI5uiEeq15OywXVuAww" type="3005" element="_xP0Y8ZuiEeq15OywXVuAww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xQdSJJuiEeq15OywXVuAww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQdSJZuiEeq15OywXVuAww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xQWkc5uiEeq15OywXVuAww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQWkdJuiEeq15OywXVuAww" x="410" y="395" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_UJ1VsJusEeqhBMC3sLrlQA" type="2001" element="_UJjo4JusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_UJ61QJusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UJ61QZusEeqhBMC3sLrlQA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UJ_GsJusEeqhBMC3sLrlQA" type="3005" element="_UJkP8JusEeqhBMC3sLrlQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_UJ_GsZusEeqhBMC3sLrlQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJ_GspusEeqhBMC3sLrlQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UJ1VsZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJ1VspusEeqhBMC3sLrlQA" x="610" y="490" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Uw7K4JusEeqhBMC3sLrlQA" type="2001" element="_UwyA8JusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_Uw7x8JusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Uw7x8ZusEeqhBMC3sLrlQA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Uw8ZAJusEeqhBMC3sLrlQA" type="3005" element="_UwyA8ZusEeqhBMC3sLrlQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Uw8ZAZusEeqhBMC3sLrlQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uw8ZApusEeqhBMC3sLrlQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Uw7K4ZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uw7K4pusEeqhBMC3sLrlQA" x="765" y="498" width="64" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VFSRUJusEeqhBMC3sLrlQA" type="2001" element="_VFJHYJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_VFS4YJusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VFS4YZusEeqhBMC3sLrlQA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YMqKkJuvEeqFwsfh8FjLUA" type="3005" element="_YMgZkZuvEeqFwsfh8FjLUA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YMqKkZuvEeqFwsfh8FjLUA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YMqKkpuvEeqFwsfh8FjLUA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_VFSRUZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VFSRUpusEeqhBMC3sLrlQA" x="787" y="395" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VZXq8JusEeqhBMC3sLrlQA" type="2001" element="_VZNS4JusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_VZYSAJusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VZYSAZusEeqhBMC3sLrlQA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VZY5EJusEeqhBMC3sLrlQA" type="3005" element="_VZN58JusEeqhBMC3sLrlQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_VZY5EZusEeqhBMC3sLrlQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VZY5EpusEeqhBMC3sLrlQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_VZXq8ZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VZXq8pusEeqhBMC3sLrlQA" x="926" y="410" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VsL5QJusEeqhBMC3sLrlQA" type="2001" element="_VsDWYJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_VsMgUJusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VsMgUZusEeqhBMC3sLrlQA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VsNHYJusEeqhBMC3sLrlQA" type="3005" element="_VsDWYZusEeqhBMC3sLrlQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_VsNHYZusEeqhBMC3sLrlQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VsNHYpusEeqhBMC3sLrlQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_VsL5QZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VsL5QpusEeqhBMC3sLrlQA" x="926" y="490" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_V7b2MJusEeqhBMC3sLrlQA" type="2001" element="_V7VIgJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_V7cdQJusEeqhBMC3sLrlQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_V7cdQZusEeqhBMC3sLrlQA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_V7dEUJusEeqhBMC3sLrlQA" type="3005" element="_V7VvkJusEeqhBMC3sLrlQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_V7dEUZusEeqhBMC3sLrlQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V7dEUpusEeqhBMC3sLrlQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_V7b2MZusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V7b2MpusEeqhBMC3sLrlQA" x="1045" y="490" width="64" height="64"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_07sDMpuhEeqnhYSddiBV5g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_d40SkJujEeqWmteB2sVdeA" type="4001" element="_d4ficJujEeqWmteB2sVdeA" source="_071NIJuhEeqnhYSddiBV5g" target="_xP8UwJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_d45LEJujEeqWmteB2sVdeA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d45LEZujEeqWmteB2sVdeA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d47nUJujEeqWmteB2sVdeA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d47nUZujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d47nUpujEeqWmteB2sVdeA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d47nU5ujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_d40SkZujEeqWmteB2sVdeA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_d40SkpujEeqWmteB2sVdeA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d40Sk5ujEeqWmteB2sVdeA" points="[0, 32, 0, -76]$[0, 84, 0, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5F_YJujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5F_YZujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_d5F_YpujEeqWmteB2sVdeA" type="4001" element="_d4h-spujEeqWmteB2sVdeA" source="_08Pc0JuhEeqnhYSddiBV5g" target="_xQK-QJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_d5GmcJujEeqWmteB2sVdeA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5GmcZujEeqWmteB2sVdeA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d5GmcpujEeqWmteB2sVdeA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5Gmc5ujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d5GmdJujEeqWmteB2sVdeA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5GmdZujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_d5F_Y5ujEeqWmteB2sVdeA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_d5F_ZJujEeqWmteB2sVdeA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d5F_ZZujEeqWmteB2sVdeA" points="[0, 32, 0, -64]$[0, 72, 0, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5GmdpujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5Gmd5ujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_d5GmeJujEeqWmteB2sVdeA" type="4001" element="_d4ilwpujEeqWmteB2sVdeA" source="_08QD4puhEeqnhYSddiBV5g" target="_xQLlUpuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_d5HNgJujEeqWmteB2sVdeA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5HNgZujEeqWmteB2sVdeA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d5HNgpujEeqWmteB2sVdeA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5HNg5ujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_d5HNhJujEeqWmteB2sVdeA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5HNhZujEeqWmteB2sVdeA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_d5GmeZujEeqWmteB2sVdeA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_d5GmepujEeqWmteB2sVdeA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d5Gme5ujEeqWmteB2sVdeA" points="[0, 32, 0, -64]$[0, 72, 0, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5HNhpujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d5HNh5ujEeqWmteB2sVdeA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYH70JukEeqG9JqaTf5ESw" type="4001" element="_IXykoJukEeqG9JqaTf5ESw" source="_xP8UwJuiEeq15OywXVuAww" target="_xQOBkJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYM0UJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYM0UZukEeqG9JqaTf5ESw" x="-14" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYP3oJukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYP3oZukEeqG9JqaTf5ESw" x="11" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYQesJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYQesZukEeqG9JqaTf5ESw" x="11" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYH70ZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYH70pukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYH705ukEeqG9JqaTf5ESw" points="[17, 24, -83, -113]$[76, 105, -24, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYdTAJukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYdTAZukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYd6EJukEeqG9JqaTf5ESw" type="4001" element="_IXzywJukEeqG9JqaTf5ESw" source="_xQLlUpuiEeq15OywXVuAww" target="_xQP2wJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYehIJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYehIZukEeqG9JqaTf5ESw" x="-2" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYehIpukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYehI5ukEeqG9JqaTf5ESw" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYehJJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYehJZukEeqG9JqaTf5ESw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYd6EZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYd6EpukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYd6E5ukEeqG9JqaTf5ESw" points="[32, 4, -233, -36]$[233, 35, -32, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYfIMJukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYfIMZukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYfIMpukEeqG9JqaTf5ESw" type="4001" element="_IX0Z0JukEeqG9JqaTf5ESw" source="_xQLlUpuiEeq15OywXVuAww" target="_xQQd0puiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYfvQJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYfvQZukEeqG9JqaTf5ESw" x="2" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYfvQpukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYfvQ5ukEeqG9JqaTf5ESw" x="1" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYfvRJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYfvRZukEeqG9JqaTf5ESw" x="-2" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYfIM5ukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYfINJukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYfINZukEeqG9JqaTf5ESw" points="[32, -7, -233, 50]$[233, -51, -32, 6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYgWUJukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYgWUZukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYgWUpukEeqG9JqaTf5ESw" type="4001" element="_IX1A4JukEeqG9JqaTf5ESw" source="_xP8UwJuiEeq15OywXVuAww" target="_xQRE4JuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYgWVpukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYgWV5ukEeqG9JqaTf5ESw" x="-3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYgWWJukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYgWWZukEeqG9JqaTf5ESw" x="2" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYg9YJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYg9YZukEeqG9JqaTf5ESw" x="3" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYgWU5ukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYgWVJukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYgWVZukEeqG9JqaTf5ESw" points="[-5, 24, 20, -108]$[-19, 100, 6, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYg9YpukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYg9Y5ukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYg9ZJukEeqG9JqaTf5ESw" type="4001" element="_IX1A5ZukEeqG9JqaTf5ESw" source="_xQLlUpuiEeq15OywXVuAww" target="_xQS6EJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYg9aJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYg9aZukEeqG9JqaTf5ESw" x="2" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYhkcJukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYhkcZukEeqG9JqaTf5ESw" x="-1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYhkcpukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYhkc5ukEeqG9JqaTf5ESw" x="-2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYg9ZZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYg9ZpukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYg9Z5ukEeqG9JqaTf5ESw" points="[-8, 24, 37, -111]$[-35, 103, 10, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYhkdJukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYhkdZukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYhkdpukEeqG9JqaTf5ESw" type="4001" element="_IX1n8pukEeqG9JqaTf5ESw" source="_xQLlUpuiEeq15OywXVuAww" target="_xQUIMJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYiLgJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiLgZukEeqG9JqaTf5ESw" x="-1" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYiLgpukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiLg5ukEeqG9JqaTf5ESw" x="-3" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYiLhJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiLhZukEeqG9JqaTf5ESw" x="-5" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYhkd5ukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYhkeJukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYhkeZukEeqG9JqaTf5ESw" points="[12, 24, -63, -116]$[57, 108, -18, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYiLhpukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYiLh5ukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYiLiJukEeqG9JqaTf5ESw" type="4001" element="_IX2PAJukEeqG9JqaTf5ESw" source="_xQK-QJuiEeq15OywXVuAww" target="_xQUvQJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYiykJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiykZukEeqG9JqaTf5ESw" x="-3" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYiykpukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiyk5ukEeqG9JqaTf5ESw" x="3" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYiylJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYiylZukEeqG9JqaTf5ESw" x="2" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYiLiZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYiLipukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYiLi5ukEeqG9JqaTf5ESw" points="[-3, 24, 7, -86]$[-8, 78, 2, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYiylpukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYiyl5ukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYiymJukEeqG9JqaTf5ESw" type="4001" element="_IX2PBZukEeqG9JqaTf5ESw" source="_xQLlUpuiEeq15OywXVuAww" target="_xQV9YJuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYjZoJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYjZoZukEeqG9JqaTf5ESw" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYjZopukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYjZo5ukEeqG9JqaTf5ESw" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYjZpJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYjZpZukEeqG9JqaTf5ESw" x="-2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYiymZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYiympukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYiym5ukEeqG9JqaTf5ESw" points="[32, 17, -233, -128]$[233, 127, -32, -18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYjZppukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYjZp5ukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IYjZqJukEeqG9JqaTf5ESw" type="4001" element="_IX22EpukEeqG9JqaTf5ESw" source="_xQUvQJuiEeq15OywXVuAww" target="_xQWkcpuiEeq15OywXVuAww">
+          <children xmi:type="notation:Node" xmi:id="_IYkAsJukEeqG9JqaTf5ESw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYkAsZukEeqG9JqaTf5ESw" x="-10" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYkAspukEeqG9JqaTf5ESw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYkAs5ukEeqG9JqaTf5ESw" x="6" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IYkAtJukEeqG9JqaTf5ESw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYkAtZukEeqG9JqaTf5ESw" x="4" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IYjZqZukEeqG9JqaTf5ESw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IYjZqpukEeqG9JqaTf5ESw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYjZq5ukEeqG9JqaTf5ESw" points="[0, 32, 0, -98]$[0, 98, 0, -32]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYkAtpukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IYkAt5ukEeqG9JqaTf5ESw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Xcn8IJusEeqhBMC3sLrlQA" type="4001" element="_XcXdepusEeqhBMC3sLrlQA" source="_UJ1VsJusEeqhBMC3sLrlQA" target="_Uw7K4JusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_XcpKQJusEeqhBMC3sLrlQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XcpKQZusEeqhBMC3sLrlQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XcpxUJusEeqhBMC3sLrlQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XcpxUZusEeqhBMC3sLrlQA" x="-2" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xcq_cJusEeqhBMC3sLrlQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xcq_cZusEeqhBMC3sLrlQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xcn8IZusEeqhBMC3sLrlQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Xcn8IpusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xcn8I5usEeqhBMC3sLrlQA" points="[0, 0, -91, -6]$[91, 6, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xcs0oJusEeqhBMC3sLrlQA" id="(1.0,0.421875)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xcs0oZusEeqhBMC3sLrlQA" id="(0.0,0.5208333333333334)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Z5kfsJusEeqhBMC3sLrlQA" type="4001" element="_Z5b81JusEeqhBMC3sLrlQA" source="_Uw7K4JusEeqhBMC3sLrlQA" target="_VZXq8JusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_Z5lGwJusEeqhBMC3sLrlQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z5lGwZusEeqhBMC3sLrlQA" x="28" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z5lGwpusEeqhBMC3sLrlQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z5lGw5usEeqhBMC3sLrlQA" x="-7" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z5lGxJusEeqhBMC3sLrlQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z5lGxZusEeqhBMC3sLrlQA" x="-30" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Z5kfsZusEeqhBMC3sLrlQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Z5kfspusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z5kfs5usEeqhBMC3sLrlQA" points="[0, 0, -97, 72]$[97, -72, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5lGxpusEeqhBMC3sLrlQA" id="(1.0,0.3125)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5lGx5usEeqhBMC3sLrlQA" id="(0.0,0.484375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_aiObIJusEeqhBMC3sLrlQA" type="4001" element="_aiHGZpusEeqhBMC3sLrlQA" source="_Uw7K4JusEeqhBMC3sLrlQA" target="_VsL5QJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_aiPCMJusEeqhBMC3sLrlQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aiPCMZusEeqhBMC3sLrlQA" x="-30" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aiPCMpusEeqhBMC3sLrlQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aiPCM5usEeqhBMC3sLrlQA" x="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aiPCNJusEeqhBMC3sLrlQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aiPCNZusEeqhBMC3sLrlQA" x="15" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_aiObIZusEeqhBMC3sLrlQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_aiObIpusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aiObI5usEeqhBMC3sLrlQA" points="[0, 0, -97, 3]$[97, -3, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiPCNpusEeqhBMC3sLrlQA" id="(1.0,0.5625)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aiPCN5usEeqhBMC3sLrlQA" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_bOENcJusEeqhBMC3sLrlQA" type="4001" element="_bN-t5JusEeqhBMC3sLrlQA" source="_VsL5QJusEeqhBMC3sLrlQA" target="_V7b2MJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_bOE0gJusEeqhBMC3sLrlQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bOE0gZusEeqhBMC3sLrlQA" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bOE0gpusEeqhBMC3sLrlQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bOE0g5usEeqhBMC3sLrlQA" x="-1" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bOE0hJusEeqhBMC3sLrlQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bOE0hZusEeqhBMC3sLrlQA" x="-2" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_bOENcZusEeqhBMC3sLrlQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bOENcpusEeqhBMC3sLrlQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bOENc5usEeqhBMC3sLrlQA" points="[0, 0, -55, 5]$[55, -5, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bOE0hpusEeqhBMC3sLrlQA" id="(1.0,0.546875)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bOE0h5usEeqhBMC3sLrlQA" id="(0.0,0.46875)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_mDuvcJusEeqzY-JIPSB_bw" type="4001" element="_mDUfwpusEeqzY-JIPSB_bw" source="_Uw7K4JusEeqhBMC3sLrlQA" target="_VFSRUJusEeqhBMC3sLrlQA">
+          <children xmi:type="notation:Node" xmi:id="_mD02EJusEeqzY-JIPSB_bw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mD02EZusEeqzY-JIPSB_bw" x="21" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mD2EMJusEeqzY-JIPSB_bw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mD2EMZusEeqzY-JIPSB_bw" x="-10" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mD2rQJusEeqzY-JIPSB_bw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mD2rQZusEeqzY-JIPSB_bw" x="-13" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_mDuvcZusEeqzY-JIPSB_bw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_mDuvcpusEeqzY-JIPSB_bw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mDuvc5usEeqzY-JIPSB_bw" points="[0, 0, -2, 73]$[2, -73, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mD5HgJusEeqzY-JIPSB_bw" id="(0.3125,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mD5HgZusEeqzY-JIPSB_bw" id="(0.0,0.46875)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_07J3sJuhEeqnhYSddiBV5g" name="Julian Martin" outgoingEdges="_d4ficJujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_07U20JuhEeqnhYSddiBV5g" labelSize="12" workspacePath="/basicAgencia.design/icons/clienteRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_07YhMJuhEeqnhYSddiBV5g" name="Bonifacio Martinez" outgoingEdges="_d4h-spujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_07YhMZuhEeqnhYSddiBV5g" labelSize="12" workspacePath="/basicAgencia.design/icons/clienteRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_07YhM5uhEeqnhYSddiBV5g" name="Laura Garcia" outgoingEdges="_d4ilwpujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_07YhNJuhEeqnhYSddiBV5g" labelSize="12" workspacePath="/basicAgencia.design/icons/clienteRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UJjo4JusEeqhBMC3sLrlQA" outgoingEdges="_XcXdepusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3"/>
+      <semanticElements xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_UJkP8JusEeqhBMC3sLrlQA" labelSize="12" workspacePath="/basicAgencia.design/icons/clienteRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPtrQJuiEeq15OywXVuAww" name="1" outgoingEdges="_IXykoJukEeqG9JqaTf5ESw _IX1A4JukEeqG9JqaTf5ESw" incomingEdges="_d4ficJujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0"/>
+      <semanticElements xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPuSUJuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/viajeRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPu5YZuiEeq15OywXVuAww" name="2" outgoingEdges="_IX2PAJukEeqG9JqaTf5ESw" incomingEdges="_d4h-spujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0"/>
+      <semanticElements xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPu5YpuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/viajeRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPvgcZuiEeq15OywXVuAww" name="3" outgoingEdges="_IXzywJukEeqG9JqaTf5ESw _IX0Z0JukEeqG9JqaTf5ESw _IX1A5ZukEeqG9JqaTf5ESw _IX1n8pukEeqG9JqaTf5ESw _IX2PBZukEeqG9JqaTf5ESw" incomingEdges="_d4ilwpujEeqWmteB2sVdeA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <semanticElements xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPvgcpuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/viajeRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UwyA8JusEeqhBMC3sLrlQA" outgoingEdges="_Z5b81JusEeqhBMC3sLrlQA _aiHGZpusEeqhBMC3sLrlQA _mDUfwpusEeqzY-JIPSB_bw" incomingEdges="_XcXdepusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0"/>
+      <semanticElements xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_UwyA8ZusEeqhBMC3sLrlQA" labelSize="12" workspacePath="/basicAgencia.design/icons/viajeRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPwHgJuiEeq15OywXVuAww" name="Avion" incomingEdges="_IXykoJukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <semanticElements xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Qe1jQZuvEeqFwsfh8FjLUA" labelSize="12" workspacePath="/basicAgencia.design/icons/avionRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']/@conditionnalStyles.2/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPwHg5uiEeq15OywXVuAww" name="Tren" incomingEdges="_IXzywJukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <semanticElements xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_u_8KkZuuEeqTUNft0UdrMA" labelSize="12" workspacePath="/basicAgencia.design/icons/trenRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPwukZuiEeq15OywXVuAww" name="Autobus" incomingEdges="_IX0Z0JukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.1"/>
+      <semanticElements xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Qe4mkZuvEeqFwsfh8FjLUA" labelSize="12" workspacePath="/basicAgencia.design/icons/autobusRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']/@conditionnalStyles.1/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_VFJHYJusEeqhBMC3sLrlQA" name="Otro" incomingEdges="_mDUfwpusEeqzY-JIPSB_bw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <semanticElements xmi:type="agencia:Desplazamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_desplazamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_YMgZkZuvEeqFwsfh8FjLUA" labelSize="12" workspacePath="/basicAgencia.design/icons/desplazamientoRes.jpg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPxVoJuiEeq15OywXVuAww" name="Hotel el Prat" incomingEdges="_IX1A4JukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <semanticElements xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPxVoZuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/alojamientoRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPxVo5uiEeq15OywXVuAww" name="Hotel la Vid" incomingEdges="_IX1A5ZukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <semanticElements xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPx8sJuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/alojamientoRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPyjwJuiEeq15OywXVuAww" name="Hotel Patxi" incomingEdges="_IX1n8pukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.1"/>
+      <semanticElements xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPyjwZuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/alojamientoRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_VZNS4JusEeqhBMC3sLrlQA" incomingEdges="_Z5b81JusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <semanticElements xmi:type="agencia:Alojamiento" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_alojamientos.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VZN58JusEeqhBMC3sLrlQA" labelSize="12" workspacePath="/basicAgencia.design/icons/alojamientoRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPzK0JuiEeq15OywXVuAww" name="El Escorial" outgoingEdges="_IX22EpukEeqG9JqaTf5ESw" incomingEdges="_IX2PAJukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <semanticElements xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPzK0ZuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/excursionRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xPzx4JuiEeq15OywXVuAww" name="Playa Garrote" incomingEdges="_IX2PBZukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <semanticElements xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xPzx4ZuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/excursionRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_VsDWYJusEeqhBMC3sLrlQA" outgoingEdges="_bN-t5JusEeqhBMC3sLrlQA" incomingEdges="_aiHGZpusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <semanticElements xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VsDWYZusEeqhBMC3sLrlQA" labelSize="12" workspacePath="/basicAgencia.design/icons/excursionRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xP0Y8JuiEeq15OywXVuAww" name="Sofia Vergara" incomingEdges="_IX22EpukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
+      <semanticElements xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xP0Y8ZuiEeq15OywXVuAww" labelSize="12" workspacePath="/basicAgencia.design/icons/guiaRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V7VIgJusEeqhBMC3sLrlQA" incomingEdges="_bN-t5JusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
+      <semanticElements xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_V7VvkJusEeqhBMC3sLrlQA" labelSize="12" workspacePath="/basicAgencia.design/icons/guiaRes.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_d4ficJujEeqWmteB2sVdeA" sourceNode="_07J3sJuhEeqnhYSddiBV5g" targetNode="_xPtrQJuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_d4gwkJujEeqWmteB2sVdeA" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_d4hXoJujEeqWmteB2sVdeA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_d4h-spujEeqWmteB2sVdeA" sourceNode="_07YhMJuhEeqnhYSddiBV5g" targetNode="_xPu5YZuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_d4h-s5ujEeqWmteB2sVdeA" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_d4h-tJujEeqWmteB2sVdeA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_d4ilwpujEeqWmteB2sVdeA" sourceNode="_07YhM5uhEeqnhYSddiBV5g" targetNode="_xPvgcZuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_d4ilw5ujEeqWmteB2sVdeA" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_d4ilxJujEeqWmteB2sVdeA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IXykoJukEeqG9JqaTf5ESw" sourceNode="_xPtrQJuiEeq15OywXVuAww" targetNode="_xPwHgJuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IXykoZukEeqG9JqaTf5ESw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IXykopukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IXzywJukEeqG9JqaTf5ESw" sourceNode="_xPvgcZuiEeq15OywXVuAww" targetNode="_xPwHg5uiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IXzywZukEeqG9JqaTf5ESw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IXzywpukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX0Z0JukEeqG9JqaTf5ESw" sourceNode="_xPvgcZuiEeq15OywXVuAww" targetNode="_xPwukZuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX0Z0ZukEeqG9JqaTf5ESw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX0Z0pukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX1A4JukEeqG9JqaTf5ESw" sourceNode="_xPtrQJuiEeq15OywXVuAww" targetNode="_xPxVoJuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.0/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX1A4ZukEeqG9JqaTf5ESw" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX1A4pukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX1A5ZukEeqG9JqaTf5ESw" sourceNode="_xPvgcZuiEeq15OywXVuAww" targetNode="_xPxVo5uiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX1A5pukEeqG9JqaTf5ESw" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX1A55ukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX1n8pukEeqG9JqaTf5ESw" sourceNode="_xPvgcZuiEeq15OywXVuAww" targetNode="_xPyjwJuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX1n85ukEeqG9JqaTf5ESw" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX1n9JukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX2PAJukEeqG9JqaTf5ESw" sourceNode="_xPu5YZuiEeq15OywXVuAww" targetNode="_xPzK0JuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX2PAZukEeqG9JqaTf5ESw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX2PApukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX2PBZukEeqG9JqaTf5ESw" sourceNode="_xPvgcZuiEeq15OywXVuAww" targetNode="_xPzx4JuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.2/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX2PBpukEeqG9JqaTf5ESw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX2PB5ukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IX22EpukEeqG9JqaTf5ESw" sourceNode="_xPzK0JuiEeq15OywXVuAww" targetNode="_xP0Y8JuiEeq15OywXVuAww">
+      <target xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IX22E5ukEeqG9JqaTf5ESw" size="2" strokeColor="233,185,110">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RExcursionGuia']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IX22FJukEeqG9JqaTf5ESw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RExcursionGuia']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XcXdepusEeqhBMC3sLrlQA" sourceNode="_UJjo4JusEeqhBMC3sLrlQA" targetNode="_UwyA8JusEeqhBMC3sLrlQA">
+      <target xmi:type="agencia:Cliente" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XcYEgJusEeqhBMC3sLrlQA" size="2" strokeColor="173,127,168">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XcYEgZusEeqhBMC3sLrlQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Z5b81JusEeqhBMC3sLrlQA" sourceNode="_UwyA8JusEeqhBMC3sLrlQA" targetNode="_VZNS4JusEeqhBMC3sLrlQA">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Z5b81ZusEeqhBMC3sLrlQA" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Z5b81pusEeqhBMC3sLrlQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_aiHGZpusEeqhBMC3sLrlQA" sourceNode="_UwyA8JusEeqhBMC3sLrlQA" targetNode="_VsDWYJusEeqhBMC3sLrlQA">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_aiHGZ5usEeqhBMC3sLrlQA" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_aiHGaJusEeqhBMC3sLrlQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bN-t5JusEeqhBMC3sLrlQA" sourceNode="_VsDWYJusEeqhBMC3sLrlQA" targetNode="_V7VIgJusEeqhBMC3sLrlQA">
+      <target xmi:type="agencia:Excursion" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bN-t5ZusEeqhBMC3sLrlQA" size="2" strokeColor="233,185,110">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RExcursionGuia']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bN-t5pusEeqhBMC3sLrlQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RExcursionGuia']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_mDUfwpusEeqzY-JIPSB_bw" sourceNode="_UwyA8JusEeqhBMC3sLrlQA" targetNode="_VFJHYJusEeqhBMC3sLrlQA">
+      <target xmi:type="agencia:Viaje" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_mDVG0JusEeqzY-JIPSB_bw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_mDVG0ZusEeqzY-JIPSB_bw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_063j0JuhEeqnhYSddiBV5g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer"/>
+    <target xmi:type="agencia:Agencia" href="agencia1.modeloagencia#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

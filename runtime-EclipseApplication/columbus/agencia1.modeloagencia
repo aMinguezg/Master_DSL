@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia:Agencia xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:agencia="http://modeloagencia" Nombre="Columbus Tours" Id="1" Ubicacion="Madrid">
+  <tienda_tiene_clientes Nombre="Julian Martin" Dni="41578965V" Edad="25" Telefono="658889977">
+    <cliente_tiene_viajes Factura="1" Precio="375.85">
+      <viaje_tiene_alojamientos Nombre="Hotel el Prat" Ubicacion="Barcelona" Tiempo="2" Precio="275.0"/>
+      <viaje_tiene_desplazamientos Origen="Madrid" Destino="Barcelona" Medio="Avion"/>
+    </cliente_tiene_viajes>
+  </tienda_tiene_clientes>
+  <tienda_tiene_clientes Nombre="Bonifacio Martinez" Dni="45896321B" Edad="85" Telefono="632589574">
+    <cliente_tiene_viajes Factura="2" Precio="256.78">
+      <viaje_tiene_excursiones Lugar="El Escorial" Precio="125.35">
+        <excursion_tiene_guias Nombre="Sofia Vergara" Idioma="Español" Tarifa="55.0"/>
+      </viaje_tiene_excursiones>
+    </cliente_tiene_viajes>
+  </tienda_tiene_clientes>
+  <tienda_tiene_clientes Nombre="Laura Garcia" Dni="45785214B" Edad="54" Telefono="693214563">
+    <cliente_tiene_viajes Factura="3" Precio="1352.26">
+      <viaje_tiene_alojamientos Nombre="Hotel la Vid" Ubicacion="Haro" Tiempo="5" Precio="325.56"/>
+      <viaje_tiene_alojamientos Nombre="Hotel Patxi" Ubicacion="Bilbao" Tiempo="6" Precio="426.85"/>
+      <viaje_tiene_desplazamientos Origen="Madrid" Destino="Haro" Medio="Tren"/>
+      <viaje_tiene_desplazamientos Origen="Haro" Destino="Bilbao" Medio="Autobus"/>
+      <viaje_tiene_excursiones Lugar="Playa Garrote" Precio="75.5"/>
+    </cliente_tiene_viajes>
+  </tienda_tiene_clientes>
+  <tienda_tiene_clientes>
+    <cliente_tiene_viajes>
+      <viaje_tiene_alojamientos/>
+      <viaje_tiene_desplazamientos Medio="Otro"/>
+      <viaje_tiene_excursiones>
+        <excursion_tiene_guias/>
+      </viaje_tiene_excursiones>
+    </cliente_tiene_viajes>
+  </tienda_tiene_clientes>
+</agencia:Agencia>

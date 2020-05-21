@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/AgenciaViajes/src" modelPluginID="AgenciaViajes"
+    modelName="Modeloagencia" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>modeloagencia.ecore</foreignModel>
+  <genPackages prefix="Modeloagencia" basePackage="modeloagencia" disposableProviderFactory="true"
+      ecorePackage="modeloagencia.ecore#/">
+    <genClasses ecoreClass="modeloagencia.ecore#//Agencia">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_clientes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_desplazamientos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_excursiones"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_guias"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_alojamientos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Agencia/tienda_tiene_viajes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Agencia/Nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Agencia/Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Agencia/Ubicacion"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Cliente">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Cliente/cliente_tiene_viajes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Cliente/Nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Cliente/Dni"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Cliente/Edad"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Cliente/Telefono"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Viaje">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Viaje/viaje_tiene_alojamientos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Viaje/viaje_tiene_desplazamientos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Viaje/viaje_tiene_excursiones"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Viaje/Factura"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Viaje/Precio"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Desplazamiento">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Desplazamiento/Origen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Desplazamiento/Destino"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Desplazamiento/Medio"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Desplazamiento/Precio"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Alojamiento">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Alojamiento/Nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Alojamiento/Ubicacion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Alojamiento/Tiempo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Alojamiento/Precio"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Excursion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modeloagencia.ecore#//Excursion/excursion_tiene_guias"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Excursion/Lugar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Excursion/Precio"/>
+    </genClasses>
+    <genClasses ecoreClass="modeloagencia.ecore#//Guia">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Guia/Nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Guia/Idioma"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modeloagencia.ecore#//Guia/Tarifa"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

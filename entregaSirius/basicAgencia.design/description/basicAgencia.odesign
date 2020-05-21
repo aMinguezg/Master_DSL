@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicAgencia" version="12.0.0.2017041100">
+  <ownedViewpoints name="agencia" modelFileExtension="modeloagencia" icon="/basicAgencia.design/icons/agenciaRes.jpg">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Agencia diagrama" domainClass="modeloagencia::Agencia" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="NCliente" domainClass="modeloagencia::Cliente">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Nombre" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/clienteRes.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NViaje" domainClass="modeloagencia::Viaje">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Factura" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/viajeRes.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NDesplazamiento" domainClass="modeloagencia::Desplazamiento">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Medio" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/desplazamientoRes.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="[self.Medio.contains('Tren')/]">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Medio" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/trenRes.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="[self.Medio.contains('Autobus')/]">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Medio" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/autobusRes.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="[self.Medio.contains('Avion')/]">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Medio" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/avionRes.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="NAlojamiento" domainClass="modeloagencia::Alojamiento">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Nombre" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/alojamientoRes.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NExcursion" domainClass="modeloagencia::Excursion">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Lugar" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/excursionRes.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NGuia" domainClass="modeloagencia::Guia">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Nombre" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/guiaRes.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="RClienteViaje" sourceMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']" targetMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']" targetFinderExpression="feature:cliente_tiene_viajes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RViajeDesplazamiento" sourceMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']" targetMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']" targetFinderExpression="feature:viaje_tiene_desplazamientos">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RViajeAlojamiento" sourceMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']" targetMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']" targetFinderExpression="feature:viaje_tiene_alojamientos">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RViajeExcursion" sourceMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']" targetMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']" targetFinderExpression="feature:viaje_tiene_excursiones">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RExcursionGuia" sourceMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']" targetMapping="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']" targetFinderExpression="feature:excursion_tiene_guias">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='chocolate']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CNCliente" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NCliente']" iconPath="/basicAgencia.design/icons/clienteRes.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Cliente" referenceName="tienda_tiene_clientes"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ToolGroup" name="Viaje">
+            <tools xsi:type="tool:NodeCreationDescription" name="CNViaje" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NViaje']" iconPath="/basicAgencia.design/icons/viajeRes.png">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Viaje" referenceName="tienda_tiene_viajes"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="CNDesplazamiento" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NDesplazamiento']" iconPath="/basicAgencia.design/icons/desplazamientoRes.jpg">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Desplazamiento" referenceName="tienda_tiene_desplazamientos"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="CNAlojamiento" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NAlojamiento']" iconPath="/basicAgencia.design/icons/alojamientoRes.png">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Alojamiento" referenceName="tienda_tiene_alojamientos"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="CNExcursion" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']" iconPath="/basicAgencia.design/icons/excursionRes.png">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Excursion" referenceName="tienda_tiene_excursiones"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:NodeCreationDescription" name="CNGuia" nodeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']" iconPath="/basicAgencia.design/icons/guiaRes.png">
+              <variable name="container"/>
+              <viewVariable name="containerView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="modeloagencia::Guia" referenceName="tienda_tiene_guias"/>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:EdgeCreationDescription" name="CRViajeDesplazamiento" edgeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeDesplazamiento']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="viaje_tiene_desplazamientos" valueExpression="[target/]"/>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:EdgeCreationDescription" name="CRViajeAlojamientos" edgeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeAlojamiento']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="viaje_tiene_alojamientos" valueExpression="[target/]"/>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:EdgeCreationDescription" name="CRViajeExcursion" edgeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RViajeExcursion']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="viaje_tiene_excursiones" valueExpression="[target/]"/>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+            <tools xsi:type="tool:EdgeCreationDescription" name="CRExcursionGuia" edgeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RExcursionGuia']">
+              <sourceVariable name="source"/>
+              <targetVariable name="target"/>
+              <sourceViewVariable name="sourceView"/>
+              <targetViewVariable name="targetView"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="excursion_tiene_guias" valueExpression="[target/]"/>
+                </firstModelOperations>
+              </initialOperation>
+            </tools>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CRClienteViaje" edgeMappings="//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@edgeMappings[name='RClienteViaje']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="cliente_tiene_viajes" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="basicAgencia.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
