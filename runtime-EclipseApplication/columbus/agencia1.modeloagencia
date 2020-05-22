@@ -27,7 +27,7 @@
       <viaje_tiene_alojamientos/>
       <viaje_tiene_desplazamientos Medio="Otro"/>
       <viaje_tiene_excursiones>
-        <excursion_tiene_guias/>
+        <excursion_tiene_guias Idioma="Frances"/>
       </viaje_tiene_excursiones>
     </cliente_tiene_viajes>
   </tienda_tiene_clientes>

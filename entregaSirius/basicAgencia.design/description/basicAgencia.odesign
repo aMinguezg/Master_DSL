@@ -52,7 +52,7 @@
           </style>
         </nodeMappings>
         <nodeMappings name="NGuia" domainClass="modeloagencia::Guia">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:Nombre" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/guiaRes.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="[self.Nombre +'\nIdioma: ' + self.Idioma.toUpper()/]" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/basicAgencia.design/icons/guiaRes.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>

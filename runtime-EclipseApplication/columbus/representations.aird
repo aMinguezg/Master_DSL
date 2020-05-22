@@ -815,7 +815,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NExcursion']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xP0Y8JuiEeq15OywXVuAww" name="Sofia Vergara" incomingEdges="_IX22EpukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xP0Y8JuiEeq15OywXVuAww" name="Sofia Vergara&#xA;Idioma: ESPAÑOL" incomingEdges="_IX22EpukEeqG9JqaTf5ESw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
       <semanticElements xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.1/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -826,7 +826,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/basicAgencia.design/description/basicAgencia.odesign#//@ownedViewpoints[name='agencia']/@ownedRepresentations[name='Agencia%20diagrama']/@defaultLayer/@nodeMappings[name='NGuia']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V7VIgJusEeqhBMC3sLrlQA" incomingEdges="_bN-t5JusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V7VIgJusEeqhBMC3sLrlQA" name="&#xA;Idioma: FRANCES" incomingEdges="_bN-t5JusEeqhBMC3sLrlQA" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
       <semanticElements xmi:type="agencia:Guia" href="agencia1.modeloagencia#//@tienda_tiene_clientes.3/@cliente_tiene_viajes.0/@viaje_tiene_excursiones.0/@excursion_tiene_guias.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
